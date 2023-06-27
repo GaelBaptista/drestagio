@@ -1,0 +1,109 @@
+/* Estilos para alinhamento e espaçamento */
+.footer-section {
+  background: #151414;
+  padding: 50px 0;
+}
+
+.footer-cta,
+.footer-content {
+  padding: 30px 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-xl-4,
+.col-lg-4,
+.col-md-4,
+.col-sm-6 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+
+/* Estilos para texto e ícones */
+.single-cta i,
+.footer-widget-heading h3::before {
+  color: #ff5e14;
+}
+
+.cta-text h4,
+.cta-text span,
+.footer-text p {
+  color: #fff;
+}
+
+.footer-widget-heading h3 {
+  position: relative;
+}
+
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-logo{
+  width: 500px;
+}
+.footer-logo img{
+  width:350px;
+  height:350px;
+  
+  border-radius:40px;
+}
+/* Estilos para o formulário de inscrição */
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2e2e2e;
+  border: 1px solid #2e2e2e;
+  color: #fff;
+}
+
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
+}
+
+
+
+.subscribe-form button:hover i {
+  transform: rotate(6deg);
+  -webkit-transform: rotate(6deg);
+}
+
+.subscribe-form input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Estilos para tornar o footer responsivo */
+@media screen and (min-width: 576px) {
+  .col-sm-6 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .col-md-4 {
+    width: 33.333333%;
+  }
+}

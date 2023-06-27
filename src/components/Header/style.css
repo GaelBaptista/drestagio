@@ -1,0 +1,22 @@
+.Header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #ffffff;
+  height:15vh;
+}
+.logo {
+  width:500px;
+}
+.logoimg {
+  width:350px;
+  height:350px;
+  
+  border-radius:40px;
+}
+@media (max-width: 999px) {
+  .Header{
+    display: none;
+  }
+}

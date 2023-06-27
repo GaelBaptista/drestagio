@@ -1,0 +1,274 @@
+/*.banner {
+  height:calc(100vh - 100px);
+  background-color:#333;
+
+  background-size:cover;
+  background-position:bottom;
+  overflow:hidden;
+}
+.banner .sliders {
+  width:1000vw;
+  height:100%;
+}
+.banner .slide {
+  width:100vw;
+  height:100%;
+  transition: 1s;
+
+  display:inline-block;
+  background-color:rgba(0, 0, 0, 0.8);
+}
+
+
+
+.banner .s1 {
+  
+  background-image: url("../../assests/banner1.png");
+}
+
+.banner .s2 {
+  background-image: url("../../assests/banner2.png");
+}.banner .s3 {
+  background-image: url("../../assests/banner3.png");
+}
+
+.banner .slidearea {
+  display:flex;
+  flex-direction:column;
+  height:100%;
+  justify-content: center;
+  align-items:center;
+  color:#FFF;
+}
+.banner-title {
+  background-color: blue;
+  padding: 10px;
+  display: inline-block;
+}
+
+.banner-title h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  margin: 0;
+}
+
+.banner-title h1 span {
+  color: #fb670a;
+}
+
+.banner-title h2 {
+  text-transform: uppercase;
+  color: white;
+  margin-top: 20px;
+} */
+.banner {
+  height: 90vh;
+  background-color: #333;
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden;
+ 
+}
+
+.banner .sliders {
+  width: 100vw;
+  height: 100%;
+}
+
+.banner .slide {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.banner .s1 {
+  background-image: url("../../assests/banner1.png");
+}
+
+.banner .s2 {
+  background-image: url("../../assests/banner2.png");
+}
+
+.banner .s3 {
+  background-image: url("../../assests/banner3.png");
+}
+
+.banner .slidearea {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center; /* Alterado para flex-end */
+  align-items: flex-end; /* Alterado para flex-end */
+  color: #fff;
+  padding: 0 30px;
+
+}
+
+.banner .banner-title {
+  
+  padding: 10px;
+  display: inline-block;
+  text-align: right;
+}
+
+.banner .banner-title h2 {
+  background-color: #120052;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  margin: 0;
+  padding: 10px;
+  
+}
+
+.banner .banner-title h1 span {
+  color: #fb670a;
+}
+
+.banner .banner-title h1 {
+  text-transform: uppercase;
+  color: white;
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .banner .banner-title h1 {
+    font-size: 30px;
+  }
+
+  .banner .banner-title h2 {
+    font-size: 20px;
+  }
+}
+
+
+.slide .s1{
+  
+}
+
+.banner .sliders-pointers {
+  width:100vw;
+  height:20px;
+  position:absolute;
+  margin-top:-50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .pointer {
+  width:15px;
+  height:15px;
+  border:2px solid #fb670a;
+  border-radius:8px;
+  margin-left:5px;
+  margin-right:5px;
+  cursor:pointer;
+}
+.banner .pointer.active {
+  background-color:#fb670a;
+}
+
+
+
+
+.banner .navegation-auto{
+  width: 100vw;
+  height: 20px;
+ 
+  position: absolute;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.banner .btn-auto {
+  border: 2px solid #fb670a;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+ 
+
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+#radio1:checked ~ .sliders-pointers .pointer{
+  background: #fb670a;
+}
+
+#radio2:checked ~ .sliders-pointers .pointer{
+  background:#fb670a;
+}
+
+#radio3:checked ~ .sliders-pointers .pointer{
+  background: #fb670a;
+}
+
+
+
+
+
+
+input{
+  display: none;
+}
+
+
+/* BANER SLIDES NAVEGACAO (MANUAL)========================================================*/
+
+.navigation-manual{
+  width: 100vw;
+  height: 20px;
+  
+ 
+  position: absolute;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.manual-btn{
+  border: 2px solid #fb670a;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.manual-btn:hover{
+  background: #fb670a;
+}
+
+
+#radio1:checked ~ .s1{
+  margin-left: 0;
+}
+
+
+#radio2:checked ~ .s1{
+  margin-left: -100vw;
+}
+
+
+
+#radio3:checked ~ .s1{
+
+  margin-left: -200vw;
+
+}
