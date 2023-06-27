@@ -58,7 +58,7 @@ export function Home () {
       <div className="slidearea">
         <div className="banner-title">
           <h2>
-            Mais assertividade&nbsp;
+            Mais Assertividade&nbsp;
             <span>em novas contratações!</span>
           </h2>
           <h1>Programa de <span>Estágio</span></h1>
