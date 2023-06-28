@@ -15,7 +15,7 @@ import Contact from "./routes//Contact/Contact";
 import ErrorPage from "./routes/ErrorPage";
 import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/footer";
-
+import { Vagas } from "./routes/Vagas/Vagas";
 const AppLayout = () => {
   return (
     <>
@@ -43,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />,
+      },
+      {
+        path: "vagas",
+        element: <Vagas />,
       },
     ],
   },

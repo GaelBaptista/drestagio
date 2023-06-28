@@ -38,17 +38,6 @@ export function Navbar() {
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/about"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
-                  About
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
                   to="/contact"
                   className={({ isActive }) =>
                     "nav-links" + (isActive ? " activated" : "")
@@ -58,6 +47,29 @@ export function Navbar() {
                   Contact
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink
+                  to="/vagas"
+                  className={({ isActive }) =>
+                    "nav-links" + (isActive ? " activated" : "")
+                  }
+                  onClick={closeMobileMenu}
+                >
+                  Vagas
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  to="/about"
+                  className={({ isActive }) =>
+                    "nav-links" + (isActive ? " activated" : "")
+                  }
+                  onClick={closeMobileMenu}
+                >
+                  About
+                </NavLink>
+              </li>
+            
 
               <li className="nav-item">
                 <NavLink
