@@ -14,33 +14,32 @@ https://codepen.io/AbubakerSaeed/full/qBOjZqK
 *::after {
   margin: 0;
   box-sizing: border-box;
+
+ 
 }
 
-html {
-  font-size: 62.5%;
-}
 
-.sectionvagas {
+section.sectionvagas {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
+ font-size: 8px;
   background: hsl(220, 25%, 10%);
 
   padding: 4rem;
   min-height: 100vh;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 /* MAIN */
 /* ====================================================== */
 .crd {
   margin: 1rem;
-
+ 
   position: relative;
-  width: 34rem;
-  height: 50rem;
+  width: 21.25rem;
+  height: 31.25rem;
   overflow: hidden;
 }
 
@@ -60,7 +59,7 @@ html {
 }
 
 .crd-heading {
-  font-size: 4rem;
+  font-size: 2.5rem;
   letter-spacing: 2px;
   text-transform: uppercase;
   opacity: .8;
@@ -68,9 +67,9 @@ html {
 }
 
 .crd-text {
-  font-size: 1.6rem;
+  font-size: 1rem;
   opacity: .6;
-  padding-left: 1rem;
+  padding-left: 0.625rem;
 }
 
 /* EFFECTS */

@@ -3,7 +3,7 @@
 
  export function Vagas () {
 return(
-  <div className="sectionvagas">
+  <section className="sectionvagas" id="sectionvagas">
 {/* <!-- effect-1 --> */}
 <div className="crd crd--effect-1">
 
@@ -20,7 +20,7 @@ return(
 {/* <!-- effect-2 --> */}
 <div className="crd crd--effect-2">
 
-  <div className="crd-img" style={{backgroundImage:' url("https://images.unsplash.com/photo-1447405866403-2dc651878fd6?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=340")'}}
+  <div className="crd-img" style={{backgroundImage:` url(${vaga1})`}}
    ></div>
 
   <div className="crd-info">
@@ -82,7 +82,7 @@ return(
 
 <a href="https://abubakersaeed.netlify.app/designs/d14-image-hover-effects" className="abs-site-link" rel="nofollow noreferrer" target="_blank">abs/designs/d14-image-hover-effects</a>
 
-  </div>
+  </section>
 )
  }
 
