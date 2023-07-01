@@ -49,6 +49,7 @@ section.sectionvagas {
   left: 0;
   right: 0;
   bottom: 0;
+  
 }
 
 .crd-info {
@@ -70,6 +71,7 @@ section.sectionvagas {
   font-size: 1rem;
   opacity: .6;
   padding-left: 0.625rem;
+  color: #ff7417;
 }
 
 /* EFFECTS */
