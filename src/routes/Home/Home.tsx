@@ -1,5 +1,7 @@
-
-
+import {BsBookFill} from 'react-icons/bs'
+import {HiDocumentText} from 'react-icons/hi'
+import {GrVulnerability} from 'react-icons/gr'
+import {BsPersonBadgeFill} from 'react-icons/bs'
 import  { useEffect, useState, ChangeEvent } from 'react';
 import './Home.css';
 
@@ -100,20 +102,20 @@ export function Home () {
     <section className='sectioncard'>
     <div className="quadrado-container">
         <div className="quadrado">
-            <div className="icone">&#128640;</div>
-            <div>Frase 1</div>
+            <div className="icone"><HiDocumentText/></div>
+            <div>Estágio Oportunidade</div>
         </div>
         <div className="quadrado">
-            <div className="icone">&#128516;</div>
-            <div>Frase 2</div>
+            <div className="icone"><BsBookFill/></div>
+            <div>Aprendizado Desenvolvimento</div>
         </div>
         <div className="quadrado">
-            <div className="icone">&#128522;</div>
-            <div>Frase 3</div>
+            <div className="icone"><GrVulnerability/></div>
+            <div>Novas Habilidades</div>
         </div>
         <div className="quadrado">
-            <div className="icone">&#128525;</div>
-            <div>Frase 4</div>
+            <div className="icone"><BsPersonBadgeFill/></div>
+            <div>Profissionais Qualificados</div>
         </div>
     </div>
 
