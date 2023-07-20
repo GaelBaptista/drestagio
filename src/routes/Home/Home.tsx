@@ -27,6 +27,7 @@ export function Home () {
   };
   
   return (
+    <>
     <section id="home" className="banner">
       <div className="sliders">
       <input
@@ -95,6 +96,29 @@ export function Home () {
         <label htmlFor="radio3" className="manual-btn"></label>
       </div>
     </section>
+
+    <section className='sectioncard'>
+    <div className="quadrado-container">
+        <div className="quadrado">
+            <div className="icone">&#128640;</div>
+            <div>Frase 1</div>
+        </div>
+        <div className="quadrado">
+            <div className="icone">&#128516;</div>
+            <div>Frase 2</div>
+        </div>
+        <div className="quadrado">
+            <div className="icone">&#128522;</div>
+            <div>Frase 3</div>
+        </div>
+        <div className="quadrado">
+            <div className="icone">&#128525;</div>
+            <div>Frase 4</div>
+        </div>
+    </div>
+
+    </section>
+    </>
   );
 }
 

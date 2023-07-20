@@ -225,50 +225,58 @@ input{
 }
 
 
-/* BANER SLIDES NAVEGACAO (MANUAL)========================================================*/
 
-.navigation-manual{
-  width: 100vw;
-  height: 20px;
-  
- 
-  position: absolute;
-  margin-top: -50px;
+.sectioncard {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin: 0;
+  background-color: #f2f2f2;
 }
 
+.quadrado-container {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin-top: -80px;
+  max-width: 800px;
+}
 
-.manual-btn{
-  border: 2px solid #fb670a;
-  padding: 5px;
+.quadrado {
+  width: 23%;
+  height: 150px;
+  background-color: #120052;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
   border-radius: 10px;
+  margin: 10px;
+}
+
+.icone {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.quadrado:hover {
+  transform: translateY(-5px);
   cursor: pointer;
-
-  margin-left: 5px;
-  margin-right: 5px;
-
 }
 
-.manual-btn:hover{
-  background: #fb670a;
+@media screen and (max-width: 768px) {
+  .quadrado-container {
+      flex-wrap: wrap;
+  }
+
+  .quadrado {
+      width: 48%;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .quadrado-container {
+     display: none;
+  }
 
-#radio1:checked ~ .s1{
-  margin-left: 0;
-}
-
-
-#radio2:checked ~ .s1{
-  margin-left: -100vw;
-}
-
-
-
-#radio3:checked ~ .s1{
-
-  margin-left: -200vw;
-
+  
 }
