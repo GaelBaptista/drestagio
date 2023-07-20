@@ -7,6 +7,7 @@ import {IoLogoWhatsapp} from 'react-icons/io'
 
 import  { useEffect, useState, ChangeEvent } from 'react';
 import './Home.css';
+import { CardSection } from './cardSection/CardSection'
 
 
 export function Home () {
@@ -128,6 +129,18 @@ export function Home () {
         </div>
     </div>
     </section>
+
+
+
+
+
+
+
+
+
+      
+      <CardSection/>
+    
 
     </>
   );
