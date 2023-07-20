@@ -1,7 +1,10 @@
 import {BsBookFill} from 'react-icons/bs'
 import {HiDocumentText} from 'react-icons/hi'
-import {GrVulnerability} from 'react-icons/gr'
+import {FaCube} from 'react-icons/fa'
 import {BsPersonBadgeFill} from 'react-icons/bs'
+import {IoLogoWhatsapp} from 'react-icons/io'
+
+
 import  { useEffect, useState, ChangeEvent } from 'react';
 import './Home.css';
 
@@ -99,27 +102,33 @@ export function Home () {
       </div>
     </section>
 
-    <section className='sectioncard'>
+    <section className='sectionCardSlider'>
+    
     <div className="quadrado-container">
         <div className="quadrado">
             <div className="icone"><HiDocumentText/></div>
-            <div>Estágio Oportunidade</div>
+            <div>Estágio Oportunidade </div>
         </div>
         <div className="quadrado">
             <div className="icone"><BsBookFill/></div>
-            <div>Aprendizado Desenvolvimento</div>
+            <div>Aprendizado Contínuo</div>
         </div>
         <div className="quadrado">
-            <div className="icone"><GrVulnerability/></div>
-            <div>Novas Habilidades</div>
+            <div className="icone"><FaCube/></div>
+            <div>Novas Habilidades </div>
         </div>
         <div className="quadrado">
             <div className="icone"><BsPersonBadgeFill/></div>
             <div>Profissionais Qualificados</div>
         </div>
+        <div className="quadrado-quinto">
+            <div className="icone-quinto"><IoLogoWhatsapp/></div>
+            <div className="whatsapp-texto">WhatsApp</div>
+            <div className="numero-grande">(85) 99247-7241</div>
+        </div>
     </div>
-
     </section>
+
     </>
   );
 }

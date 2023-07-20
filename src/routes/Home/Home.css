@@ -225,42 +225,119 @@ input{
 }
 
 
+.navigation-manual{
+  width: 100vw;
+  height: 20px;
+  display: none;
+ 
+  position: absolute;
+  margin-top: -50px;
 
-.sectioncard {
+}
+
+
+
+.manual-btn{
+  border: 2px solid #fb670a;
+  padding: 5px;
+
+}
+
+.manual-btn:hover{
+  background: #fb670a;
+
+}
+
+
+#radio1:checked ~ .s1{
+  margin-left: 0;
+
+
+}
+
+#radio2:checked ~ .s1{
+  margin-left: -100vw;
+  
+}
+
+
+
+
+#radio3:checked ~ .s1{
+
+  margin-left: -200vw;
+}
+  
+/* ===================================SECTIONCARDSLIDER ======================================= */
+
+.sectionCardSlider {
   display: flex;
   justify-content: center;
   align-items: center;
-
+ 
   margin: 0;
   background-color: #f2f2f2;
 }
 
 .quadrado-container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  width: 75%;
-  margin-top: -80px;
-  max-width: 800px;
+  width: 85%;
+  margin-top: -100px;
+
 }
 
 .quadrado {
-  width: 23%;
-  height: 150px;
+  width: 300px;
+  height: 180px;
   background-color: #120052;
   color: #fff;
   text-align: center;
-  padding: 20px;
+  padding: 50px;
   border-radius: 10px;
   margin: 10px;
+
+  transition: transform 0.2s ease;
 }
 
 .icone {
   font-size: 40px;
   margin-bottom: 10px;
 }
-.quadrado:hover {
+
+.quadrado-quinto {
+  width: 58%;
+  background-color: #e97305;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icone-quinto {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.whatsapp-texto {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.numero-grande {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.quadrado:hover, .quadrado-quinto:hover {
   transform: translateY(-5px);
-  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
@@ -268,15 +345,20 @@ input{
       flex-wrap: wrap;
   }
 
-  .quadrado {
-      width: 48%;
+  .quadrado, .quadrado-quinto {
+      width: 100%;
+  }
+
+  .quadrado-quinto {
+      margin-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .quadrado-container {
-     display: none;
-  }
-
-  
+    display: none;
 }
+}
+
+
+
