@@ -127,6 +127,8 @@
 
 .banner .banner-title h1 span {
   color: #fb670a;
+  font-weight: bold;
+
 }
 
 .banner .banner-title h1 {
@@ -134,6 +136,8 @@
   color: white;
   margin-top: 20px;
   font-size: 50px;
+  font-weight: bold;
+
 }
 
 @media screen and (max-width: 768px) {
