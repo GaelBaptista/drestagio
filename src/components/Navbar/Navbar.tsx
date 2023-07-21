@@ -33,7 +33,7 @@ export function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  Home
+                  Início
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -44,7 +44,7 @@ export function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  Contact
+                  Contato
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -66,7 +66,7 @@ export function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  About
+                  Sobre Nós
                 </NavLink>
               </li>
             

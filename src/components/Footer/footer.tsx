@@ -22,8 +22,8 @@ export function Footer() {
             <div className="single-cta">
             <i className="far fa-envelope-open"><FaMapMarkerAlt className="icon" /></i>
               <div className="cta-text">
-                <h4>Find us</h4>
-                <span>1010 Avenue, sw 54321, chandigarh</span>
+                <h4> Atendimento</h4>
+                <span>Seg-Sex 9:00-17:00</span>
               </div>
             </div>
           </div>
