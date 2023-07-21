@@ -5,7 +5,14 @@
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: #ffffff;
   height: 15vh;
-  padding: 0 50px;
+ 
+
+  max-width: 1300px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+ padding: 0 50px;
 }
 
 .logo {

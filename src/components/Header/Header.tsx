@@ -14,7 +14,7 @@ export function Header () {
           <FaComments className="icon" style={{ color: 'orange', fontSize: '1.5rem' }} />
           <div className="info-content">
             <p className="info-title">Fale conosco</p>
-            <p className="info-details">Menor e de cor mais clara</p>
+            
             <p className="info-details">1234-567</p> {/* Substitua pelo número desejado */}
           </div>
         </div>
