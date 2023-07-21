@@ -1,22 +1,63 @@
-.Header{
+.Header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: #ffffff;
-  height:15vh;
+  height: 15vh;
+  padding: 0 50px;
 }
+
 .logo {
-  width:500px;
+  width: 200px;
 }
+
 .logoimg {
-  width:350px;
-  height:350px;
-  
-  border-radius:40px;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
 }
+
+.menu {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  gap: 20px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.info-title {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.info-details {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* CSS responsivo */
 @media (max-width: 999px) {
-  .Header{
+  .Header {
+    display: none;
+  }
+
+  .menu {
     display: none;
   }
 }
