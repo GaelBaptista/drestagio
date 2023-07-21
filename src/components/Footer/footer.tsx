@@ -13,9 +13,9 @@ import LogoFooter from '../../assests/Logo1.png'
 export function Footer() {
   return (
     <footer className="footer-section">
-        <div className="container">
-            <div className="footer-cta pt-5 pb-5">
-                <div className="row">
+        <div className="containerFooter">
+            <div className="footer-cta ">
+                <div className="rowFooter">
                     <div className="col-xl-4 col-md-4 mb-30">
                         <div className="single-cta">
                             <i className="fas fa-map-marker-alt"><BsWhatsapp/></i>
