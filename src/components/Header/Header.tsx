@@ -15,7 +15,7 @@ export function Header () {
           <div className="info-content">
             <p className="info-title">Fale conosco</p>
             
-            <p className="info-details">1234-567</p> {/* Substitua pelo número desejado */}
+            <p className="info-details">(85) 99247-7241</p> {/* Substitua pelo número desejado */}
           </div>
         </div>
         <div className="info-item">
@@ -29,7 +29,7 @@ export function Header () {
           <FaEnvelope className="icon" style={{color: 'orange', fontSize: '1.5rem' }} />
           <div className="info-content">
             <p className="info-title">Mande um Email</p>
-            <p className="info-details">seuemail@example.com</p>
+            <p className="info-details">contato@drestagio.com</p>
           </div>
         </div>
       </div>
