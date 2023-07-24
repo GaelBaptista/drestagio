@@ -19,16 +19,16 @@ export function Header () {
           </div>
         </div>
         <div className="info-item">
-          <FaClock className="icon" style={{ fontSize: '1.5rem' }} />
+          <FaClock className="icon" style={{ color: 'orange', fontSize: '1.5rem' }} />
           <div className="info-content">
             <p className="info-title">Atendimento de Seg-Sex</p>
             <p className="info-details">9:00-17:00</p>
           </div>
         </div>
         <div className="info-item">
-          <FaEnvelope className="icon" style={{ fontSize: '1.5rem' }} />
+          <FaEnvelope className="icon" style={{color: 'orange', fontSize: '1.5rem' }} />
           <div className="info-content">
-            <p className="info-title">Email</p>
+            <p className="info-title">Mande um Email</p>
             <p className="info-details">seuemail@example.com</p>
           </div>
         </div>
