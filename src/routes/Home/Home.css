@@ -295,7 +295,8 @@ input{
 .quadrado {
   width: 300px;
   height: 180px;
-  background-color: #120052;
+  background: rgb(44,52,140);
+background: linear-gradient(139deg, rgba(44,52,140,1) 0%, rgba(18,18,66,1) 50%, rgba(14,2,56,1) 100%);
   color: #fff;
   text-align: center;
   padding: 50px;
