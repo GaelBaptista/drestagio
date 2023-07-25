@@ -1,10 +1,9 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { FaMapMarkerAlt, FaClock, FaPhone, FaEnvelopeOpen, FaFacebookF, FaTwitter, FaGooglePlusG, FaTelegramPlane } from 'react-icons/fa';
 
 
-import {BsWhatsapp} from "react-icons/bs"
-import {MdEmail} from "react-icons/md"
+import { FaClock, FaPhone, FaEnvelopeOpen, FaFacebookF, FaTwitter, FaGooglePlusG, FaTelegramPlane } from 'react-icons/fa';
+
+
+
 import './footer.css'
 import LogoFooter from '../../assests/Logo1.png'
 
@@ -52,7 +51,7 @@ export function Footer() {
           <div className="col-xl-4 col-lg-4 mb-50">
             <div className="footer-widget">
               <div className="footer-logo">
-                <a href="index.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" className="img-fluid" alt="logo" /></a>
+                <a href="index.html"><img src={LogoFooter} className="img-fluid" alt="logo" /></a>
               </div>
               <div className="footer-text">
                 <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
