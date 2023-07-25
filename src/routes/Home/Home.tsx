@@ -9,6 +9,7 @@ import  { useEffect, useState, ChangeEvent } from 'react';
 import './Home.css';
 import { CardSection } from './cardSection/CardSection'
 import { Linha } from '../Linha/Linha'
+import { ContactHome } from './ContactHome/ContactHome'
 
 
 export function Home () {
@@ -133,7 +134,7 @@ export function Home () {
   
   <CardSection/>
      <Linha/>
-    
+    <ContactHome/>
 
     </>
   );

@@ -3,8 +3,8 @@ import { MdGroups2, MdAttachMoney, } from 'react-icons/md'
 
 export function CardSection () {
   return (
-   
-<div className="feat bg-gray pt-5 pb-5">
+   <section className='cardHome'>
+
     <div className="containerCard">
       <div className="rowCard">
         <div className="section-head ">
@@ -70,9 +70,9 @@ export function CardSection () {
         </div>
       </div>
     </div>
-  </div>
+ 
 
-   
+  </section>
 
   )
 
