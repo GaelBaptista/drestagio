@@ -1,33 +1,3 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {}
-a,
-a:hover,
-a:focus,
-a:active {
-    text-decoration: none;
-    outline: none;
-}
-
-a,
-a:active,
-a:focus {
-    color: #333;
-    text-decoration: none;
-    transition-timing-function: ease-in-out;
-    -ms-transition-timing-function: ease-in-out;
-    -moz-transition-timing-function: ease-in-out;
-    -webkit-transition-timing-function: ease-in-out;
-    -o-transition-timing-function: ease-in-out;
-    transition-duration: .2s;
-    -ms-transition-duration: .2s;
-    -moz-transition-duration: .2s;
-    -webkit-transition-duration: .2s;
-    -o-transition-duration: .2s;
-}
 
 ul {
     margin: 0;
@@ -51,10 +21,11 @@ color: inherit;
 .section-head {
 margin-bottom: 60px;
 }
+
 .section-head h4 {
 position: relative;
 padding:0;
-color:#f91942;
+color:#FF6609;
 line-height: 1;
 letter-spacing:0.3px;
 font-size: 34px;
@@ -67,7 +38,7 @@ margin-bottom:30px;
 content: '';
 width: 60px;
 height: 3px;
-background: #f91942;
+background:#FF6609;
 position: absolute;
 left: 0px;
 bottom: -10px;
@@ -104,17 +75,16 @@ text-transform: none;
 content: '';
 width: 60px;
 height: 3px;
-background: #f91942;
+background: #FF6609;
 position: absolute;
 left: 0px;
 bottom: -10px;
 right: 0;
 margin: 0 auto;
 }
-.extra-text span {
-font-weight: 700;
-color:#f91942;
-}
+
+
+
 .item {
 background: #fff;
 text-align: center;
@@ -135,7 +105,7 @@ box-sizing: border-box;
 
 }
 .item:hover{
-background:#f91942;
+background:#FF6609;
 box-shadow:0 8px 20px 0px rgba(0, 0, 0, 0.2);
 -webkit-transition: all .5s ease 0;
 transition: all .5s ease 0;
@@ -148,37 +118,62 @@ border-radius:10px;
 transition: all .5s ease 0;
 transition: all 0.5s ease 0s;
 }
-.item:hover h6, .item:hover p{
+.item:hover h3, .item:hover {
 color:#fff;
 -webkit-transition: all .5s ease 0;
 transition: all .5s ease 0;
 transition: all 0.5s ease 0s;
 }
+.item:hover .item, .item:hover span.bolinha1{
+  background-color: #fff;
+}
+
 .item .icon {
 font-size: 40px;
 margin-bottom:25px;
-color: #f91942;   
+color: #FF6609;   
 width: 90px;
 height: 90px;
 line-height: 96px;
 border-radius: 50px;
 }
+.bolinha1 {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #FF6609;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.bolinha2 {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #120052;
+  border-radius: 50%;
+  margin-right: 10px;
+}
 
+
+
+.list{
+  display: flex;
+  align-items: center;
+
+  
+}
 
 .item p{
 font-size:15px;
 line-height:26px;
 
 }
-.item h6 {
+.item h3 {
 margin-bottom:20px;
 color:#2f2f2f;
 }
 
-.orange-dot {
-  
- 
-}
+
 
 
 
