@@ -8,6 +8,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Define 3 colunas com largura igual */
   gap: 10px; 
+  margin-bottom: 50px;
 }
 img {
 max-width: 100%;

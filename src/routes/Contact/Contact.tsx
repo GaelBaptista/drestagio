@@ -1,6 +1,6 @@
 
-import {BsFillTelephoneFill} from 'react-icons/bs'
-import {BsWhatsapp} from "react-icons/bs"
+import {BsFillTelephoneFill,BsWhatsapp} from 'react-icons/bs'
+
 import {MdEmail} from "react-icons/md"
 import {HiDocumentText} from "react-icons/hi"
 import'./contact.css'
@@ -66,7 +66,9 @@ function Contact() {
                         <div className="section-map--info-item-img">
                            <BsFillTelephoneFill/>
                         </div>
-                        <h3>Endereço completão que irá ter algum tamanho</h3>
+                        <h3>
+                            <a href="#">+55 85 9247-7241</a>
+                            </h3>
                     </div>
                     <div className="section-map--info-item">
                         <div className="section-map--info-item-img">
