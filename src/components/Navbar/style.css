@@ -66,7 +66,7 @@
 }
 
 .nav-item:hover {
-  border-bottom: 2px solid #ffffff;
+  color: #241178;
 }
 
 .nav-links {
@@ -79,7 +79,8 @@
 }
 
 .activated {
-  color: #241178;
+ 
+  border-bottom: 2px solid #ffffff;
 }
 
 .fa-bars {
