@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { FaMapMarkerAlt, FaPhone, FaEnvelopeOpen, FaFacebookF, FaTwitter, FaGooglePlusG, FaTelegramPlane } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaClock, FaPhone, FaEnvelopeOpen, FaFacebookF, FaTwitter, FaGooglePlusG, FaTelegramPlane } from 'react-icons/fa';
 
 
 import {BsWhatsapp} from "react-icons/bs"
@@ -20,9 +20,9 @@ export function Footer() {
         <div className="row">
           <div className="col-xl-4 col-md-4 mb-30">
             <div className="single-cta">
-            <i className="far fa-envelope-open"><FaMapMarkerAlt className="icon" /></i>
+            <i className="far fa-envelope-open"><FaClock className="icon" /></i>
               <div className="cta-text">
-                <h4> Atendimento</h4>
+                <h4>Atendimento</h4>
                 <span>Seg-Sex 9:00-17:00</span>
               </div>
             </div>
@@ -31,8 +31,8 @@ export function Footer() {
             <div className="single-cta">
             <i className="far fa-envelope-open"> <FaPhone className="icon" /></i>
               <div className="cta-text">
-                <h4>Call us</h4>
-                <span>9876543210 0</span>
+                <h4>Fale Conosco</h4>
+                <span>(85) 99247-7241</span>
               </div>
             </div>
           </div>
