@@ -40,8 +40,8 @@ export function Footer() {
             <div className="single-cta">
             <i className="far fa-envelope-open"><FaEnvelopeOpen className="icon" /></i>
               <div className="cta-text">
-                <h4>Mail us</h4>
-                <span>mail@info.com</span>
+                <h4>E-Mail</h4>
+                <span>comercial@drestagio.com.br</span>
               </div>
             </div>
           </div>
