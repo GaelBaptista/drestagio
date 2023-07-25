@@ -61,7 +61,7 @@
 }
 
 .nav-item {
-  height: 80px;
+  /* height: 80px;  */    /* esta fazendo o menu subir */
   border-bottom: 2px solid transparent;
 }
 

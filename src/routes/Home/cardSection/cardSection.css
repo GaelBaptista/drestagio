@@ -10,6 +10,16 @@ ul {
   gap: 10px; 
   margin-bottom: 50px;
 }
+.rowCard{
+  display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 50px auto 0;
+   align-items: center;
+
+   
+}
 img {
 max-width: 100%;
 height: auto;

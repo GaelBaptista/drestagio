@@ -6,8 +6,8 @@ export function CardSection () {
    
 <div className="feat bg-gray pt-5 pb-5">
     <div className="containerCard">
-      <div className="row">
-        <div className="section-head col-sm-12">
+      <div className="rowCard">
+        <div className="section-head ">
           <h4><span>Why Choose</span> Me?</h4>
           <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown book.</p>
         </div>
