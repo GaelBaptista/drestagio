@@ -1,5 +1,6 @@
 import './contactHome.css'
 import { FaApple, FaAndroid } from 'react-icons/fa';
+import {BsFillPersonFill} from 'react-icons/bs'
 export function ContactHome() {
   return(
    
@@ -22,8 +23,8 @@ export function ContactHome() {
 
         
         <div className="contact-info">
-    <i className="large-icon">Icon</i>
-    <p className="phone-number">+1 (123) 456-7890</p>
+    <i ><BsFillPersonFill className="large-icon"/></i>
+    <p className="phone-number">+55 (85) 99247-7241</p>
   </div>
        
   

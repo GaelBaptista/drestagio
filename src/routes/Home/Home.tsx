@@ -133,7 +133,7 @@ export function Home () {
     </section>
   
   <CardSection/>
-     <Linha/>
+   
     <ContactHome/>
 
     </>
