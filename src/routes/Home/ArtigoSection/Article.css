@@ -35,29 +35,41 @@ a {
 }
 
 .cardArticle {
-  font-family: 'Heebo';
+ 
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)), rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
   height: 20em;
   width: 15em;
   font-size: 1.5em;
-  color: white;
+  color:black ;
   border-radius: 1em;
   padding: 1em;
   display: flex;
   align-items: flex-end;
+  flex-direction: column;
+  /* ponha o felx-direction no comentario para voltar o estilo de inicio */
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5em -1em black;
   transition: all var(--transition-time);
+  
   position: relative;
   overflow: hidden;
   border: 5px solid #ccc;
   text-decoration: none;
 }
 
+
+
+
+
+
+
+
 .cardArticle:hover {
+
   transform: rotate(0);
+  
 }
 
 .cardArticle h1 {
@@ -76,6 +88,11 @@ a {
 .cardArticle .tags {
   display: flex;
   margin-top: 0.8em;
+  position: absolute;
+  bottom: 30px;
+
+  /* ponha o position e o bottom no comentario para voltar o estilo de inicio */
+  
 }
 
 .cardArticle .tags .tag {
@@ -91,16 +108,17 @@ a {
 .cardArticle:hover .tags .tag {
   background: var(--color);
   color: white;
+  
 }
 
 .cardArticle .date {
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
   font-size: 0.75em;
   padding: 1em;
-  line-height: 1em;
-  opacity: .8;
+  line-height: 1em; 
+  
 }
 
 .cardArticle:before, .cardArticle:after {
@@ -114,6 +132,7 @@ a {
   z-index: -5;
   transition: all var(--transition-time);
   transition-timing-function: ease-in-out;
+ 
 }
 
 .cardArticle:before {
@@ -130,6 +149,7 @@ a {
 
 .cardArticle:hover {
   color: var(--color);
+
 }
 
 .cardArticle:hover:before, .cardArticle:hover:after {

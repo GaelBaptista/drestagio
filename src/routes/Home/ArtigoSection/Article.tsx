@@ -1,6 +1,9 @@
 import  { useState } from 'react';
 import './Article.css';
-import imgCard from '../../../assests/Articleimg1.png'
+import imgCard1 from '../../../assests/rh.png'
+import imgCard2 from '../../../assests/cartilha.png'
+import imgCard3 from '../../../assests/leidoestagio.png'
+
 
 export function ArticleSection() {
   const [cards] = useState([
@@ -9,7 +12,7 @@ export function ArticleSection() {
       title: "Legislação para o Rh em 2023",
       description: "Mudanças que impactam sua rotina",
       // date: "6 Oct 2017",
-      image: imgCard,
+      image: imgCard1,
       link: "https://www.google.com.br/?hl=pt-BR",
     },
     {
@@ -17,7 +20,7 @@ export function ArticleSection() {
       title: "Basic types of HTML tags",
       description: "Learn about some of the most common HTML tags…",
       date: "9 Oct 2017",
-      image: "https://example.com/path/to/image2.jpg",
+      image: imgCard2,
       link: "https://openai.com/blog/chatgpt",
     },
     {
@@ -25,9 +28,10 @@ export function ArticleSection() {
       title: "Links, images and about file paths",
       description: "Learn how to use links and images along with file paths…",
       date: "14 Oct 2017",
-      image: "https://example.com/path/to/image3.jpg",
+      image: imgCard3,
       link: "https://www.canva.com/",
     },
+    
   ]);
 
   return (
@@ -41,7 +45,7 @@ export function ArticleSection() {
     <div className="cards-wrapper">
       {cards.map((card) => (
         <a key={card.num} className="cardArticle" href={card.link}  target="_blank" rel="noopener noreferrer" style={{ background: `url(${card.image})` }}>
-          <div>
+          <div className='inforArticle'>
             <h1>{card.title}</h1>
             <p>{card.description}</p>
             <div className="date">{card.date}</div>
