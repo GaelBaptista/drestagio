@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
 
 :root {
-  --color: #3c3163;
+  --color: #FF6609;
   --transition-time: 0.5s;
 }
 
@@ -20,29 +20,7 @@ a {
   margin-bottom: 30px;
   margin-top: 50px;
 }
-.article-section h2{
-  font-size: 40px;
-}
 
-.article-title {
-  position: relative;
-  display: inline-block;
-  font-size: 24px;
-  color: #FF6609;
-  margin-bottom: 20px;
-}
-
-.article-title-line {
-  content: '';
-  width: 60px;
-  height: 3px;
-  background: #FF6609;
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  right: 0;
-  margin: 0 auto;
-}
 
 .cards-wrapper {
   display: flex;
@@ -74,7 +52,7 @@ a {
   transition: all var(--transition-time);
   position: relative;
   overflow: hidden;
-  border: 10px solid #ccc;
+  border: 5px solid #ccc;
   text-decoration: none;
 }
 
@@ -91,12 +69,13 @@ a {
 .cardArticle p {
   font-size: 0.75em;
   font-family: 'Open Sans';
-  margin-top: 0.5em;
+  margin-top: 0.8em;
   line-height: 2em;
 }
 
 .cardArticle .tags {
   display: flex;
+  margin-top: 0.8em;
 }
 
 .cardArticle .tags .tag {

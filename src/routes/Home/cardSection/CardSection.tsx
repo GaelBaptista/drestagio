@@ -8,7 +8,7 @@ export function CardSection () {
     <div className="containerCard">
       <div className="rowCard">
         <div className="section-head ">
-          <h4><span>Why Choose</span> Me?</h4>
+          <h4><span>Programa de </span> Estágio</h4>
           <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown book.</p>
         </div>
         <div className='cardrow'>

@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import './Article.css';
-import imgCard from '../../../assests/Articleimg1.jpg'
+import imgCard from '../../../assests/Articleimg1.png'
 
 export function ArticleSection() {
   const [cards] = useState([
     {
       num: "01",
-      title: "HTML Syntax",
-      description: "The syntax of a language is how it works. How to actually write it. Learn HTML syntax…",
-      date: "6 Oct 2017",
+      title: "Legislação para o Rh em 2023",
+      description: "Mudanças que impactam sua rotina",
+      // date: "6 Oct 2017",
       image: imgCard,
       link: "https://www.google.com.br/?hl=pt-BR",
     },
@@ -35,10 +35,8 @@ export function ArticleSection() {
     
     <div className="article-section">
     <div className="section-head ">
-          <h4><span>Nossos</span>Artigos</h4>
+          <h4> <span> Nossos </span> Artigos</h4>
     </div>
-   
-
 
     <div className="cards-wrapper">
       {cards.map((card) => (
@@ -48,7 +46,7 @@ export function ArticleSection() {
             <p>{card.description}</p>
             <div className="date">{card.date}</div>
             <div className="tags">
-              <div className="tag">HTML</div>
+              <div className="tag">Saiba Mais</div>
             </div>
           </div>
         </a>
