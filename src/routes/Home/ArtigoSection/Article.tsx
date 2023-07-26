@@ -1,32 +1,48 @@
 import React, { useState } from 'react';
-import './Article.css'
+import './Article.css';
+import imgCard from '../../../assests/Articleimg1.jpg'
 
-export function ArticleSection () {
+export function ArticleSection() {
   const [cards] = useState([
     {
       num: "01",
       title: "HTML Syntax",
       description: "The syntax of a language is how it works. How to actually write it. Learn HTML syntax…",
       date: "6 Oct 2017",
+      image: imgCard,
+      link: "https://www.google.com.br/?hl=pt-BR",
     },
     {
       num: "02",
       title: "Basic types of HTML tags",
       description: "Learn about some of the most common HTML tags…",
       date: "9 Oct 2017",
+      image: "https://example.com/path/to/image2.jpg",
+      link: "https://openai.com/blog/chatgpt",
     },
     {
       num: "03",
       title: "Links, images and about file paths",
       description: "Learn how to use links and images along with file paths…",
       date: "14 Oct 2017",
+      image: "https://example.com/path/to/image3.jpg",
+      link: "https://www.canva.com/",
     },
   ]);
 
   return (
+  
+    
+    <div className="article-section">
+    <div className="section-head ">
+          <h4><span>Nossos</span>Artigos</h4>
+    </div>
+   
+
+
     <div className="cards-wrapper">
       {cards.map((card) => (
-        <a key={card.num} className="cardArticle" href={`https://codetheweb.blog/${card.date}`} style={{ background: `url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/${card.title.replace(/ /g, '-').toLowerCase()}/cover.jpg')` }}>
+        <a key={card.num} className="cardArticle" href={card.link}  target="_blank" rel="noopener noreferrer" style={{ background: `url(${card.image})` }}>
           <div>
             <h1>{card.title}</h1>
             <p>{card.description}</p>
@@ -38,5 +54,11 @@ export function ArticleSection () {
         </a>
       ))}
     </div>
+    </div>
+    
   );
 }
+
+
+
+
