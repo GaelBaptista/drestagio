@@ -2,14 +2,14 @@
 
  
 
-
+/* 
 
 .ContactHome {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding:80px  200px;
   background: url("../../../assests/bgcontacthome.png");
   margin: 0 auto;
   height: 40vh;
@@ -51,30 +51,123 @@ button a {
 }
 
 .large-icon {
-  font-size: 48px; /* Adjust the size as needed */
+  font-size: 48px; /* Adjust the size as needed 
   color: #8a4cea;
 }
-
+ 
 .phone-number {
   margin-top: 10px;
   font-size: 18px;
   color: #333;
 }
+*/
 
 /* Media query for responsiveness (adjust breakpoints as needed) */
+/*
 @media screen and (min-width: 768px) {
   .ContactHome {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    padding: 20px;
   }
 
   .infos {
     text-align: left;
     margin-right: 40px;
   }
-
+.contact-info{
+  display: none;
+}
   .phone-number {
     font-size: 20px;
+  }
+} */
+
+
+/* CSS para a seção ContactHome */
+.ContactHome {
+  background-image: url('../../../assests/bgcontacthome.png');
+  background-size: cover;
+  background-position: center;
+  height: 40vh; /* Altura desejada */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  margin: 0 auto; /* Centraliza a seção horizontalmente */
+
+}
+
+/* Estilização para a div infos */
+.infos {
+  max-width: 50%;
+  color: white;
+}
+
+.infos h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.infos .para {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.infos button {
+  background-color: #FF6609;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 10px; /* Adiciona espaçamento entre o parágrafo e o botão */
+  border-radius: 10px;
+}
+
+.infos button:hover {
+  background-color: #F14A04;
+}
+
+/* Estilização para a div contact-info */
+.contact-info {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   /* Esconde a div contact-info na versão mobile */
+}
+
+.contact-info .large-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.contact-info .phone-number {
+  font-size: 16px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .ContactHome {
+    flex-direction: column; /* Alinha os itens verticalmente na versão mobile */
+    height: auto; /* Remove a altura fixa para se adaptar ao conteúdo */
+  }
+
+  .infos,
+  .contact-info {
+    max-width: 100%;
+    text-align: center; /* Centraliza o conteúdo na versão mobile */
+  }
+
+  .infos button {
+    margin-top: 20px; /* Aumenta o espaçamento entre o parágrafo e o botão na versão mobile */
+  }
+
+  .contact-info {
+    display: none; /* Exibe a div contact-info na versão mobile */
   }
 }

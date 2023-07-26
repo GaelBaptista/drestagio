@@ -344,26 +344,33 @@ background: linear-gradient(139deg, rgba(44,52,140,1) 0%, rgba(18,18,66,1) 50%, 
 .quadrado:hover, .quadrado-quinto:hover {
   transform: translateY(-5px);
 }
-
-@media screen and (max-width: 768px) {
+@media (max-width: 1024px) {
   .quadrado-container {
-      flex-wrap: wrap;
+    flex-wrap: wrap; /* Permite que os quadrados sejam empilhados verticalmente */
+    justify-content: center; /* Centraliza os quadrados na versão mobile */
+    width: 100%; /* Define a largura máxima para se adaptar a telas menores */
   }
 
+  
   .quadrado, .quadrado-quinto {
-      width: 100%;
-  }
-
-  .quadrado-quinto {
-      margin-bottom: 20px;
+    width: calc(50% - 20px); /* Define a largura dos quadrados na versão mobile */
+    margin: 10px; /* Adiciona espaçamento entre os quadrados empilhados */
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .quadrado-container {
-    display: none;
+   display: none;
+  }
+
+  
+ 
 }
-}
+
+
+
+
+
 
 
 
