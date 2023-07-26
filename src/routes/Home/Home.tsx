@@ -10,6 +10,7 @@ import './Home.css';
 import { CardSection } from './cardSection/CardSection'
 import { Linha } from '../Linha/Linha'
 import { ContactHome } from './ContactHome/ContactHome'
+import { ArticleSection } from './ArtigoSection/Article'
 
 
 export function Home () {
@@ -135,6 +136,7 @@ export function Home () {
   <CardSection/>
    
     <ContactHome/>
+    <ArticleSection/>
 
     </>
   );
