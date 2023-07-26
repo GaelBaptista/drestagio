@@ -1,8 +1,9 @@
 
 import {BsFillTelephoneFill,BsWhatsapp} from 'react-icons/bs'
-
+import {ImLocation2} from 'react-icons/im'
 import {MdEmail} from "react-icons/md"
 import {HiDocumentText} from "react-icons/hi"
+import {AiFillClockCircle} from "react-icons/ai"
 import'./contact.css'
 
 
@@ -72,21 +73,22 @@ function Contact() {
                     </div>
                     <div className="section-map--info-item">
                         <div className="section-map--info-item-img">
-                            <img src="assets/images/localizacao.png" />
+                        <MdEmail/>
                         </div>
-                        Endereço completão que irá ter algum tamanho
+                        <h3>  <a href="#">E-mail : contato@drestagio.com.br</a> </h3>
+                     
                     </div>
                     <div className="section-map--info-item">
                         <div className="section-map--info-item-img">
-                            <img src="assets/images/telefone.png" />
+                       <ImLocation2/>
                         </div>
-                        Endereço completão que irá ter algum tamanho
+                                <h3>  <a href="https://www.google.com.br/maps/place/Art+Shopping+Pacajus/@-4.1750262,-38.470093,17z/data=!3m1!4b1!4m6!3m5!1s0x7b8b920086ba225:0xf6aa16cc6a06227b!8m2!3d-4.1750316!4d-38.4675181!16s%2Fg%2F11jkwwwvkq?entry=ttu"  target="_blank" rel="noopener noreferrer">Endereço: R.Tab. José Gama Filho - Pacajus, CE, 62870-000</a> </h3>
                     </div>
                     <div className="section-map--info-item">
                         <div className="section-map--info-item-img">
-                            <img src="assets/images/arroba.png" />
+                            <AiFillClockCircle/>
                         </div>
-                        Endereço completão que irá ter algum tamanho
+                        <h3>  <a href="#">Atendimento : Seg-Sext / 9:00-17:00</a> </h3>
                     </div>
                     
             </div>
