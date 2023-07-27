@@ -8,10 +8,7 @@
   margin-right: auto;
 
 }
-.gestaodh{
-  width: 40%;
-  margin: 0 auto;
-}
+
 /* Small */
 @media (min-width: 768px) {
   .containerAbout {
@@ -31,14 +28,6 @@
   }
 }
 
-  .vertical-timeline-element--work{
-    font-family: 'Open Sans', sans-serif;
-}
-.dateTimeline{
-  color:#FF6609;
-  font-size: 50px;
-  font-weight: bold;
-}
 
   
 .landing-page  .containerAbout {
@@ -100,3 +89,25 @@
   max-width: 100%;
 }
 /* End Landing Page */
+
+
+/*===================================== TIMELINE============================================= */
+
+
+.landing-page-timeline{}
+
+
+.gestaodh{
+  width: 40%;
+  margin: 0 auto;
+}
+
+.vertical-timeline-element--work{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.dateTimeline{
+color:#FF6609;
+font-size: 50px;
+font-weight: bold;
+}

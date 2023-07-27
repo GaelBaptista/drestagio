@@ -111,7 +111,7 @@ export function About() {
 
 {/*====================================================== TIMELINE================================================================= */}
 
-
+    <section className='landing-page-timeline'>
 
         <VerticalTimeline lineColor='#ccc' >
         {timeline.map((t, i) => {
@@ -152,7 +152,7 @@ export function About() {
       </VerticalTimeline>
 
 
-
+      </section>
 
     </section>
   )
