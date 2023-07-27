@@ -10,7 +10,7 @@ import {
 import {Navbar} from "./components/Navbar/Navbar";
 import "./App.css";
 import {Home} from "./routes/Home/Home";
-import About from "./routes//AboutUs/About";
+import {About} from "./routes//AboutUs/About";
 import Contact from "./routes//Contact/Contact";
 import ErrorPage from "./routes/ErrorPage";
 import { Header } from "./components/Header/Header";

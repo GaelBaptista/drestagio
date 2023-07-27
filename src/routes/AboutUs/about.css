@@ -1,1 +1,87 @@
 
+
+
+.containerAbout {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .containerAbout {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .containerAbout {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .containerAbout {
+    width: 1170px;
+  }
+}
+
+
+.landing-page  .containerAbout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .landing-page .containerAbout {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.landing-page .contentAbout .containerAbout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 140px;
+  min-height: calc(100vh - 80px);
+  /* diminuir o espaçamento embaxio na seção de sobre nós , colocar o gap e o min-height no comentario */
+}
+@media (max-width: 767px) {
+  .landing-page .contentAbout .containerAbout {
+    gap: 0;
+    min-height: calc(100vh - 101px);
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 767px) {
+  .landing-page .contentAbout .infoAbout {
+    text-align: center;
+    margin-bottom: 15px 
+  }
+}
+.landing-page .contentAbout .infoAbout h1 {
+  color: #5d5d5d;
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+.landing-page .contentAbout .infoAbout p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #5d5d5d;
+}
+.landing-page .contentAbout .infoAbout button {
+  border: 0;
+  border-radius: 20px;
+  padding: 12px 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #FFF;
+  background-color: #FF6609;
+}
+.landing-page .contentAbout .image img {
+  max-width: 100%;
+}
+/* End Landing Page */
