@@ -38,11 +38,15 @@ export function About() {
         </div>
 
 
-<VerticalTimeline className='verticalTimeline' lineColor='#ccc'>
+<VerticalTimeline 
+className='verticalTimeline' 
+lineColor='#ccc'
+
+>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="1"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', borderRadius: '50%', padding: '8px'  }}
+    iconStyle={{ background: '#fff', color: '#FF6609',   }}
     icon={<BsFillHexagonFill/>}
     iconClassName='IconTimiline'
 
