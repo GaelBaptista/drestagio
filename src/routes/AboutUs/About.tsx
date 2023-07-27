@@ -1,14 +1,86 @@
 import './about.css'
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import React from 'react';
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import {FaBeer} from 'react-icons/fa'
-import {BsFillHexagonFill} from 'react-icons/bs'
+
+
+import { BsFillHexagonFill } from 'react-icons/bs';
+import { FaBeer } from 'react-icons/fa';
+
+
+const hexagonOrange = {
+  icon: <BsFillHexagonFill icon={BsFillHexagonFill} />,
+  iconStyle: { background: '#fff', color: '#FF6609' },
+};
+const hexagonBlue = {
+  icon: <BsFillHexagonFill icon={BsFillHexagonFill} />,
+  
+  iconStyle: { background: '#fff', color: '#120052' },
+};
+
 
 export function About() {
+
+
+  const timeline = [
+    {
+      icon: hexagonOrange,
+      date: '2011 - present',
+      title: 'Creative Director',
+      subtitle: 'Miami, FL',
+      desc: 'Creative Direction, User Experience, Visual Design, Project Management, Team Leading',
+    },
+    {
+      icon: hexagonBlue,
+      date: '2010 - 2011',
+      title: 'Art Director',
+      subtitle: 'San Francisco, CA',
+      desc: 'Creative Direction, User Experience, Visual Design, SEO, Online Marketing',
+    },
+    {
+      icon: hexagonOrange,
+      date: '2008 - 2010',
+      title: 'Web Designer',
+      subtitle: 'Los Angeles, CA',
+      desc: 'User Experience, Visual Design',
+    },
+    {
+      icon: hexagonBlue,
+      date: '2006 - 2008',
+      title: 'Web Designer',
+      subtitle: 'San Francisco, CA',
+      desc: 'User Experience, Visual Design',
+    },
+    {
+      icon: hexagonOrange,
+      date: 'April 2013',
+      title: 'Content Marketing for Web, Mobile and Social Media',
+      subtitle: 'Online Course',
+      desc: 'Strategy, Social Media',
+    },
+    {
+      icon: hexagonBlue,
+      date: 'November 2012',
+      title: 'Agile Development Scrum Master',
+      subtitle: 'Certification',
+      desc: 'Creative Direction, User Experience, Visual Design',
+    },
+    {
+      icon: hexagonOrange,
+      date: '2002 - 2006',
+      title: 'Bachelor of Science in Interactive Digital Media Visual Imaging',
+      subtitle: 'Bachelor Degree',
+      desc: 'Creative Direction, Visual Design',
+    },
+   
+  ];
   return (
   
     <section className="landing-page">
-    
+    {/*================================================ ABOUT US ========================================================== */}
       <div className="contentAbout">
         <div className="containerAbout">
           <div className="infoAbout">
@@ -37,100 +109,50 @@ export function About() {
           </p>
         </div>
 
+{/*====================================================== TIMELINE================================================================= */}
 
-<VerticalTimeline 
-className='verticalTimeline' 
-lineColor='#ccc'
 
->
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="1"
-    iconStyle={{ background: '#fff', color: '#FF6609',   }}
-    icon={<BsFillHexagonFill/>}
-    iconClassName='IconTimiline'
 
-    
-  >
-    <h3 className="vertical-timeline-element-title">Creative Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2010 - 2011"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<FaBeer />}
-  >
-    <h3 className="vertical-timeline-element-title">Art Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2008 - 2010"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<FaBeer />}
-  >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-    <p>
-      User Experience, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2006 - 2008"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<FaBeer />}
-  >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-    <p>
-      User Experience, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="April 2013"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<FaBeer />}
-  >
-    <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-    <p>
-      Strategy, Social Media
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="November 2012"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<FaBeer />}
-  >
-    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="2002 - 2006"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<FaBeer />}
-  >
-    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-    <p>
-      Creative Direction, Visual Design
-    </p>
-  </VerticalTimelineElement>
-</VerticalTimeline>
+        <VerticalTimeline lineColor='#ccc' >
+        {timeline.map((t, i) => {
+          const contentStyle =
+            i === 0
+              ? { background: '#FF6609', color: '#fff' }
+              : undefined;
+          const arrowStyle =
+            i === 0
+              ? { borderRight: '7px solid #FF6609' }
+              : undefined;
+              
+
+          return (
+            <VerticalTimelineElement
+              key={i}
+              className="vertical-timeline-element--work"
+              contentStyle={contentStyle}
+              contentArrowStyle={arrowStyle}
+              date={t.date}
+              dateClassName="dateTimeline"
+              {...t.icon}
+            >
+              {t.title ? (
+                <React.Fragment>
+                  <h3 className="vertical-timeline-element-title">{t.title}</h3>
+                  {t.subtitle && (
+                    <h4 className="vertical-timeline-element-subtitle">
+                      {t.subtitle}
+                    </h4>
+                  )}
+                  {t.desc && <p>{t.desc}</p>}
+                </React.Fragment>
+              ) : undefined}
+            </VerticalTimelineElement>
+          );
+        })}
+      </VerticalTimeline>
+
+
+
 
     </section>
   )
