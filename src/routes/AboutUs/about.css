@@ -216,10 +216,8 @@
 
 .landing-page-timeline{
   background: url("../../assests/temilinebg2.png"  ) ;
- 
   object-fit: cover;
- 
-  background-repeat: no-repeat;
+   background-repeat: no-repeat;
 }
 
 
