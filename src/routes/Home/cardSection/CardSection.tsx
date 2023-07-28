@@ -9,7 +9,8 @@ export function CardSection () {
       <div className="rowCard">
         <div className="section-head ">
           <h4><span>Programa de </span> Estágio</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown book.</p>
+          <p>O estágio é um ato educativo, onde serão ofertados aos candidatos oportunidades para estagiar nas empresas 
+            e colocar em prática os conhecimentos teóricos adquiridos no decorrer do curso a qual estuda.  </p>
         </div>
         <div className='cardrow'>
 

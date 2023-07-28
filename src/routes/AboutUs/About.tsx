@@ -1,14 +1,18 @@
 import './about.css'
 import React, { useEffect, useState }  from 'react';
+import ImgAbout from '../../assests/AboutusIMG.png'
+
+// Timeline
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import ImgAbout from '../../assests/AboutusIMG.png'
 
+
+// icones
 import { BsFillHexagonFill } from 'react-icons/bs';
-import { FaBeer } from 'react-icons/fa';
+
 
 
 const hexagonOrange = {
@@ -19,6 +23,7 @@ const hexagonBlue = {
   icon: <BsFillHexagonFill icon={BsFillHexagonFill} />,
   
   iconStyle: { background: '#fff', color: '#120052' },
+ 
 };
 
 
@@ -31,53 +36,33 @@ export function About() {
   const timeline = [
     {
       icon: hexagonOrange,
-      date: '2011 - present',
-      title: 'Creative Director',
-      subtitle: 'Miami, FL',
-      desc: 'Creative Direction, User Experience, Visual Design, Project Management, Team Leading',
+      date: '',
+      title: 'Contratação mais assertiva',
+      subtitle: '',
+      desc: 'Contrate inicialmente na modalidade de estágio e tenha oportunidade de observar o desempenho do estagiário antes de uma contratação definitiva.',
     },
     {
       icon: hexagonBlue,
-      date: '2010 - 2011',
-      title: 'Art Director',
-      subtitle: 'San Francisco, CA',
-      desc: 'Creative Direction, User Experience, Visual Design, SEO, Online Marketing',
+      date: '',
+      title: 'Profissionais em treinamento',
+      subtitle: '',
+      desc: 'O curso na área de atuação é um diferencial para o desenvolvimento profissional ',
     },
     {
       icon: hexagonOrange,
-      date: '2008 - 2010',
-      title: 'Web Designer',
-      subtitle: 'Los Angeles, CA',
-      desc: 'User Experience, Visual Design',
+      date: '',
+      title: 'Plano de carreira',
+      subtitle: '',
+      desc: 'O fator motivacional de uma contratação efetiva, faz com que o estagiário tenha uma visão de plano de carreira dentro da empresa',
     },
     {
       icon: hexagonBlue,
-      date: '2006 - 2008',
-      title: 'Web Designer',
-      subtitle: 'San Francisco, CA',
-      desc: 'User Experience, Visual Design',
+      date: '',
+      title: 'Redução de turnover',
+      subtitle: '',
+      desc: 'Visando o crescimento dentro da organização por meio de um plano de carreira é possível reduzir a rotatividade entre os colaboradores CLT.',
     },
-    {
-      icon: hexagonOrange,
-      date: 'April 2013',
-      title: 'Content Marketing for Web, Mobile and Social Media',
-      subtitle: 'Online Course',
-      desc: 'Strategy, Social Media',
-    },
-    {
-      icon: hexagonBlue,
-      date: 'November 2012',
-      title: 'Agile Development Scrum Master',
-      subtitle: 'Certification',
-      desc: 'Creative Direction, User Experience, Visual Design',
-    },
-    {
-      icon: hexagonOrange,
-      date: '2002 - 2006',
-      title: 'Bachelor of Science in Interactive Digital Media Visual Imaging',
-      subtitle: 'Bachelor Degree',
-      desc: 'Creative Direction, Visual Design',
-    },
+   
    
   ];
 
@@ -90,6 +75,14 @@ export function About() {
     }, 500); // Ajuste o valor do atraso conforme necessário
   }, [])
 
+  const [Assert, setAssert] = useState(0);
+
+  useEffect(() => {
+    // Ao montar o componente, atualize o estado para 85 após um pequeno atraso (opcional)
+    setTimeout(() => {
+      setAssert(100);
+    }, 500); // Ajuste o valor do atraso conforme necessário
+  }, [])
   
 
 
@@ -133,7 +126,7 @@ export function About() {
       </div>
     </div>
 
-
+{/* =======================================================GESTAO DE DH TITULO ================================================================ */}
  
       <div className="section-head ">
           <h4><span>Gestão de </span> DH</h4>
@@ -187,6 +180,109 @@ export function About() {
 
 
       </div>
+
+
+
+
+    
+     
+        
+    <div className="contentAbout">
+      <div className="containerAbout">
+        <div className="infoImageContainer">
+          <div className="infoAbout">
+            <h1>Acompanhamento de Estágio </h1>
+            <p>
+           Temos equipes de suporte para a sua empresa e para seus estagiários 
+            </p>
+            {/* <button>Fale Conosco</button> */}
+          </div>
+
+          {/* Barra de Progresso */}
+          <div className="assertiveness">
+            <h5>Suporte a empresa pelos nosso canais de comunicações</h5>
+            <div className="progressContainer">
+              <div className="progressBar">
+                <div
+                  className="progressBarFill"
+                  style={{ width: `${Assert}%` }}
+                />
+              </div>
+              <div className="progressBox" style={{ left: `${Assert}%` }}>
+                <span>{`${Assert}%`}</span>
+              </div>
+            </div>
+
+
+
+          </div>
+
+          {/* Asssertiv 2 */}
+
+          <div className="assertiveness">
+      
+          <h5>Suporte ao estagiário Online</h5>
+            <div className="progressContainer">
+              <div className="progressBar">
+                <div
+                  className="progressBarFill"
+                  style={{ width: `${Assert}%` }}
+                />
+              </div>
+              <div className="progressBox" style={{ left: `${Assert}%` }}>
+                <span>{`${Assert}%`}</span>
+              </div>
+            </div>
+          </div>
+{/* ASSERT 3 */}
+          <div className="assertiveness">
+          <h5>Envio de relatórios mensais de frequências dos estagiários</h5>
+            <div className="progressContainer">
+              <div className="progressBar">
+                <div
+                  className="progressBarFill"
+                  style={{ width: `${Assert}%` }}
+                />
+              </div>
+              <div className="progressBox" style={{ left: `${Assert}%` }}>
+                <span>{`${Assert}%`}</span>
+              </div>
+            </div>
+
+
+
+          </div>
+
+
+          {/* ASSERT 3 */}
+          <div className="assertiveness">
+          
+            <h5>Visitas presenciais na unidade</h5>
+            <div className="progressContainer">
+              <div className="progressBar">
+                <div
+                  className="progressBarFill"
+                  style={{ width: `${Assert}%` }}
+                />
+              </div>
+              <div className="progressBox" style={{ left: `${Assert}%` }}>
+                <span>{`${Assert}%`}</span>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+
+        <div className="image">
+          <img src={ImgAbout} alt="Imagem sobre o assunto" />
+        </div>
+      </div>
+    </div>
+
+     
+      
 
     </section>
   )

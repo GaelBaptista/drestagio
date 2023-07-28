@@ -47,7 +47,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 140px;
+  gap: 80px;
   min-height: calc(100vh - 80px);
   /* diminuir o espaçamento embaxio na seção de sobre nós , colocar o gap e o min-height no comentario */
 }
@@ -102,6 +102,11 @@
   font-size: 24px;
   margin-bottom: 10px;
 }
+.landing-page .Assertividade .assertiveness h5 {
+  color: #2f2f2f;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
 
 .landing-page .contentAbout .progressContainer {
   width: 100%;
@@ -153,10 +158,55 @@
   flex: 1;
   margin-right: 20px; /*  espaçamento entre as informações e a imagem */
 }
+.landing-page .contentAbout .assertiveness {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 20px;
+}
 
 
+@media (max-width: 767px) {
+  .landing-page .contentAbout .containerAbout {
+    flex-direction: column;
+    justify-content: center;
+  }
 
+  .landing-page .contentAbout .infoAbout {
+    margin-left: 0; /* Removemos o espaçamento lateral entre as informações e a imagem */
+    margin-right: 0; /* Removemos o espaçamento lateral entre as informações e a imagem */
+    text-align: center; /* Centralizamos o texto */
+  }
 
+  .landing-page .contentAbout .assertiveness {
+    margin-top: 40px; /* Ajustamos o espaçamento entre cada elemento assertiveness */
+  }
+
+  .landing-page .contentAbout .progressContainer {
+    width: 100%;
+  }
+
+  .landing-page .contentAbout .progressBar {
+    height: 12px; /* Reduzimos a altura da barra de progresso para dispositivos móveis */
+  }
+
+  .landing-page .contentAbout .progressBox {
+    top: -15px; /* Posicionamos a caixinha acima da barra de progresso */
+  }
+
+  .landing-page .contentAbout .progressText {
+    right: 0; /* Alinhamos o texto da porcentagem à direita */
+  }
+
+  .landing-page .contentAbout .assertiveness h2 {
+    font-size: 12px; /* Ajustamos o tamanho do título da assertiveness */
+  }
+
+  .landing-page .contentAbout .assertiveness h5 {
+    font-size: 10px; /* Ajustamos o tamanho do sub-título da assertiveness */
+  }
+}
 
 /* End Landing Page */
 
