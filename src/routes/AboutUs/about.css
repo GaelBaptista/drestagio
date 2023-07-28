@@ -66,7 +66,7 @@
   }
 }
 .landing-page .contentAbout .infoAbout h1 {
-  color: #5d5d5d;
+  color: #2f2f2f;
   font-size: 44px;
   margin-bottom: 20px;
 }
@@ -76,7 +76,7 @@
   font-size: 15px;
   color: #5d5d5d;
 }
-.landing-page .contentAbout .infoAbout button {
+/* .landing-page .contentAbout .infoAbout button {
   border: 0;
   border-radius: 20px;
   padding: 12px 30px;
@@ -84,10 +84,80 @@
   cursor: pointer;
   color: #FFF;
   background-color: #FF6609;
-}
+} */
 .landing-page .contentAbout .image img {
   max-width: 100%;
+  height: auto;
 }
+
+.landing-page .contentAbout .assertiveness {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.landing-page .contentAbout .assertiveness h2 {
+  color: #2f2f2f;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.landing-page .contentAbout .progressContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.landing-page .contentAbout .progressBar {
+  width: 100%;
+  height: 8px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.landing-page .contentAbout .progressBarFill {
+  height: 100%;
+  background-color: #ff6609;
+  width: 0;
+  transition: width 1s ease;
+}
+
+
+
+.landing-page .contentAbout .progressBox {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%); /* Move a caixinha para o centro da posição */
+  background-color: #120052;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* estilos para o layout da imagem */
+.landing-page .contentAbout .containerAbout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing-page .contentAbout .infoAbout {
+  flex: 1;
+  margin-right: 20px; /*  espaçamento entre as informações e a imagem */
+}
+
+
+
+
+
 /* End Landing Page */
 
 

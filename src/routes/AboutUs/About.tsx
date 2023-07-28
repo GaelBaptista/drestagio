@@ -1,5 +1,5 @@
 import './about.css'
-import React from 'react';
+import React, { useEffect, useState }  from 'react';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -20,6 +20,9 @@ const hexagonBlue = {
   
   iconStyle: { background: '#fff', color: '#120052' },
 };
+
+
+ 
 
 
 export function About() {
@@ -77,27 +80,58 @@ export function About() {
     },
    
   ];
+
+  const [progress, setProgress] = useState(0);
+
+  useEffect(() => {
+    // Ao montar o componente, atualize o estado para 85 após um pequeno atraso (opcional)
+    setTimeout(() => {
+      setProgress(85);
+    }, 500); // Ajuste o valor do atraso conforme necessário
+  }, [])
+
+  
+
+
   return (
   
     <section className="landing-page">
     {/*================================================ ABOUT US ========================================================== */}
-      <div className="contentAbout">
-        <div className="containerAbout">
+    <div className="contentAbout">
+      <div className="containerAbout">
+        <div className="infoImageContainer">
           <div className="infoAbout">
             <h1>Nossa Proposta</h1>
             <p>
-              Somos uma empresa especializada em integração de estágio na modalidade não obrigatório dos 
+              Somos uma empresa especializada em integração de estágio na modalidade não obrigatória dos 
               níveis de ensino médio, superior e profissionalizante. Atuando há sete anos atendemos todos
               os seguimentos do mercado a nível nacional.
             </p>
-            <button>Fale Conosco</button>
+            {/* <button>Fale Conosco</button> */}
           </div>
-          <div className="image">
-            <img src={ImgAbout}/>
+
+          {/* Barra de Progresso */}
+          <div className="assertiveness">
+            <h2>Assertividade</h2>
+            <div className="progressContainer">
+              <div className="progressBar">
+                <div
+                  className="progressBarFill"
+                  style={{ width: `${progress}%` }}
+                />
+              </div>
+              <div className="progressBox" style={{ left: `${progress}%` }}>
+                <span>{`${progress}%`}</span>
+              </div>
+            </div>
           </div>
         </div>
-        
+
+        <div className="image">
+          <img src={ImgAbout} alt="Imagem sobre o assunto" />
+        </div>
       </div>
+    </div>
 
 
  
