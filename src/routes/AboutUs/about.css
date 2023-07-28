@@ -94,7 +94,13 @@
 /*===================================== TIMELINE============================================= */
 
 
-.landing-page-timeline{}
+.landing-page-timeline{
+  background: url("../../assests/temilinebg2.png"  ) ;
+ 
+  object-fit: cover;
+ 
+  background-repeat: no-repeat;
+}
 
 
 .gestaodh{

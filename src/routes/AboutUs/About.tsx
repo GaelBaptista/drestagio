@@ -5,7 +5,7 @@ import {
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-
+import ImgAbout from '../../assests/AboutusIMG.png'
 
 import { BsFillHexagonFill } from 'react-icons/bs';
 import { FaBeer } from 'react-icons/fa';
@@ -93,7 +93,7 @@ export function About() {
             <button>Fale Conosco</button>
           </div>
           <div className="image">
-            <img src="https://i.postimg.cc/65QxYYzh/001234.png"/>
+            <img src={ImgAbout}/>
           </div>
         </div>
         
@@ -111,7 +111,7 @@ export function About() {
 
 {/*====================================================== TIMELINE================================================================= */}
 
-    <section className='landing-page-timeline'>
+    <div className='landing-page-timeline'>
 
         <VerticalTimeline lineColor='#ccc' >
         {timeline.map((t, i) => {
@@ -152,7 +152,7 @@ export function About() {
       </VerticalTimeline>
 
 
-      </section>
+      </div>
 
     </section>
   )
