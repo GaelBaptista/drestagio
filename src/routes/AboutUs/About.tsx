@@ -1,6 +1,7 @@
 import './about.css'
 import React, { useEffect, useState }  from 'react';
 import ImgAbout from '../../assests/AboutusIMG.png'
+import TimelineBG from '../../assests/TimelineBG (1).png'
 
 // Timeline
 import {
@@ -276,7 +277,7 @@ export function About() {
         </div>
 
         <div className="image">
-          <img src={ImgAbout} alt="Imagem sobre o assunto" />
+          <img src={TimelineBG} alt="Imagem sobre o assunto" />
         </div>
       </div>
     </div>
