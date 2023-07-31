@@ -71,7 +71,7 @@ export function Home () {
             Mais Assertividade&nbsp;
             <span>em novas contratações!</span>
           </h2>
-          <h1>Programa de <span>Estágio</span></h1>
+          <h1>Programa de  <span> Estágio</span></h1>
         </div>
       </div>
     </div>
@@ -82,7 +82,7 @@ export function Home () {
           Aumente o potencial da sua empresa&nbsp;
             <span>com nosso</span>
           </h2>
-          <h1>Programa de <span>Estágio</span></h1>
+          <h1>Programa de  <span> Estágio</span></h1>
         </div>
       </div>
     </div>
@@ -93,7 +93,7 @@ export function Home () {
          Preparamos profissionais por meio de estágio para atuar em&nbsp; 
             <span>diversas áreas</span>
           </h2>
-          <h1>do mercado  <span>de trabalho</span></h1>
+          <h1>do mercado  <span> de trabalho</span></h1>
         </div>
       </div>
     </div>
