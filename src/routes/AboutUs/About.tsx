@@ -3,6 +3,7 @@ import React, { useEffect, useState }  from 'react';
 import ImgAbout from '../../assests/AboutusIMG.png'
 import TimelineBG from '../../assests/TimelineBG (1).png'
 
+
 // Timeline
 import {
   VerticalTimeline,
@@ -13,6 +14,10 @@ import 'react-vertical-timeline-component/style.min.css';
 
 // icones
 import { BsFillHexagonFill } from 'react-icons/bs';
+
+import {MdGroups2, MdEmail} from 'react-icons/md'
+import {AiOutlineArrowRight} from 'react-icons/ai'
+
 
 
 
@@ -183,6 +188,29 @@ export function About() {
       </div>
 
 
+
+      <div className="card-sectionAbout">
+      <div className="cardAbout orange-cardAbout">
+        <div className="iconAbout">
+          <MdGroups2 />
+        </div>
+        <h2 className="titleAbout">Alguma dúvida?</h2>
+        <p className="textAbout">Fale com nossa equipe:</p>
+        <button className="contact-btnAbout-orange">
+          <AiOutlineArrowRight /> Fale Conosco
+        </button>
+      </div>
+      <div className="cardAbout blue-cardAbout">
+        <div className="iconAbout">
+          <MdEmail/>
+        </div>
+        <h2 className="titleAbout">Mande um E-mail</h2>
+        <p className="textAbout">Escreva para nossa equipe</p>
+        <button className="contact-btnAbout-blue">
+          <AiOutlineArrowRight /> Fale Conosco
+        </button>
+      </div>
+    </div>
 
 
     
