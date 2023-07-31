@@ -102,7 +102,7 @@
   font-size: 24px;
   margin-bottom: 10px;
 }
-.landing-page .Assertividade .assertiveness h5 {
+.landing-page   .assertiveness h5 {
   color: #2f2f2f;
   font-size: 14px;
   margin-bottom: 10px;
@@ -166,11 +166,26 @@
   margin-top: 20px;
 }
 
+@media (max-width: 1024px) {
+  .landing-page .contentAbout .containerAbout {
+ 
+    margin-bottom: 30px;
+}
+}
 
-@media (max-width: 767px) {
+
+
+@media (max-width: 768px) {
   .landing-page .contentAbout .containerAbout {
     flex-direction: column;
     justify-content: center;
+    width: 90%;
+    
+   
+  }
+  .landing-page .contentAbout .containerAbout h1{
+    font-size: 30px;
+ 
   }
 
   .landing-page .contentAbout .infoAbout {
@@ -181,31 +196,33 @@
 
   .landing-page .contentAbout .assertiveness {
     margin-top: 40px; /* Ajustamos o espaçamento entre cada elemento assertiveness */
+    margin-bottom: 40px;
+   
+    
   }
 
   .landing-page .contentAbout .progressContainer {
-    width: 100%;
+    width: 90%;
+    border-bottom: 20px;
   }
+
 
   .landing-page .contentAbout .progressBar {
     height: 12px; /* Reduzimos a altura da barra de progresso para dispositivos móveis */
   }
 
   .landing-page .contentAbout .progressBox {
-    top: -15px; /* Posicionamos a caixinha acima da barra de progresso */
+    top: 15px; /* Posicionamos a caixinha acima da barra de progresso */
+    font-size: 10px;
+  
+  
   }
 
   .landing-page .contentAbout .progressText {
     right: 0; /* Alinhamos o texto da porcentagem à direita */
   }
 
-  .landing-page .contentAbout .assertiveness h2 {
-    font-size: 12px; /* Ajustamos o tamanho do título da assertiveness */
-  }
 
-  .landing-page .contentAbout .assertiveness h5 {
-    font-size: 10px; /* Ajustamos o tamanho do sub-título da assertiveness */
-  }
 }
 
 /* End Landing Page */
