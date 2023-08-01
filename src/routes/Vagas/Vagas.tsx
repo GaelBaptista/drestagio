@@ -20,58 +20,40 @@ export function Vagas () {
 
   return (
     <section className="sectionVaga">
-      <div style={{ width: '70%', margin: '0 auto' }}>
-        <span>discover</span>
-        <h1>aquatic animals</h1>
+      <div >
+        <span>Descubra</span>
+        <h1>Vagas de Estágio</h1>
         <hr />
         <p>
-          Beauty and mystery are hidden under the sea. Explore with our application to know about Aquatic Animals.
+        Somos uma agência de integração empresa-escola especializada em estágios não obrigatórios. 
+        Em parceria com instituições de ensino, desenvolvemos um programa de estágio para atender às necessidades de 
+        empresas em busca de novos talentos, proporcionando oportunidades valiosas para jovens ingressarem no 
+        mercado de trabalho ou se recolocarem profissionalmente.
         </p>
-        <a href="#">download app</a>
+        <a href="#">Achar Vagas</a>
       </div>
 
-      <div className="slider-container">
+      <div className="slider-container" style={{ width: '40%', margin: '0 auto' }}>
         <Slider {...sliderSettings}>
           <div className="swiper-slide swiper-slide--one">
-            <div>
-              <h2>Jellyfish</h2>
-              <p>Jellyfish and sea jellies are the informal common names given to the medusa-phase of certain gelatinous members of the subphylum Medusozoa, a major part of the phylum Cnidaria.</p>
-              <a href="https://en.wikipedia.org/wiki/Jellyfish" target="_blank" rel="noopener noreferrer">explore</a>
-            </div>
+          
           </div>
           <div className="swiper-slide swiper-slide--two">
-            <div>
-              <h2>Seahorse</h2>
-              <p>Seahorses are mainly found in shallow tropical and temperate salt water throughout the world. They live in sheltered areas such as seagrass beds, estuaries, coral reefs, and mangroves. Four species are found in Pacific waters from North America to South America.</p>
-              <a href="https://en.wikipedia.org/wiki/Seahorse" target="_blank" rel="noopener noreferrer">explore</a>
-            </div>
+            
           </div>
           {/* Adicione mais slides conforme necessário */}
-          <div className="swiper-slide swiper-slide--two">
-            <div>
-              <h2>Seahorse</h2>
-              <p>Seahorses are mainly found in shallow tropical and temperate salt water throughout the world. They live in sheltered areas such as seagrass beds, estuaries, coral reefs, and mangroves. Four species are found in Pacific waters from North America to South America.</p>
-              <a href="https://en.wikipedia.org/wiki/Seahorse" target="_blank" rel="noopener noreferrer">explore</a>
-            </div>
+          <div className="swiper-slide swiper-slide--three">
+            
           </div>
-          <div className="swiper-slide swiper-slide--two">
-            <div>
-              <h2>Seahorse</h2>
-              <p>Seahorses are mainly found in shallow tropical and temperate salt water throughout the world. They live in sheltered areas such as seagrass beds, estuaries, coral reefs, and mangroves. Four species are found in Pacific waters from North America to South America.</p>
-              <a href="https://en.wikipedia.org/wiki/Seahorse" target="_blank" rel="noopener noreferrer">explore</a>
-            </div>
+          <div className="swiper-slide swiper-slide--four">
+            
           </div>
-          <div className="swiper-slide swiper-slide--two">
-            <div>
-              <h2>Seahorse</h2>
-              <p>Seahorses are mainly found in shallow tropical and temperate salt water throughout the world. They live in sheltered areas such as seagrass beds, estuaries, coral reefs, and mangroves. Four species are found in Pacific waters from North America to South America.</p>
-              <a href="https://en.wikipedia.org/wiki/Seahorse" target="_blank" rel="noopener noreferrer">explore</a>
-            </div>
+          <div className="swiper-slide swiper-slide--five">
+          
           </div>        
           </Slider>
       </div>
 
-      <img src="https://cdn.pixabay.com/photo/2021/11/04/19/39/jellyfish-6769173_960_720.png" alt="" className="bg" />
       <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" className="bg2" />
     </section>
   );
