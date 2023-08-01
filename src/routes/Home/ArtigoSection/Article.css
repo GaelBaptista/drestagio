@@ -41,11 +41,11 @@ a {
   height: 20em;
   width: 15em;
   font-size: 1.5em;
-  color:black ;
+  color:white ;
   border-radius: 1em;
   padding: 1em;
   display: flex;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   flex-direction: column;
   /* ponha o felx-direction no comentario para voltar o estilo de inicio */
   background-size: cover;
