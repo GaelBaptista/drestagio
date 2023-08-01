@@ -147,45 +147,88 @@
 
 /*==============================================================MAPA=============================================================*/ 
 .section-map {
-  background-image:url('../../assests/mapa.png');
-  background-size:cover;
-  background-position:center;
-  padding-top:30px;
-  padding-bottom:30px;
+  background-color: #121242;
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center; /* Para centralizar o conteúdo */
 }
+
 .section-map--area {
-  width:100vw;
-  max-width:1140px;
-  margin:auto;
-  height: 100vh;
-  padding-top: 400px;
-}
-.section-map--info {
-  width:50%;
-  padding :30px;
- 
-  background-color:var(--laranja);
-  color:#ffffff;
-}
-.section-map--info-item {
-  display:flex;
-  
-  align-items:center;
-  color:white;
-  margin-bottom:10px;
-}
-.section-map--info-item-img {
-  width:30px;
-  height:30px;
-  display:inline-flex;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 50vh;
+  border-radius: 50%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding:5px;
-  background-color:var(--laranja);
-  border-radius:15px;
-  margin-right:15px;
 }
-.section-map--info-item-img img {
-  width:15px;
-  height:auto;
+
+.section-map--info {
+  width: 70%;
+  padding: 30px;
+  background-color: var(--laranja);
+  color: #ffffff;
+  border-radius: 15px;
+}
+
+.section-map--info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.section-map--info-item {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.section-map--info-item-img {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #121242; /* Mudei para a cor #121242 */
+  border-radius: 50%; /* Transformando em um círculo */
+  margin-right: 15px;
+}
+
+/* Media queries para ajustar o layout em diferentes tamanhos de tela */
+/* Media queries para ajustar o layout em dispositivos móveis */
+@media (max-width: 768px) {
+  .section-map--area {
+    height: 80vh;
+  }
+
+  .section-map--info {
+    width: 90%;
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .section-map--info h2 {
+    font-size: 20px;
+  }
+}
+
+/* Telas pequenas (até 576px) */
+@media (max-width: 320px) {
+  .section-map--area {
+    height: 60vh;
+  }
+.section-map--info-item-img {
+  width: 36px; /* Reduzi o tamanho do ícone para melhorar a adaptação */
+  height: 36px; /* Reduzi o tamanho do ícone para melhorar a adaptação */
+ 
+ 
+}
+
+  .section-map--info {
+    font-size: 14px;
+  }
 }

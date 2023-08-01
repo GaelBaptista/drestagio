@@ -60,40 +60,42 @@ function Contact() {
   </section>
 
 {/*========================================================MAPA============================================================== */}
-  <section className="section-map">
-        <div className="section-map--area">
-            <div className="section-map--info">
-                    <div className="section-map--info-item">
-                        <div className="section-map--info-item-img">
-                           <BsFillTelephoneFill/>
-                        </div>
-                        <h3>
-                            <a href="#">+55 85 9247-7241</a>
-                            </h3>
-                    </div>
-                    <div className="section-map--info-item">
-                        <div className="section-map--info-item-img">
-                        <MdEmail/>
-                        </div>
-                        <h3>  <a href="#">E-mail : contato@drestagio.com.br</a> </h3>
-                     
-                    </div>
-                    <div className="section-map--info-item">
-                        <div className="section-map--info-item-img">
-                       <ImLocation2/>
-                        </div>
-                                <h3>  <a href="https://www.google.com.br/maps/place/Art+Shopping+Pacajus/@-4.1750262,-38.470093,17z/data=!3m1!4b1!4m6!3m5!1s0x7b8b920086ba225:0xf6aa16cc6a06227b!8m2!3d-4.1750316!4d-38.4675181!16s%2Fg%2F11jkwwwvkq?entry=ttu"  target="_blank" rel="noopener noreferrer">Endereço: R.Tab. José Gama Filho - Pacajus, CE, 62870-000</a> </h3>
-                    </div>
-                    <div className="section-map--info-item">
-                        <div className="section-map--info-item-img">
-                            <AiFillClockCircle/>
-                        </div>
-                        <h3>  <a href="#">Atendimento : Seg-Sext / 9:00-17:00</a> </h3>
-                    </div>
-                    
-            </div>
+<section className="section-map">
+  <div className="section-map--area">
+    <div className="section-map--info">
+      <h2>Informações de Contato</h2>
+      <div className="section-map--info-item">
+        <div className="section-map--info-item-img" style={{backgroundColor: '#121242'}}  >
+          <BsFillTelephoneFill style={{color:'white', fontSize:'24px'}} />
         </div>
-    </section>
+        <h3><a href="#"> Telefone : +55 85 9247-7241</a></h3>
+      </div>
+      <div className="section-map--info-item">
+        <div className="section-map--info-item-img" style={{backgroundColor: '#121242'}}>
+          <MdEmail style={{color:'white', fontSize:'24px'}} />
+        </div>
+        <h3><a href="#">E-mail: contato@drestagio.com.br</a></h3>
+      </div>
+      <div className="section-map--info-item">
+        <div className="section-map--info-item-img" style={{backgroundColor: '#121242'}}>
+          <ImLocation2 style={{color:'white', fontSize:'24px'}}  />
+        </div>
+        <h3>
+          <a href="https://www.google.com.br/maps/place/Art+Shopping+Pacajus/@-4.1750262,-38.470093,17z/data=!3m1!4b1!4m6!3m5!1s0x7b8b920086ba225:0xf6aa16cc6a06227b!8m2!3d-4.1750316!4d-38.4675181!16s%2Fg%2F11jkwwwvkq?entry=ttu"
+            target="_blank" rel="noopener noreferrer">
+            Endereço: R.Tab. José Gama Filho - Pacajus, CE, 62870-000
+          </a>
+        </h3>
+      </div>
+      <div className="section-map--info-item">
+        <div className="section-map--info-item-img"style={{backgroundColor: '#121242'}}>
+          <AiFillClockCircle style={{color:'white', fontSize:'24px'}}  />
+        </div>
+        <h3><a href="#">Atendimento: Seg-Sext / 9:00-17:00</a></h3>
+      </div>
+    </div>
+  </div>
+</section>
 </>
   );
 }
