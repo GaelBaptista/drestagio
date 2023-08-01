@@ -1,6 +1,8 @@
 import './contactHome.css'
-import { FaApple, FaAndroid } from 'react-icons/fa';
+
 import {BsFillPersonFill} from 'react-icons/bs'
+
+
 export function ContactHome() {
   return(
    
@@ -16,15 +18,16 @@ export function ContactHome() {
           </p>
             <button>
             <a href="#" className="btn btn-purple btn-effect">
-                <FaApple />Fale Conosco
+              Fale Conosco
               </a>
             </button>
         </div>
 
         
         <div className="contact-info">
+         
     <i ><BsFillPersonFill className="large-icon"/></i>
-    <p className="phone-number">+55 (85) 99247-7241</p>
+    <a href="#"><p className="phone-number">+55 (85) 99247-7241</p></a> 
   </div>
        
   

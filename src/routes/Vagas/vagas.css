@@ -43,7 +43,7 @@
   font-weight: 900;
   font-size: clamp(3.4375rem, 3.25rem + 0.75vw, 4rem);
   background-color: #FF6609;
-  background-image: linear-gradient(45deg, #FF6609, #cd4308);
+  background-image: linear-gradient(45deg, #FF6609, #c2410a);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -132,7 +132,7 @@
 }
 
 .sectionVaga .swiper-slide a:hover {
-  color: #005baa;
+  color: #FF6609;
 }
 
 .sectionVaga .swiper-slide div {
