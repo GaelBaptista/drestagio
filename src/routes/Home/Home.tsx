@@ -90,11 +90,11 @@ export function Home () {
     <div className="slide s3">
       <div className="slidearea">
         <div className="banner-title">
-          <h2>
+          <h2 className='h2Mobile'>
          Preparamos profissionais por meio de estágio para atuar em&nbsp; 
             <span>diversas áreas</span>
           </h2>
-          <h1>do mercado  <span> de trabalho</span></h1>
+          <h1 className='h1Mobile'>do mercado  <span> de trabalho</span></h1>
         </div>
       </div>
     </div>

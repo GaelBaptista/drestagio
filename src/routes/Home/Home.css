@@ -87,14 +87,24 @@
 
 .banner .s1 {
   background-image: url("../../assests/banner1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 .banner .s2 {
   background-image: url("../../assests/banner2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .banner .s3 {
   background-image: url("../../assests/banner3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .banner .slidearea {
@@ -142,10 +152,28 @@
 }
 
 @media screen and (max-width: 768px) {
+  .banner .banner-title h1 span {
+    color: #fff;
+    font-weight: bold;
+  
+  }
+
+  .banner .slidearea {
+   align-items: center; 
+   margin: 0 auto;
+  }
+  .banner .banner-title {
+  text-align: center;
+  }
   .banner .banner-title h1 {
     font-size: 30px;
   }
-
+  .banner .banner-title .h2Mobile {
+    font-size: 16px;
+  }
+  .banner .banner-title .h1Mobile {
+    font-size: 20px;
+  }
   .banner .banner-title h2 {
     font-size: 20px;
   }
