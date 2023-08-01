@@ -16,6 +16,12 @@ import ErrorPage from "./routes/ErrorPage";
 import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/footer";
 import { Vagas } from "./routes/Vagas/Vagas";
+import { Projects } from "./routes/Projects/projects";
+import { PrEst } from "./routes/Projects/ProgramaDeEstagio/PrEst";
+import { Eventos } from "./routes/Projects/Eventos/eventos";
+import { Mais } from "./routes/Projects/Mais/mais";
+
+
 const AppLayout = () => {
   return (
     <>
@@ -47,6 +53,24 @@ const router = createBrowserRouter([
       {
         path: "vagas",
         element: <Vagas />,
+      },
+      {
+        path: "projects",
+        element: <Projects />,
+        children: [
+          {
+            path: "programa-estagio",
+            element: <PrEst />,
+          },
+          {
+            path: "eventos",
+            element: <Eventos />,
+          },
+          {
+            path: "mais",
+            element: <Mais />,
+          },
+        ],
       },
     ],
   },

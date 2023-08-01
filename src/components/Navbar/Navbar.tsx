@@ -1,10 +1,9 @@
-import  { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 import "./style.css";
 import { GiRocketThruster } from "react-icons/gi";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-import { NavLink } from "react-router-dom";
 
 export function Navbar() {
   const [click, setClick] = useState(false);
@@ -19,7 +18,7 @@ export function Navbar() {
           <div className="navbar-container containerNav">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
               <GiRocketThruster className="navbar-icon" />
-             Dr.Estágio
+              Dr.Estágio
             </Link>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -69,19 +68,40 @@ export function Navbar() {
                   Sobre Nós
                 </NavLink>
               </li>
-            
-
               <li className="nav-item">
-                <NavLink
-                  to="/projects"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
-                  Projects
-                </NavLink>
-              </li>
+        <Link to="/projects" className="nav-links" onClick={closeMobileMenu}>
+          Projetos <FaBars />
+        </Link>
+        <ul className={click ? "dropdown-menu active" : "dropdown-menu"}>
+          <li>
+            <NavLink
+              to="/projects/programa-estagio"
+              className="dropdown-link"
+              onClick={closeMobileMenu}
+            >
+              Programa de Estágio
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/projects/eventos"
+              className="dropdown-link"
+              onClick={closeMobileMenu}
+            >
+              Eventos
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/projects/mais"
+              className="dropdown-link"
+              onClick={closeMobileMenu}
+            >
+              Mais
+            </NavLink>
+          </li>
+        </ul>
+      </li>
             </ul>
           </div>
         </nav>
