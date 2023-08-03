@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./PrEst.css";
 
 interface FAQItem {
@@ -19,5 +19,10 @@ interface FAQItem {
     </div>
   );
 }
+
+
+
+
+
 
 
