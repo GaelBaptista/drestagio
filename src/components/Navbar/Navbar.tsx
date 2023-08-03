@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./style.css";
 import { GiRocketThruster } from "react-icons/gi";
-import { FaBars, FaTimes } from "react-icons/fa";
+import {  FaBars, FaTimes } from "react-icons/fa";
+import {IoIosArrowDown} from "react-icons/io"
 import { IconContext } from "react-icons/lib";
 
 export function Navbar() {
@@ -70,7 +71,7 @@ export function Navbar() {
               </li>
               <li className="nav-item">
         <Link to="/projects" className="nav-links" onClick={closeMobileMenu}>
-          Projetos <FaBars />
+          Projetos <IoIosArrowDown />
         </Link>
         <ul className={click ? "dropdown-menu active" : "dropdown-menu"}>
           <li>
