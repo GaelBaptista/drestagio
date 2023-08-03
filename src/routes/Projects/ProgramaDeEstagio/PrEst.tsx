@@ -31,35 +31,35 @@ import { FAQItem } from './FAQ';
     ]);
   
     const categories = [
-      "service",
-      "installation",
-      "plan",
-      "features",
-      "mobile"
+      "Benefícios Programa de Estágio",
+      "Carga Horária",
+      "Estágio",
+      "Recisão",
+      "Todos"
       // Adicione mais categorias aqui, se necessário
     ];
   
     const initialCategoryFaqs: { [key: string]: FAQItem[] } = {
-      service: [
+      "Benefícios Programa de Estágio": [
         {
-          question: "What services do you offer?",
+          question: "Benefícios Trabalhistas",
           answer: "We offer a wide range of services to meet your needs.",
           open: false,
         },
         {
-          question: "How can I request a service?",
+          question: "Benefícios sociais",
           answer: "You can request a service through our website or by contacting us.",
           open: false,
         },
       ],
-      installation: [
+      "Carga Horária": [
         {
           question: "Do you provide installation services?",
           answer: "Yes, we offer professional installation services for all our products.",
           open: false,
         },
       ],
-      plan: [
+      "Estágio": [
         {
           question: "What are your pricing plans?",
           answer: "We have flexible pricing plans to suit different budgets.",
@@ -71,14 +71,14 @@ import { FAQItem } from './FAQ';
           open: false,
         },
       ],
-      features: [
+      "Recisão": [
         {
           question: "What features are included?",
           answer: "Our product comes with a variety of powerful features to enhance your experience.",
           open: false,
         },
       ],
-      mobile: [
+      "Todos": [
         {
           question: "Is your app available for mobile devices?",
           answer: "Yes, our app is available for both iOS and Android devices.",
@@ -138,7 +138,8 @@ import { FAQItem } from './FAQ';
           {categories.map((category, index) => (
             <div
               key={index}
-              className={activeCategory === category ? "faq-selected" : ""}
+              
+              className={ activeCategory === category ? "faq-selected" : ""  }
               onClick={() => handleCategoryChange(category)}
             >
               {category}
@@ -147,7 +148,7 @@ import { FAQItem } from './FAQ';
         </div>
       </div>
 
-      <div className="faqs">
+      <div className="faqs faq-grid">
         {categoryFaqs[activeCategory].map((faq, index) => (
           <FAQ faq={faq} index={index} key={index} toggleFAQ={toggleFAQ} />
         ))}
