@@ -69,7 +69,7 @@
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
-  height: 80px;
+  
   font-size: 2rem;
   display: flex;
   align-items: center;
@@ -184,7 +184,7 @@
   }
 
   .nav-links:hover {
-    color: #09bef0;
+    color: #ff7417;
     transform: scale(1.2);
     transition: all 0.3s ease;
   }
