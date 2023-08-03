@@ -31,6 +31,7 @@ color: inherit;
 }
 .section-head {
 margin-bottom: 60px;
+
 }
 
 .section-head h4 {
@@ -59,7 +60,8 @@ margin:0 auto;
 .section-head h4 span {
 font-weight: 700;
 padding-bottom: 5px;
-color:#2f2f2f
+color:#2f2f2f;
+padding-right: 10px;  /* separa o texto no tradutor */
 }
 p.service_text{
 color:#cccccc !important;

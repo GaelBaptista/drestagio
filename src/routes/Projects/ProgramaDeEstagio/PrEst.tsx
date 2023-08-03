@@ -123,11 +123,12 @@ import { FAQItem } from './FAQ';
     <section className="ContainerProgramadeEstagio">
       <div className="section-head prEst">
         <h4>
-          <span>Gestão de </span>DH
+          <span>Oque é o</span> Programa de Estágio
         </h4>
         <p className="gestaodh">
-          Promover uma gestão do desenvolvimento humano (DH) significa transformar as vivências e habilidades de
-          cada trabalhador em um recurso muito valioso para o crescimento da empresa e do desenvolvimento dos colaboradores
+          Trata-se de um conjunto de atividades e iniciativas por parte de empresas
+          e demais instituições com o objetivo de contribuir com os estudantes em 
+          sua formação profissional, com funções relacionadas a sua futura área de trabalho de forma prática.
         </p>
       </div>
 

@@ -57,7 +57,12 @@
   font-size: 1.1rem;
   color: #333;
 }
+@media (max-width: 1024px) {
+  .Header {
+    font-size: 12px;
+  }
 
+}
 /* CSS responsivo */
 @media (max-width: 1000px) {
   .Header {
