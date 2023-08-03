@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./style.css";
 import { GiRocketThruster } from "react-icons/gi";
-import {  FaBars, FaTimes } from "react-icons/fa";
+import { FaWhatsapp, FaBars, FaTimes,  } from "react-icons/fa";
 import {IoIosArrowDown} from "react-icons/io"
 import { IconContext } from "react-icons/lib";
+import { AiFillFacebook,  AiFillLinkedin, AiFillInstagram, AiFillIeSquare } from 'react-icons/ai';
+
 
 export function Navbar() {
   const [click, setClick] = useState(false);
@@ -17,9 +19,29 @@ export function Navbar() {
       <IconContext.Provider value={{ color: "#fff" }}>
         <nav className="navbar">
           <div className="navbar-container containerNav">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              <GiRocketThruster className="navbar-icon" />
-              Dr.Estágio
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+              {/* Quadrado branco */}
+              <div className="logo-square"></div>
+              <div className="logo-text">Dr.Estágio</div>           
+                 {/* Ícones de redes sociais */}
+              <div className="social-icons">
+                <a href="https://www.facebook.com/">
+                  <AiFillFacebook style={{color:' #ff7417'}} className="social-icon" />
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=seunumerodetelefone">
+                  <FaWhatsapp style={{color:' #ff7417'}} className="social-icon" />
+                </a>
+                <a href="https://www.linkedin.com/">
+                  <AiFillLinkedin style={{color:' #ff7417'}} className="social-icon" />
+                </a>
+                <a href="https://www.instagram.com/">
+                  <AiFillInstagram style={{color:' #ff7417'}} className="social-icon" />
+                </a>
+                <a href="https://www.pinterest.com/">
+                  <AiFillIeSquare style={{color:' #ff7417'}} className="social-icon" />
+                </a>
+              </div>
+              
             </Link>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

@@ -1,3 +1,5 @@
+import {Map} from "../../Contact/map/Map"
+
 export function Eventos () {
-  return <div>oi</div>
+  return <div><Map/></div>
 }

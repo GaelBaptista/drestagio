@@ -36,12 +36,40 @@
   padding-right: 50px;
   padding-left: 50px;
 }
+/* ... Seus estilos existentes ... */
+
+
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px; /* Adicione o espaçamento entre os ícones e o texto */
+  height: 80px;
+  font-size: 2.3rem;
+}
+
+.social-icon {
+   padding: 5px;/* Defina o tamanho dos ícones de redes sociais */
+   
+  margin-right: 10px; /* Adicione o espaçamento entre os ícones */
+  background:#ffffff ;
+  border-radius: 50%;
+}
+.social-icon:hover {
+  font-size: 3rem;
+}
+
+.logo-text {
+  display: none; 
+}
 
 .navbar-logo {
   color: #fff;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
+  height: 80px;
   font-size: 2rem;
   display: flex;
   align-items: center;
@@ -117,9 +145,7 @@
   padding: 8px;
 }
 
-.dropdown-link:hover {
-  
-}
+
 
 /* Adicione esta regra para ajustar a posição do drop menu */
 .nav-item {
@@ -219,5 +245,17 @@
 
   .dropdown-link:hover {
     background-color: #241178;
+  }
+}
+/* ... Seus estilos existentes ... */
+
+/* Novos estilos para a responsividade */
+@media screen and (max-width: 768px) {
+  .logo-text {
+    display: block; /* Mostra o texto "Dr.Estágio" na responsividade */
+  }
+
+  .social-icons {
+    display: none; /* Esconde os ícones de redes sociais na responsividade */
   }
 }
