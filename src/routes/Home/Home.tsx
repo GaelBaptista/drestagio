@@ -8,7 +8,7 @@ import {IoLogoWhatsapp} from 'react-icons/io'
 
 import  { useEffect, useState, ChangeEvent } from 'react';
 import './Home.css';
-import { CardSection } from './cardSection/CardSection'
+import { CardSection } from './CardSection/CardSection'
 
 import { ContactHome } from './ContactHome/ContactHome'
 import { ArticleSection } from './ArtigoSection/Article'
