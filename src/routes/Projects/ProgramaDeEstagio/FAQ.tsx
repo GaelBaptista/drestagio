@@ -1,13 +1,15 @@
 
 import "./PrEst.css";
+import React, { useState } from 'react';
 
-interface FAQItem {
+// Componente para exibir um item do FAQ
+export interface FAQItem {
   question: string;
   answer: string;
   open: boolean;
 }
 
- export function FAQ ({ faq, index, toggleFAQ }: { faq: FAQItem; index: number; toggleFAQ: (index: number) => void })  {
+export function FAQ({ faq, index, toggleFAQ }: { faq: FAQItem; index: number; toggleFAQ: (index: number) => void }) {
   return (
     <div
       className={"faq " + (faq.open ? "open" : "")}
@@ -19,7 +21,6 @@ interface FAQItem {
     </div>
   );
 }
-
 
 
 
