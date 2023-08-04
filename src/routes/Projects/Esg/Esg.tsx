@@ -1,5 +1,5 @@
 import {Map} from "../../Contact/map/Map"
 
-export function Eventos () {
+export function Esg () {
   return <div><Map/></div>
 }

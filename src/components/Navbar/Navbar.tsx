@@ -92,7 +92,7 @@ export function Navbar() {
                 </NavLink>
               </li>
               <li className="nav-item">
-        <Link to="/projects" className="nav-links" onClick={closeMobileMenu}>
+        <Link to="/projects" className="nav-links projectlink" onClick={closeMobileMenu}>
           Projetos <IoIosArrowDown />
         </Link>
         <ul className={click ? "dropdown-menu active" : "dropdown-menu"}>
@@ -111,7 +111,7 @@ export function Navbar() {
               className="dropdown-link"
               onClick={closeMobileMenu}
             >
-              Eventos
+             ESG no Estágio
             </NavLink>
           </li>
           <li>

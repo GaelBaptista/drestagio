@@ -104,6 +104,14 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  margin-right: 5px;
+}
+.nav-links svg {
+  vertical-align: middle;
+}
+
+.projectlink:hover svg {
+  transform: translateY(-3px); /* Ajuste o valor conforme necessário */
 }
 
 .activated {
@@ -133,6 +141,7 @@
   position: absolute;
   top: 100%;
   left: 0;
+  align-items: center;
   background: var(--laranja); /* Use a mesma cor de fundo do menu principal */
   padding: 10px;
   list-style: none;
@@ -143,6 +152,7 @@
   text-decoration: none;
   display: block;
   padding: 8px;
+  font-size: 14px;
 }
 
 

@@ -18,7 +18,7 @@ import { Footer } from "./components/Footer/footer";
 import { Vagas } from "./routes/Vagas/Vagas";
 import { Projects } from "./routes/Projects/projects";
 import { PrEst } from "./routes/Projects/ProgramaDeEstagio/PrEst";
-import { Eventos } from "./routes/Projects/Eventos/eventos";
+import { Esg } from "./routes/Projects/Esg/Esg";
 import { Mais } from "./routes/Projects/Mais/mais";
 
 
@@ -64,7 +64,7 @@ const router = createBrowserRouter([
           },
           {
             path: "eventos",
-            element: <Eventos />,
+            element: <Esg />,
           },
           {
             path: "mais",
