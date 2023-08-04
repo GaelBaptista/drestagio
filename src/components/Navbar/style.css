@@ -112,6 +112,7 @@
 .projectlink {
   width: 131px;
   padding: 1rem;
+  cursor: pointer;
 }
 .projectlink:hover svg {
   transform: translateY(-3px); /* Ajustar o valor conforme necessário */
