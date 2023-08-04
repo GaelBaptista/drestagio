@@ -115,7 +115,6 @@
 }
 .projectlink:hover svg {
   transform: translateY(-3px); /* Ajustar o valor conforme necessário */
-  transform: translatex(-6px); /* Ajustar o valor conforme necessário */
 }
 
 
