@@ -42,8 +42,8 @@ import { FAQItem } from './FAQ';
     const initialCategoryFaqs: { [key: string]: FAQItem[] } = {
       "Benefícios Programa de Estágio": [
         {
-          question: "Benefícios Trabalhistas",
-          answer: "We offer a wide range of services to meet your needs.",
+          question: "Custo reduzido",
+          answer: "Os estagiários geralmente recebem uma bolsa de estágio, que é um valor inferior ao salário de um profissional contratado em tempo integral. Isso pode ajudar a reduzir os custos de contratação para a empresa.",
           open: false,
         },
         {
@@ -51,6 +51,7 @@ import { FAQItem } from './FAQ';
           answer: "You can request a service through our website or by contacting us.",
           open: false,
         },
+        
       ],
       "Carga Horária": [
         {
