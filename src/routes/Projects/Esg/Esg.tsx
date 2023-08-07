@@ -27,7 +27,7 @@ exercendo pressão sobre as empresas. O acrônimo ESG (Ambiental, Social e Gover
 essas áreas. Esses três aspectos  tornaram-se fundamentais para a competitividade em 
 qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
 
-                        <a href="#" style={{color:'#fff'}} className="button">Saiba mais</a>
+                      
 
                     </div>   
                 </div>
@@ -59,8 +59,11 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
                 <div className="security__container grid">
                     <div className="security__data">
                         <h2 className="section__title-center">Talentos em <br/> Formação</h2>
-                        <p className="security__description"> Os jovens em busca de sua primeira experiência corporativa 
-                        em todo o Brasil oferecem inúmeras vantagens como escolha.
+                        <p className="security__description"> O estágio tem se mostrado um grande aliado do ESG  porque é uma maneira 
+                        expressiva de investir no âmbito social, tendo em vista o incentivo à qualificação constante e também à economia. 
+                        Segundo estatística exposta pela Abres, atualmente temos 17,2 milhões de possíveis estagiários  Entretanto, desse número, 
+                        cerca de 5% consegue de fato uma oportunidade como essa. São jovens por todo o 
+                        Brasil em busca de uma primeira experiência na dimensão corporativa e existem inúmeras vantagens de escolhê-los. Confira Abaixo:
                         </p>
                     </div>
 <img className="svg__img svg__color" src={securytIlustraction} alt="" />
@@ -423,9 +426,12 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
                 <div className="app__container grid">
                     <div className="app__data">
                         <h2 className="section__title-center">ESG e Estágio:<br/> Sustentabilidade em Formação </h2>
-                        <p className="app__description">O ESG, composto por critérios ambientais, sociais e de governança, tem se mostrado vital nos investimentos. 
-                        O estágio é um aliado significativo desse conceito, permitindo que 
-                        estudantes adquiram experiência remunerada e contribuam para metas corporativas, gerando benefícios mútuos de sustentabilidade e inovação.</p>
+                        <p className="app__description">A união entre estágio e os princípios ESG oferece uma trajetória repleta de 
+                        benefícios recíprocos. Ao proporcionar aos estagiários a chance de contribuir para metas de sustentabilidade, 
+                        inclusão e ética, as empresas não apenas investem no desenvolvimento profissional da nova geração, mas também 
+                        nutrem um ecossistema de inovação e responsabilidade. Essa colaboração transforma estágios em jornadas 
+                        significativas, gerando impacto tangível para a sociedade, o meio ambiente
+                        e o futuro dos negócios, moldando uma realidade onde a aprendizagem e a mudança positiva caminham de mãos dadas.</p>
                        
                     </div>
                           <img className="svg__img svg__color app__img" src={footerIlustraction} alt="" />

@@ -35,9 +35,7 @@ export function Navbar() {
                 <a href="https://www.facebook.com/">
                   <AiFillInstagram style={{ color: '#ff7417' }} className="social-icon" />
                 </a>
-                <a href="https://www.facebook.com/">
-                  <AiFillIeSquare style={{ color: '#ff7417' }} className="social-icon" />
-                </a>
+               
                 <a href="https://www.facebook.com/">
                   <FaWhatsapp style={{ color: '#ff7417' }} className="social-icon" />
                 </a>
@@ -66,7 +64,7 @@ export function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  Contato
+                  Contatos
                 </NavLink>
               </li>
               <li className="nav-item">

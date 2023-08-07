@@ -11,24 +11,24 @@ import { FAQItem } from './FAQ';
 
 
   export function PrEst() {
-    const [faqs, setFaqs] = useState<FAQItem[]>([
-      {
-        question: "Benefícios Trabalhistas",
-        answer:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida. Sed porta id mi sit amet convallis. Etiam iaculis massa sit amet lacus blandit sodales. Nulla ultrices velit a diam placerat congue. Pellentesque iaculis, ipsum quis eleifend dapibus, est dui eleifend ante, quis fermentum mi ligula quis nisl. Ut et ex dui. Integer id venenatis quam.",
-        open: true,
-      },
-      {
-        question: "Who is the most awesome person?",
-        answer: "You! The viewer!",
-        open: false,
-      },
-      {
-        question: "How many questions does it take to make a successful FAQ Page?",
-        answer: "This many!",
-        open: false,
-      },
-    ]);
+    // const [faqs, setFaqs] = useState<FAQItem[]>([
+    //   {
+    //     question: "Benefícios Trabalhistas",
+    //     answer:
+    //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida. Sed porta id mi sit amet convallis. Etiam iaculis massa sit amet lacus blandit sodales. Nulla ultrices velit a diam placerat congue. Pellentesque iaculis, ipsum quis eleifend dapibus, est dui eleifend ante, quis fermentum mi ligula quis nisl. Ut et ex dui. Integer id venenatis quam.",
+    //     open: true,
+    //   },
+    //   {
+    //     question: "Who is the most awesome person?",
+    //     answer: "You! The viewer!",
+    //     open: false,
+    //   },
+    //   {
+    //     question: "How many questions does it take to make a successful FAQ Page?",
+    //     answer: "This many!",
+    //     open: false,
+    //   },
+    // ]);
   
     const categories = [
       "Benefícios Programa de Estágio",
@@ -48,34 +48,34 @@ import { FAQItem } from './FAQ';
         },
         {
           question: "Renovação de talentos",
-          answer: ": Contratar estagiários permite que a empresa atraia talentos jovens e recém-formados, trazendo novas ideias, perspectivas e habilidades para a equipe.",
+          answer: "Contratar estagiários permite que a empresa atraia talentos jovens e recém-formados, trazendo novas ideias, perspectivas e habilidades para a equipe.",
           open: false,
         },
         {
-          question: "Treinamento e desenvolvimento",
-          answer: ": Os estagiários são excelentes candidatos para treinamento e desenvolvimento, pois ainda estão em fase de aprendizado e podem ser moldados de acordo com as necessidades da empresa.",
+          question: "Treinamentos e desenvolvimentos",
+          answer: "Os estagiários são excelentes candidatos para treinamento e desenvolvimento, pois ainda estão em fase de aprendizado e podem ser moldados de acordo com as necessidades da empresa.",
           open: false,
         },
         
         {
           question: "Flexibilidade",
-          answer: ": Os contratos de estágio normalmente têm uma duração pré-definida, o que oferece à empresa maior flexibilidade ao contratar pessoas para projetos específicos ou períodos de demanda temporária.",
+          answer: "Os contratos de estágio normalmente têm uma duração pré-definida, o que oferece à empresa maior flexibilidade ao contratar pessoas para projetos específicos ou períodos de demanda temporária.",
           open: false,
         },
         
         {
           question: "Prospecção de talentos",
-          answer: ": Contratar estagiários permite que a empresa avalie potenciais futuros funcionários, possibilitando a identificação dos mais talentosos e adequados para a cultura organizacional.",
+          answer: "Contratar estagiários permite que a empresa avalie potenciais futuros funcionários, possibilitando a identificação dos mais talentosos e adequados para a cultura organizacional.",
           open: false,
         },
         {
           question: "Aprendizado mútuo",
-          answer: ": Os estagiários trazem consigo conhecimentos atualizados e uma perspectiva fresca, mas também têm a oportunidade de aprender com os profissionais experientes da empresa.",
+          answer: "Os estagiários trazem consigo conhecimentos atualizados e uma perspectiva fresca, mas também têm a oportunidade de aprender com os profissionais experientes da empresa.",
           open: false,
         },
          {
           question: "Incentivo fiscal",
-          answer: ":Dependendo da legislação trabalhista local, pode haver incentivos fiscais para empresas que contratam estagiários.",
+          answer: "Dependendo da legislação trabalhista local, pode haver incentivos fiscais para empresas que contratam estagiários.",
           open: false,
         },
         
@@ -89,7 +89,7 @@ import { FAQItem } from './FAQ';
         },
         {
           question: "De 06 (seis) a 10 (dez) CLT  ",
-          answer: " 02 (dois) estagiários.",
+          answer: "02 (dois) estagiários.",
           open: false,
         },
         {
@@ -197,6 +197,7 @@ import { FAQItem } from './FAQ';
             </div>
           ))}
         </div>
+       
       </div>
 
       <div className="faqs faq-grid">
