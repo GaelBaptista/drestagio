@@ -46,7 +46,7 @@ export function ArticleSection() {
       {cards.map((card) => (
         <a key={card.num} className="cardArticle" href={card.link}  target="_blank" rel="noopener noreferrer" style={{ background: `url(${card.image})` }}>
           <div className='inforArticle'>
-            <h1>{card.title}</h1>
+            <h1 >{card.title}</h1>
             <p>{card.description}</p>
             <div className="date">{card.date}</div>
             <div className="tags">

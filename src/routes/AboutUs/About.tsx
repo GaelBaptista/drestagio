@@ -194,7 +194,7 @@ export function About() {
         <div className="iconAbout">
           <MdGroups2 />
         </div>
-        <h2 className="titleAbout">Alguma dúvida?</h2>
+        <h2 className="titleAbout" style={{color:'#fff'}}>Alguma dúvida?</h2>
         <p className="textAbout">Fale com nossa equipe:</p>
         <button className="contact-btnAbout-orange">
           <AiOutlineArrowRight /> Fale Conosco
@@ -204,7 +204,7 @@ export function About() {
         <div className="iconAbout">
           <MdEmail/>
         </div>
-        <h2 className="titleAbout">Mande um E-mail</h2>
+        <h2 className="titleAbout" style={{color:'#fff'}}>Mande um E-mail</h2>
         <p className="textAbout">Escreva para nossa equipe</p>
         <button className="contact-btnAbout-blue">
           <AiOutlineArrowRight /> Fale Conosco

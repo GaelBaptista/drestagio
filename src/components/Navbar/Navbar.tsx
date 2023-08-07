@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./style.css";
-import { GiRocketThruster } from "react-icons/gi";
 import { FaWhatsapp, FaBars, FaTimes } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import { IconContext } from "react-icons/lib";
@@ -30,6 +29,18 @@ export function Navbar() {
                   <AiFillFacebook style={{ color: '#ff7417' }} className="social-icon" />
                 </a>
                 {/* Resto dos ícones de redes sociais */}
+                <a href="https://www.facebook.com/">
+                  <AiFillLinkedin style={{ color: '#ff7417' }} className="social-icon" />
+                </a>
+                <a href="https://www.facebook.com/">
+                  <AiFillInstagram style={{ color: '#ff7417' }} className="social-icon" />
+                </a>
+                <a href="https://www.facebook.com/">
+                  <AiFillIeSquare style={{ color: '#ff7417' }} className="social-icon" />
+                </a>
+                <a href="https://www.facebook.com/">
+                  <FaWhatsapp style={{ color: '#ff7417' }} className="social-icon" />
+                </a>
               </div>
             </Link>
             <div className="menu-icon" onClick={handleClick}>

@@ -32,10 +32,10 @@ import { FAQItem } from './FAQ';
   
     const categories = [
       "Benefícios Programa de Estágio",
-      "Carga Horária",
-      "Estágio",
-      "Recisão",
-      "Todos"
+      "Estagiários por CLT",
+      "Benefícios Sociais",
+      "Benefícios Trabalhistas",
+      "Como Aderir ao programa de estágio:"
       // Adicione mais categorias aqui, se necessário
     ];
   
@@ -47,39 +47,88 @@ import { FAQItem } from './FAQ';
           open: false,
         },
         {
-          question: "Benefícios sociais",
-          answer: "You can request a service through our website or by contacting us.",
+          question: "Renovação de talentos",
+          answer: ": Contratar estagiários permite que a empresa atraia talentos jovens e recém-formados, trazendo novas ideias, perspectivas e habilidades para a equipe.",
+          open: false,
+        },
+        {
+          question: "Treinamento e desenvolvimento",
+          answer: ": Os estagiários são excelentes candidatos para treinamento e desenvolvimento, pois ainda estão em fase de aprendizado e podem ser moldados de acordo com as necessidades da empresa.",
           open: false,
         },
         
-      ],
-      "Carga Horária": [
         {
-          question: "Do you provide installation services?",
-          answer: "Yes, we offer professional installation services for all our products.",
+          question: "Flexibilidade",
+          answer: ": Os contratos de estágio normalmente têm uma duração pré-definida, o que oferece à empresa maior flexibilidade ao contratar pessoas para projetos específicos ou períodos de demanda temporária.",
           open: false,
         },
-      ],
-      "Estágio": [
+        
         {
-          question: "What are your pricing plans?",
-          answer: "We have flexible pricing plans to suit different budgets.",
+          question: "Prospecção de talentos",
+          answer: ": Contratar estagiários permite que a empresa avalie potenciais futuros funcionários, possibilitando a identificação dos mais talentosos e adequados para a cultura organizacional.",
           open: false,
         },
         {
-          question: "Do you offer a free trial?",
-          answer: "Yes, we offer a free trial period for new users.",
+          question: "Aprendizado mútuo",
+          answer: ": Os estagiários trazem consigo conhecimentos atualizados e uma perspectiva fresca, mas também têm a oportunidade de aprender com os profissionais experientes da empresa.",
           open: false,
         },
+         {
+          question: "Incentivo fiscal",
+          answer: ":Dependendo da legislação trabalhista local, pode haver incentivos fiscais para empresas que contratam estagiários.",
+          open: false,
+        },
+        
+        
       ],
-      "Recisão": [
+      "Estagiários por CLT": [
         {
-          question: "What features are included?",
-          answer: "Our product comes with a variety of powerful features to enhance your experience.",
+          question: "De 01 (um) a 05 (cinco) CLT ",
+          answer: "01 (um) estagiário.",
+          open: false,
+        },
+        {
+          question: "De 06 (seis) a 10 (dez) CLT  ",
+          answer: " 02 (dois) estagiários.",
+          open: false,
+        },
+        {
+          question: "De 11 (onze) a 25 (vinte e cinco) CLT  ",
+          answer: "até 05 (cinco) estagiários",
+          open: false,
+        },
+        {
+          question: "Acima de 25 (vinte e cinco) CLT  ",
+          answer: "até 20% (vinte por cento) de estagiários.",
           open: false,
         },
       ],
-      "Todos": [
+      "Benefícios Sociais": [
+        {
+          question: "Contribuição para a formação de futuros profissionais",
+          answer: "Ao oferecer oportunidades de estágio, as empresas ajudam na formação de jovens talentos, preparando-os para o mercado de trabalho e contribuindo para a capacitação de futuros profissionais.",
+          open: false,
+        },
+        {
+          question: "Fortalecimento da imagem da empresa",
+          answer: "Empresas que oferecem programas de estágio bem estruturados e valorizam o desenvolvimento profissional dos estagiários tendem a ganhar uma imagem positiva perante a sociedade e até mesmo potenciais clientes.",
+          open: false,
+        },
+        {
+          question: "Integração entre gerações",
+          answer: "A presença de estagiários pode promover a integração entre diferentes gerações de funcionários na empresa. Os estagiários podem trazer perspectivas frescas e atualizadas, enquanto os funcionários mais experientes podem compartilhar seus conhecimentos e sabedoria.",
+          open: false,
+        },
+      ],
+      "Benefícios Trabalhistas": [
+        {
+          question: "O Caráter Formativo do Estágio",
+          answer: "O estágio tem um caráter educacional e formativo, com o objetivo de proporcionar ao estudante a oportunidade de aplicar e aprimorar seus conhecimentos teóricos na prática profissional. O estagiário recebe uma bolsa-auxílio como forma de contraprestação pelo seu trabalho, que não é considerada um salário, e não estão previstos direitos trabalhistas, como FGTS, férias remuneradas ou 13º salário .",
+          open: false,
+        },
+    
+      ],
+      "Como Aderir ao programa de estágio:": [
         {
           question: "Is your app available for mobile devices?",
           answer: "Yes, our app is available for both iOS and Android devices.",

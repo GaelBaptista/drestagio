@@ -69,7 +69,7 @@ html {
   transition: .5s;
 }
 
-h1, h2, h3 {
+.bodyESG h1,h2,h3 {
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
   line-height: 1.5;
@@ -89,30 +89,7 @@ img {
 }
 
 /*=============== THEME ===============*/
-/*========== Variables Dark theme ==========*/
-.bodyESG.dark-theme {
-  --first-color-light: hsl(var(--hue), var(--sat), 75%);
-  --title-color: hsl(var(--hue), 4%, 95%);
-  --text-color: hsl(var(--hue), 4%, 80%);
-  --.bodyESG-color: hsl(var(--hue), 8%, 13%);
-  --container-color: hsl(var(--hue), 8%, 16%);
-  --scroll-bar-color: hsl(var(--hue), 4%, 32%);
-  --scroll-thumb-color: hsl(var(--hue), 4%, 24%);
-}
 
-/*========== Button Dark/Light ==========*/
-.change-theme {
-  position: absolute;
-  right: 1.5rem;
-  top: 2.2rem;
-  color: var(--title-color);
-  font-size: 1.8rem;
-  cursor: pointer;
-}
-
-.dark-theme .footer {
-  background-color: var(--container-color);
-}
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
@@ -151,79 +128,9 @@ img {
   gap: 1.5rem;
 }
 
-/*=============== HEADER ===============*/
-.header {
-  width: 100%;
-  background-color: var(--.bodyESG-color);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: var(--z-fixed);
-  transition: .5s;
-}
 
-/*=============== NAV ===============*/
-.nav {
-  height: var(--header-height);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-@media screen and (max-width: 767px) {
-  .nav__menu {
-    position: fixed;
-    background-color: var(--container-color);
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
-    padding: 2.5rem 0;
-    width: 90%;
-    top: -100%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    transition: .4s;
-    border-radius: 2rem;
-    z-index: var(--z-fixed);
-  }
-}
 
-.nav__list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  row-gap: 1.5rem;
-}
-
-.nav__link, .nav__logo, .nav__toggle {
-  color: var(--title-color);
-  font-weight: var(--font-semi-bold);
-}
-
-.nav__toggle {
-  font-size: 1.3rem;
-  cursor: pointer;
-}
-
-/* Show menu */
-.show-menu {
-  top: calc(var(--header-height) + 1rem);
-}
-
-/* Active link */
-.active-link {
-  position: relative;
-}
-
-.active-link::before {
-  content: '';
-  position: absolute;
-  bottom: -.75rem;
-  left: 45%;
-  width: 5px;
-  height: 5px;
-  background-color: var(--title-color);
-  border-radius: 50%;
-}
 
 /* Change background header */
 .scroll-header {
@@ -249,7 +156,7 @@ img {
 .button {
   display: inline-block;
   background-color: var(--first-color);
-  color: #1A1A1A;
+  
   padding: .75rem 1.5rem;
   border-radius: 3rem;
   font-weight: var(--font-semi-bold);
@@ -368,59 +275,11 @@ img {
   color: var(--text-color);
 }
 
-/*=============== FOOTER ===============*/
-.footer {
-  background-color: var(--first-color-lighten);
-  padding-bottom: 2rem;
-}
 
-.footer__container {
-  row-gap: 2rem;
-}
 
-.footer__logo, .footer__title {
-  font-size: var(--h3-font-size);
-  margin-bottom: var(--mb-0-75);
-}
-
-.footer__logo {
-  display: inline-block;
-  font-weight: var(--font-semi-bold);
-  color: var(--title-color);
-}
-
-.footer__description, .footer__link {
-  font-size: var(--small-font-size);
-}
-
-.footer__links {
-  display: grid;
-  row-gap: .5rem;
-}
-
-.footer__link {
-  color: var(--title-color);
-}
-
-.footer__social {
-  display: flex;
-  column-gap: 1.5rem;
-}
-
-.footer__social-link {
-  font-size: 1.25rem;
-  color: var(--title-color);
-}
-
-.footer__copy {
-  margin-top: 6rem;
-  text-align: center;
-  font-size: var(--smaller-font-size);
-  color: var(--text-color);
-}
 
 /*=============== SCROLL UP ===============*/
-.scrollup {
+/* .scrollup {
   position: fixed;
   background: var(--first-color);
   right: 1rem;
@@ -443,12 +302,12 @@ img {
   color: var(--title-color);
 }
 
-/* Show Scroll Up*/
+/* Show Scroll Up
 .show-scroll {
   bottom: 3rem;
 }
 
-/*=============== SCROLL BAR ===============*/
+/*=============== SCROLL BAR ===============*
 ::-webkit-scrollbar {
   width: .6rem;
   border-radius: .5rem;
@@ -462,7 +321,7 @@ img {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--text-color-light);
-}
+} */
 
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */

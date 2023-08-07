@@ -18,10 +18,14 @@ export function Esg () {
                     <img className="svg__img svg__color home__img" src={homeIlustraction} alt="" />
 
                     <div className="home__data">
-                        <h1 className="home__title">Oque é ESG ? </h1>
-                        <p className="home__description">ESG é um conceito de investimento que equilibra aspectos ambientais, sociais e 
-                        de governança nos negócios para garantir competitividade e longevidade. 
-                        Refere-se a um modelo de negócios responsável e sustentável, considerado por investidores na análise de empresas.</p>
+                        <h1 className="home__title">O Crescente Impacto do ESG </h1>
+                        <p className="home__description">
+
+Recentemente, o termo ESG ganhou destaque devido à crescente preocupação do mercado financeiro com a sustentabilidade. 
+Questões ambientais, sociais e de governança passaram a ser essenciais nas análises de risco e decisões de investimento, 
+exercendo pressão sobre as empresas. O acrônimo ESG (Ambiental, Social e Governança) estabelece práticas empresariais ligadas a 
+essas áreas. Esses três aspectos  tornaram-se fundamentais para a competitividade em 
+qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
 
                         <a href="#" style={{color:'#fff'}} className="button">Saiba mais</a>
 
@@ -433,9 +437,9 @@ export function Esg () {
                     </div>
 
                     <ul className="contact__content grid">
-                        <li className="contact__address">Telephone: <span className="contact__information">999 - 888 - 777</span></li>
-                        <li className="contact__address">Email:  <span className="contact__information">delivery@email.com</span></li>
-                        <li className="contact__address">Location: <span className="contact__information">Lima - Peru</span></li>
+                        <li className="contact__address">Telephone: <br/> <span className="contact__information">(85) 99247-7241</span></li>
+                        <li className="contact__address">Email:<br/>   <span className="contact__information">comercial@drestagio.com.br</span></li>
+                        <li className="contact__address">Location:<br/>  <span className="contact__information">Pacajus- Ceará</span></li>
                     </ul>
 
                     <div className="contact__content">

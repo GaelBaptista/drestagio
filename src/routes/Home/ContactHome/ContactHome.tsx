@@ -12,7 +12,7 @@ export function ContactHome() {
       
         <div className="infos">
           
-          <h2 className="text-white"> Solicite uma visita de nossos Representantes</h2>
+          <h2 className="text-white" style={{color: '#fff'}}> Solicite uma visita de nossos Representantes</h2>
           <p className="para">
           Atendimento online e presencial
           </p>

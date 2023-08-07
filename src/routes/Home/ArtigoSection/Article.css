@@ -70,6 +70,7 @@ a {
   margin: 0;
   font-size: 1.5em;
   line-height: 1.2em;
+  
 }
 
 .cardArticle p {
@@ -140,6 +141,7 @@ a {
   width: 200%;
   height: 200%;
 }
+
 
 .cardArticle:hover {
   color: var(--color);
