@@ -36,9 +36,15 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
             <section className="about section container" id="about">
                 <div className="about__container grid">
                     <div className="about__data">
-                        <h2 className="section__title-center">Estágio e o <br/> Índice ESG</h2>
-                        <p className="about__description">O estágio é um forte aliado do ESG, pois representa um investimento significativo 
-                          no âmbito social, promovendo incentivos à qualificação contínua e à economia. 
+                        <h2 className="section__title-center">O Estágio e seu Papel  <br/> Essencial no ESG</h2>
+                        <p className="about__description">O termo ESG (Ambiental, Social e Governança) ganha relevância no mundo 
+                        empresarial atual. O estágio, no contexto do ESG, assume um papel significativo. Ele investe no social, 
+                        permitindo que estagiários adquiram experiência e habilidades valiosas, contribuindo para uma força de trabalho 
+                        qualificada. O estágio também incentiva a aprendizagem contínua, mantendo profissionais atualizados e versáteis.
+                        Além disso, abordagens sustentáveis durante os programas de estágio promovem conscientização ambiental. 
+                        A prática do estágio reflete a governança corporativa, destacando transparência e ética. Em resumo, o estágio 
+                        vai além da educação, alinhando-se
+                         aos princípios ESG e moldando profissionais, promovendo sustentabilidade e fortalecendo práticas de governança.
                        
                         </p>
                     </div>
