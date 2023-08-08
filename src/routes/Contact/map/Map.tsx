@@ -72,7 +72,7 @@ export function Map () {
           />
         </g>
       
-        <g className="map-region">
+        <g className="map-region" fill="#FF6609" fill-rule="evenodd" stroke="#ccc" stroke-linejoin="round" stroke-width="1.5">
           <path
             className="rioGrandeDoNorte"
             d="m528.89 172.46l0.35-5.3826-2.254-3.1694-1.3833-8.5519-17.267-0.2197-8.2834-5.8179-11.522 17.348 6.8351 3.9383 9.3087-2.7015 0.7161 6.4119 5.6633 0.2929 0.1953-5.8261 17.641 3.6779z"

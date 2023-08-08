@@ -21,7 +21,8 @@
   padding: 10px;
   border-radius: 5px;
 }
+.rioGrandeDoNorte:hover,
 .ceara:hover{
-  fill:blue;
+  fill:#121242;
   cursor:pointer
 }
