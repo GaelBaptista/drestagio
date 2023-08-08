@@ -1,3 +1,5 @@
+import { Map } from "../../Contact/map/Map";
+
 export function Mais () {
-  return <div>dasfsd</div>
+  return <Map/>
 }
