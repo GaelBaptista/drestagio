@@ -54,7 +54,7 @@ export function Vagas () {
           </Slider>
       </div>
 
-      <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" className="bg2" />
+      {/* <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" className="bg2" /> */}
     </section>
   );
 }
