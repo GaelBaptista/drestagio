@@ -24,5 +24,7 @@
 .rioGrandeDoNorte:hover,
 .ceara:hover{
   fill:#121242;
-  cursor:pointer
+  cursor:pointer;
+  transition: 0.5s;
+
 }
