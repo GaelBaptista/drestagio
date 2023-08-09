@@ -1,4 +1,6 @@
-import React from "react";
+
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
@@ -21,18 +23,27 @@ import { PrEst } from "./routes/Projects/ProgramaDeEstagio/PrEst";
 import { Esg } from "./routes/Projects/Esg/Esg";
 import { Mais } from "./routes/Projects/Mais/mais";
 
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
 
 const AppLayout = () => {
   return (
     <>
-    <Header/>
+      <Header />
       <Navbar />
+      <ScrollToTop /> {/*  controlar a rolagem */}
       <Outlet />
-      <Footer/>
+      <Footer />
     </>
   );
 };
-
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
