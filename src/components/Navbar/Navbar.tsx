@@ -25,12 +25,12 @@ export function Navbar() {
               <div className="logo-text">Dr.Estágio</div>
               {/* Ícones de redes sociais */}
               <div className="social-icons">
-                <a href="https://www.facebook.com/">
+                <a href="https://www.facebook.com/" >
                   <AiFillFacebook style={{ color: '#ff7417' }} className="social-icon" />
                 </a>
                 {/* Resto dos ícones de redes sociais */}
                 <a href="https://www.facebook.com/">
-                  <AiFillLinkedin style={{ color: '#ff7417' }} className="social-icon" />
+                  <AiFillLinkedin style={{ color: '#ff7417'}} className="social-icon " />
                 </a>
                 <a href="https://www.facebook.com/">
                   <AiFillInstagram style={{ color: '#ff7417' }} className="social-icon" />

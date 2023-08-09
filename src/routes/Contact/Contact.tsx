@@ -7,7 +7,11 @@ import {AiFillClockCircle} from "react-icons/ai"
 import'./contact.css'
 
 
+
+
 function Contact() {
+  const recipientEmail = "comercial@drestagio.com.br";
+  const mailtoLink = `mailto:${recipientEmail}`;
   return (
 <>
     <section className="contact">
@@ -35,7 +39,7 @@ function Contact() {
      <div className="content">
       <h2>Envie um E-mail!</h2>
       <span>Envie seu e-mail para nossos agentes  </span>
-      <a href="#">Enviar E-mail</a>
+      <a href={mailtoLink}>Enviar E-mail</a>
      </div>
     </div>
   </div>
@@ -62,9 +66,9 @@ function Contact() {
 {/*========================================================MAPA============================================================== */}
 <section className="section-map">
   <div className="section-map--area">
-    <div className="section-map--info">
+    <div  className="section-map--info">
       <h2>Informações de Contato</h2>
-      <div className="section-map--info-item">
+      <div  className="section-map--info-item">
         <div className="section-map--info-item-img" style={{backgroundColor: '#121242'}}  >
           <BsFillTelephoneFill style={{color:'white', fontSize:'24px'}} />
         </div>

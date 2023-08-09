@@ -98,10 +98,13 @@
   background: var(--laranja);
   color: white;
   font-weight: 500;
+  transition: all 0.25s ease;
+border-radius:5px;
 }
 
 .containerContact .card .content a:hover {
   opacity: 0.8;
+
 }
 @media (max-width: 480px) {
   .containerContact .card {
@@ -147,7 +150,7 @@
 
 /*==============================================================MAPA=============================================================*/ 
 .section-map {
-  background-color: #121242;
+
   background-size: cover;
   background-position: center;
   padding-top: 30px;
@@ -193,7 +196,7 @@
   justify-content: center;
   align-items: center;
   padding: 5px;
-  background-color: #121242; /* Mudei para a cor #121242 */
+ 
   border-radius: 50%; /* Transformando em um círculo */
   margin-right: 15px;
 }

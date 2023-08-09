@@ -69,7 +69,7 @@ html {
   transition: .5s;
 }
 
-.bodyESG h1,h2,h3 {
+.bodyESG .section__title-center {
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
   line-height: 1.5;

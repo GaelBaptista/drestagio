@@ -51,13 +51,13 @@
 
 .social-icon {
    padding: 5px;/* Defina o tamanho dos ícones de redes sociais */
-   
+   transition: all 0.25s ease;
   margin-right: 10px; /* Adicione o espaçamento entre os ícones */
   background:#ffffff ;
-  border-radius: 50%;
+  border-radius: 50%; 
 }
 .social-icon:hover {
-  font-size: 3rem;
+  transform: scale(1.5);
 }
 
 .logo-text {
