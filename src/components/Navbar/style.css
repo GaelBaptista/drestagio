@@ -86,15 +86,19 @@
   list-style: none;
   text-align: center;
   justify-content: flex-end;
+
 }
 
 .nav-item {
   /* height: 80px;  */    /* esta fazendo o menu subir */
   border-bottom: 2px solid transparent;
+
 }
 
 .nav-item:hover {
   color: #121242;
+
+
 }
 
 .nav-links {
