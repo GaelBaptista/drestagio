@@ -47,10 +47,14 @@ export function Map () {
   return (
     <section className="sectionMapSVG">
       <div className="section-head ">
-          <h4><span>Gestão de </span> DH</h4>
-          <p className='gestaodh'>Promover uma gestão do desenvolvimento humano (DH) significa transformar as vivências e habilidades de
-            cada trabalhador em um recurso muito valioso para o crescimento da empresa e do desenvolvimento dos colaboradores
-
+          <h4><span>Nosso Alcance </span>Geográfico</h4>
+          <p className='gestaodh'>
+          Exploramos uma ampla paisagem de oportunidades, estendendo nossos serviços para diversas cidades onde 
+          operam nossos conveniados. Com um compromisso de excelência, atendemos a regiões variadas, unindo esforços para 
+          levar nossas soluções aos quatro cantos e servir às necessidades de todos os nossos clientes.
+          No Rio Grande do Norte (RN), colaboramos com duas empresas líderes, incluindo uma rede de 40 lojas, alinhada à 
+          nossa visão de sucesso. Essa parceria fortalece nosso alcance e impacto, impulsionando o desenvolvimento 
+          econômico e social na comunidade do RN.
           </p>
         </div>
     <div className="map-container">

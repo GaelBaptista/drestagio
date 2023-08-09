@@ -24,7 +24,7 @@ function Contact() {
      <div className="content">
       <h2>Fale Conosco!</h2>
       <span>Tire suas dúvidas conosco  </span>
-      <a href="#">Converse conosco</a>
+      <a href="https://wa.me/message/SUGMGVU6UMJOD1"  target="_blank" rel="noopener noreferrer">Converse conosco</a>
      </div>
     </div>
   </div>
@@ -57,7 +57,7 @@ function Contact() {
      <div className="content">
       <h2>Envie Seu currículo   !</h2>
       <span>Entre para nosso Banco de Dados!  </span>
-      <a href="#">Enviar Currículo</a>
+      <a href="https://drestagio.gupy.io/job/eyJzb3VyY2UiOiJndXB5X3B1YmxpY19wYWdlIiwiam9iSWQiOjUxMzE1MzR9?jobBoardSource=gupy_public_page"  target="_blank" rel="noopener noreferrer">Enviar Currículo</a>
      </div>
     </div>
   </div>
@@ -72,13 +72,13 @@ function Contact() {
         <div className="section-map--info-item-img" style={{backgroundColor: '#121242'}}  >
           <BsFillTelephoneFill style={{color:'white', fontSize:'24px'}} />
         </div>
-        <h3><a href="#"> Telefone : +55 85 9247-7241</a></h3>
+        <h3><a href="https://wa.me/message/SUGMGVU6UMJOD1"  target="_blank" rel="noopener noreferrer"> Telefone : +55 85 9247-7241</a></h3>
       </div>
       <div className="section-map--info-item">
         <div className="section-map--info-item-img" style={{backgroundColor: '#121242'}}>
           <MdEmail style={{color:'white', fontSize:'24px'}} />
         </div>
-        <h3><a href="#">E-mail: contato@drestagio.com.br</a></h3>
+        <h3><a href={mailtoLink}>E-mail: contato@drestagio.com.br</a></h3>
       </div>
       <div className="section-map--info-item">
         <div className="section-map--info-item-img" style={{backgroundColor: '#121242'}}>

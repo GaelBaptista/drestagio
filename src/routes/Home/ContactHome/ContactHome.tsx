@@ -17,7 +17,7 @@ export function ContactHome() {
           Atendimento online e presencial
           </p>
             <button>
-            <a href="#" className="btn btn-purple btn-effect">
+            <a href="https://wa.me/message/SUGMGVU6UMJOD1" target="_blank" rel="noopener noreferrer" className="btn btn-purple btn-effect">
               Fale Conosco
               </a>
             </button>
@@ -27,7 +27,7 @@ export function ContactHome() {
         <div className="contact-info">
          
     <i ><BsFillPersonFill className="large-icon"/></i>
-    <a href="#"><p className="phone-number">+55 (85) 99247-7241</p></a> 
+    <a href="https://wa.me/message/SUGMGVU6UMJOD1" target="_blank" rel="noopener noreferrer"><p className="phone-number">+55 (85) 99247-7241</p></a> 
   </div>
        
   

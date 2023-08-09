@@ -130,15 +130,11 @@ import { FAQItem } from './FAQ';
       ],
       "Como Aderir ao programa de estágio:": [
         {
-          question: "Is your app available for mobile devices?",
-          answer: "Yes, our app is available for both iOS and Android devices.",
+          question: "Termos de Convênio",
+          answer: "A adesão do Programa de estágio é formalizada por meio de termos de convênios esses termos estabelecem as bases e as responsabilidades de cada parte envolvida no estágio sendo uma forma de garantir transparência e segurança para todas as partes envolvidas no processo de estágio.",
           open: false,
         },
-        {
-          question: "Can I use the app offline?",
-          answer: "Yes, you can use some features of the app offline.",
-          open: false,
-        },
+      
       ],
       // Adicione mais categorias aqui, se necessário
     };

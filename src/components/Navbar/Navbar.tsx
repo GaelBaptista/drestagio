@@ -4,7 +4,8 @@ import "./style.css";
 import { FaWhatsapp, FaBars, FaTimes } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import { IconContext } from "react-icons/lib";
-import { AiFillFacebook, AiFillLinkedin, AiFillInstagram, AiFillIeSquare } from 'react-icons/ai';
+import { AiFillFacebook, AiFillLinkedin, AiFillInstagram,  } from 'react-icons/ai';
+
 
 export function Navbar() {
   const [click, setClick] = useState(false);
@@ -19,28 +20,33 @@ export function Navbar() {
       <IconContext.Provider value={{ color: "#fff" }}>
         <nav className="navbar">
           <div className="navbar-container containerNav">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            {/* icones menu */}
+            <div  className="navbar-logo" onClick={closeMobileMenu}>
               {/* Quadrado branco */}
               <div className="logo-square"></div>
               <div className="logo-text">Dr.Estágio</div>
               {/* Ícones de redes sociais */}
               <div className="social-icons">
-                <a href="https://www.facebook.com/" >
+                <a href="https://www.facebook.com/DrEstagios" target="_blank" rel="noopener noreferrer" >
                   <AiFillFacebook style={{ color: '#ff7417' }} className="social-icon" />
                 </a>
                 {/* Resto dos ícones de redes sociais */}
-                <a href="https://www.facebook.com/">
+                <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
                   <AiFillLinkedin style={{ color: '#ff7417'}} className="social-icon " />
                 </a>
-                <a href="https://www.facebook.com/">
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                   <AiFillInstagram style={{ color: '#ff7417' }} className="social-icon" />
                 </a>
                
-                <a href="https://www.facebook.com/">
+                <a href="https://wa.me/message/SUGMGVU6UMJOD1" target="_blank" rel="noopener noreferrer">
                   <FaWhatsapp style={{ color: '#ff7417' }} className="social-icon" />
                 </a>
               </div>
-            </Link>
+            </div>
+
+
+
+            {/* menu */}
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </div>
@@ -119,7 +125,7 @@ export function Navbar() {
                         className="dropdown-link"
                         onClick={closeMobileMenu}
                       >
-                        Mais
+                       Nosso Mapa
                       </NavLink>
                     </li>
                   </ul>

@@ -392,7 +392,7 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
                         <p className="services__description">Primeira experiência remunerada para estudantes, 
                         proporcionando inserção na vida adulta pelo trabalho.</p>
                         <div>
-                            {/* <a href="#" className="button button-link">Learn More</a> */}
+                           
                         </div>
                     </div>
 
@@ -404,7 +404,7 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
                         <p className="services__description">Estagiários são altamente motivados e impulsionados a "fazer acontecer", 
                                         contribuindo para metas internas e aumentando a produtividade.</p>
                         <div>
-                            {/* <a href="#" className="button button-link">Learn More</a> */}
+                          
                         </div>
                     </div>
 
@@ -415,7 +415,7 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
                         <p className="services__description">Ao contar com esses discentes, a marca passa a ter um time de alto desempenho, 
                         trazendo pluralidade e inovação. </p>
                         <div>
-                            {/* <a href="#" className="button button-link">Learn More</a> */}
+                            
                         </div>
                     </div>
                 </div>
@@ -455,7 +455,7 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
                     </ul>
 
                     <div className="contact__content">
-                        <a href="#" style={{color:'#fff'}} className="button">Contacte-nos</a>
+                        <a href="https://wa.me/message/SUGMGVU6UMJOD1" target="_blank" rel="noopener noreferrer" style={{color:'#fff'}} className="button">Contacte-nos</a>
                     </div>
                 </div>
             </section>

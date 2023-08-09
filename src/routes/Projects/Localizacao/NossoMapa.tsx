@@ -1,5 +1,5 @@
 import { Map } from "../../Contact/map/Map";
 
-export function Mais () {
+export function NossoMapa () {
   return <Map/>
 }

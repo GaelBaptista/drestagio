@@ -91,10 +91,10 @@ export function Home () {
       <div className="slidearea">
         <div className="banner-title">
           <h2 className='h2Mobile'>
-         Preparamos profissionais por meio de estágio para atuar em&nbsp; 
-            <span>diversas áreas</span>
+          Capacitamos profissionais por meio de estágio para atuar em&nbsp; 
+            <span>diferentes setores do</span>
           </h2>
-          <h1 className='h1Mobile'>do mercado  <span> de trabalho</span></h1>
+          <h1 className='h1Mobile'>mercado  <span> de trabalho</span></h1>
         </div>
       </div>
     </div>
@@ -127,9 +127,11 @@ export function Home () {
             <div>Profissionais Qualificados</div>
         </div>
         <div className="quadrado-quinto">
+          <a href="https://wa.me/message/SUGMGVU6UMJOD1"  target="_blank" rel="noopener noreferrer">
             <div className="icone-quinto"><IoLogoWhatsapp/></div>
             <div className="whatsapp-texto">WhatsApp</div>
             <div className="numero-grande">(85) 99247-7241</div>
+            </a>
         </div>
     </div>
     </section>

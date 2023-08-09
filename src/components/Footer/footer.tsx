@@ -1,7 +1,7 @@
 
 
 import { FaClock, FaPhone, FaEnvelopeOpen, FaFacebookF, FaTwitter, FaGooglePlusG, FaTelegramPlane } from 'react-icons/fa';
-
+import Abres from '../../assests/Logo ABRES.png'
 
 
 import './footer.css'
@@ -57,11 +57,12 @@ export function Footer() {
                 <p>Na missão de integração e desenvolvimento, a Dr. Estágio se dedica a aprimorar e nutrir habilidades excepcionais, trazendo uma contribuição significativa para o sucesso contínuo da sua organização.</p>
               </div>
               <div className="footer-social-icon">
-                <span>Siga-nos</span>
+                <span>Empresa Associada</span>
+                <img src={Abres} width={'200px'} height={'100px'}  alt="" />
                 
-               <a href="#"><FaFacebookF className="facebook-bg" /></a>
+               {/* <a href="#"><FaFacebookF className="facebook-bg" /></a>
                 <a href="#"><FaTwitter className="twitter-bg" /></a>
-                <a href="#"><FaGooglePlusG className="google-bg" /></a>
+                <a href="#"><FaGooglePlusG className="google-bg" /></a> */}
               </div>
             </div>
           </div>

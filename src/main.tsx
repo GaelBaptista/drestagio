@@ -21,7 +21,7 @@ import { Vagas } from "./routes/Vagas/Vagas";
 import { Projects } from "./routes/Projects/projects";
 import { PrEst } from "./routes/Projects/ProgramaDeEstagio/PrEst";
 import { Esg } from "./routes/Projects/Esg/Esg";
-import { Mais } from "./routes/Projects/Mais/mais";
+import { NossoMapa } from "./routes/Projects/Localizacao/NossoMapa";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -79,7 +79,7 @@ const router = createBrowserRouter([
           },
           {
             path: "mais",
-            element: <Mais />,
+            element: <NossoMapa/>,
           },
         ],
       },

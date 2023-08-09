@@ -90,8 +90,9 @@ export function About() {
     }, 500); // Ajuste o valor do atraso conforme necessário
   }, [])
   
-
-
+// FUNÇÂO PARA O EMAIL
+  const recipientEmail = "comercial@drestagio.com.br";
+  const mailtoLink = `mailto:${recipientEmail}`;
   return (
   
     <section className="landing-page">
@@ -188,6 +189,7 @@ export function About() {
       </div>
 
 
+{/* fale com nossa equipe  */}
 
       <div className="card-sectionAbout">
       <div className="cardAbout orange-cardAbout">
@@ -196,9 +198,11 @@ export function About() {
         </div>
         <h2 className="titleAbout" style={{color:'#fff'}}>Alguma dúvida?</h2>
         <p className="textAbout">Fale com nossa equipe:</p>
+        <a  href="https://wa.me/message/SUGMGVU6UMJOD1" target="_blank" rel="noopener noreferrer">
         <button className="contact-btnAbout-orange">
-          <AiOutlineArrowRight /> Fale Conosco
+          <AiOutlineArrowRight  /> Fale Conosco
         </button>
+        </a>
       </div>
       <div className="cardAbout blue-cardAbout">
         <div className="iconAbout">
@@ -206,15 +210,17 @@ export function About() {
         </div>
         <h2 className="titleAbout" style={{color:'#fff'}}>Mande um E-mail</h2>
         <p className="textAbout">Escreva para nossa equipe</p>
+        <a href={mailtoLink}>
         <button className="contact-btnAbout-blue">
           <AiOutlineArrowRight /> Fale Conosco
         </button>
+        </a>
       </div>
     </div>
 
 
     
-     
+     {/* multiplas barras de progresso  */}
         
     <div className="contentAbout">
       <div className="containerAbout">
@@ -224,7 +230,7 @@ export function About() {
             <p>
            Temos equipes de suporte para a sua empresa e para seus estagiários 
             </p>
-            {/* <button>Fale Conosco</button> */}
+            
           </div>
 
           {/* Barra de Progresso */}
@@ -283,7 +289,7 @@ export function About() {
           </div>
 
 
-          {/* ASSERT 3 */}
+          {/* ASSERT 4*/}
           <div className="assertiveness">
           
             <h5>Visitas presenciais na unidade</h5>

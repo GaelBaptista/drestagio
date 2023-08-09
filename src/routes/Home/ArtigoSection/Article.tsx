@@ -39,7 +39,7 @@ export function ArticleSection() {
     
     <div className="article-section">
     <div className="section-head ">
-          <h4> <span> Nossos </span> Artigos</h4>
+          <h4> <span> Nossas </span> Matérias</h4>
     </div>
 
     <div className="cards-wrapper">
