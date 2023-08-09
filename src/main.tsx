@@ -17,11 +17,11 @@ import Contact from "./routes//Contact/Contact";
 import ErrorPage from "./routes/ErrorPage";
 import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/footer";
-import { Vagas } from "./routes/Vagas/Vagas";
+import { Vagas } from "./routes/Projects/Vagas/Vagas";
 import { Projects } from "./routes/Projects/projects";
-import { PrEst } from "./routes/Projects/ProgramaDeEstagio/PrEst";
+import { PrEst } from "./routes/ProgramaDeEstagio/PrEst";
 import { Esg } from "./routes/Projects/Esg/Esg";
-import { NossoMapa } from "./routes/Projects/Localizacao/NossoMapa";
+import { NossoMapa } from "./routes/Localizacao/NossoMapa";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -58,29 +58,32 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "contact",
-        element: <Contact />,
+        path: "programa-estagio",
+        element: <PrEst />,
       },
+    
       {
-        path: "vagas",
-        element: <Vagas />,
+        path: "mais",
+        element: <NossoMapa/>,
       },
       {
         path: "projects",
         element: <Projects />,
         children: [
           {
-            path: "programa-estagio",
-            element: <PrEst />,
+            path: "contact",
+            element: <Contact />,
           },
+         
           {
             path: "eventos",
             element: <Esg />,
           },
           {
-            path: "mais",
-            element: <NossoMapa/>,
+            path: "vagas",
+            element: <Vagas />,
           },
+         
         ],
       },
     ],

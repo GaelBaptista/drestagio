@@ -62,29 +62,7 @@ export function Navbar() {
                   Início
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink
-                  to="/contact"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
-                  Contatos
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  to="/vagas"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
-                  Vagas
-                </NavLink>
-              </li>
-              <li className="nav-item">
+               <li className="nav-item">
                 <NavLink
                   to="/about"
                   className={({ isActive }) =>
@@ -96,18 +74,55 @@ export function Navbar() {
                 </NavLink>
               </li>
               <li className="nav-item">
+                <NavLink
+                  to="/programa-estagio"
+
+                  className={({ isActive }) =>
+                    "nav-links" + (isActive ? " activated" : "")
+                  }
+                  onClick={closeMobileMenu}
+                >
+                Programa de Estágio
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  
+                  to="/mais"
+
+                  className={({ isActive }) =>
+                    "nav-links" + (isActive ? " activated" : "")
+                  }
+                  onClick={closeMobileMenu}
+                >
+                  Empresas Conveniadas
+                </NavLink>
+              </li>
+             
+              <li className="nav-item">
                 <div className="nav-links projectlink" onClick={toggleDropdown}>
-                  Projetos <IoIosArrowDown />
+                  Mais <IoIosArrowDown />
                 </div>
                 {showDropdown && (
                   <ul className={click ? "dropdown-menu active" : "dropdown-menu"}>
                     <li>
                       <NavLink
-                        to="/projects/programa-estagio"
+                        to="/projects/contact"
+
                         className="dropdown-link"
                         onClick={closeMobileMenu}
                       >
-                        Programa de Estágio
+                       Contatos
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/projects/vagas"
+
+                        className="dropdown-link"
+                        onClick={closeMobileMenu}
+                      >
+                      Vagas
                       </NavLink>
                     </li>
                     <li>
@@ -119,15 +134,7 @@ export function Navbar() {
                         ESG no Estágio
                       </NavLink>
                     </li>
-                    <li>
-                      <NavLink
-                        to="/projects/mais"
-                        className="dropdown-link"
-                        onClick={closeMobileMenu}
-                      >
-                       Nosso Mapa
-                      </NavLink>
-                    </li>
+                    
                   </ul>
                 )}
               </li>

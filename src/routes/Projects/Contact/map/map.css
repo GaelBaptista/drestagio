@@ -1,0 +1,106 @@
+
+.sectionMapSVG{
+  margin-top: 50px;
+}
+
+.map-container {
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 60px;
+ 
+}
+.map-title {
+  font-weight: bold;
+}
+
+.map-container svg {
+  /* Estilos do seu SVG */
+  flex: 1;
+  max-width: 50%; /* Largura do SVG */
+}
+
+.info-panel {
+ 
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100%; /* Largura do painel de informações */
+  z-index: 1;
+  
+}
+ .liSvg {
+  margin-left: 190px;
+
+}
+.city-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.image-panel {
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  width: 28%; /* Largura da imagem */
+ 
+  z-index: 1;
+}
+
+.image-panel img {
+  width: 100%;
+   height: auto;
+  display: block;
+}
+.estado:hover,
+.rioGrandeDoNorte:hover,
+.ceara:hover{
+  fill:#121242;
+  cursor:pointer;
+  transition: 0.5s;
+
+}
+@media (max-width: 1024px) {
+  .liSvg {
+    margin-left: 20px;
+  
+  }
+}
+@media (max-width: 768px) {
+  .map-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .map-container svg {
+    max-width: 90%; /* Aumentando o tamanho do SVG na versão mobile */
+  }
+  .liSvg {
+    margin-left: 8px;
+  
+  }
+  .info-panel,
+  .image-panel {
+    position: static;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .info-panel {
+    background-color: transparent;
+  }
+  
+  .image-panel {
+    background-color: transparent;
+  }
+}
+
+
+
+  
