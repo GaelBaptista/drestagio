@@ -162,10 +162,11 @@
 .faqs .faq {
   margin: 15px;
   padding: 15px;
-  background: #120052;
+  background: #121242;
   border-radius: 10px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
   color: #fff;
+  cursor: pointer;
 }
 
 .faqs .faq .faq-question {

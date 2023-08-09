@@ -28,7 +28,7 @@ const hexagonOrange = {
 const hexagonBlue = {
   icon: <BsFillHexagonFill icon={BsFillHexagonFill} />,
   
-  iconStyle: { background: '#fff', color: '#120052' },
+  iconStyle: { background: '#fff', color: '#121242' },
  
 };
 
