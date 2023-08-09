@@ -21,7 +21,7 @@ export function Footer() {
             <div className="single-cta">
             <i className="far fa-envelope-open"><FaClock className="icon" /></i>
               <div className="cta-text">
-                <h4>Atendimento</h4>
+                <h4>Atendimentos</h4>
                 <span>Seg-Sex 9:00-17:00</span>
               </div>
             </div>
@@ -36,7 +36,7 @@ export function Footer() {
             </div>
           </div>
           <div className="col-xl-4 col-md-4 mb-30">
-            <div className="single-cta">
+            <div className="single-cta ">
             <i className="far fa-envelope-open"><FaEnvelopeOpen className="icon" /></i>
               <div className="cta-text">
                 <h4>E-Mail</h4>
@@ -54,10 +54,10 @@ export function Footer() {
                 <a href="index.html"><img src={LogoFooter} className="img-fluid" alt="logo" /></a>
               </div>
               <div className="footer-text">
-                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
+                <p>Na missão de integração e desenvolvimento, a Dr. Estágio se dedica a aprimorar e nutrir habilidades excepcionais, trazendo uma contribuição significativa para o sucesso contínuo da sua organização.</p>
               </div>
               <div className="footer-social-icon">
-                <span>Follow us</span>
+                <span>Siga-nos</span>
                 
                <a href="#"><FaFacebookF className="facebook-bg" /></a>
                 <a href="#"><FaTwitter className="twitter-bg" /></a>

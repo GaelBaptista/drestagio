@@ -126,6 +126,8 @@ button a {
   text-decoration: none;
   margin-top: 10px; /* Adiciona espaçamento entre o parágrafo e o botão */
   border-radius: 10px;
+  transition: all 0.25s ease;
+
 }
 
 .infos button:hover {

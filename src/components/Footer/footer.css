@@ -103,79 +103,35 @@
   }
   .footer-social-icon a {
     color: #fff;
-    font-size: 16px;
+    font-size: 24px; /* Aumenta o tamanho dos ícones */
     margin-right: 15px;
+    display: inline-block;
   }
-  .footer-social-icon i {
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    line-height: 38px;
-    border-radius: 50%;
-   
-  }
-  .facebook-bg{
-    background: #3B5998;
   
+  .footer-social-icon i {
+    height: 50px; /* Aumenta o tamanho do espaço ocupado pelo ícone */
+    width: 50px; /* Aumenta o tamanho do espaço ocupado pelo ícone */
+    text-align: center;
+    line-height: 50px; /* Ajusta a altura do ícone */
+    border-radius: 50%;
+    padding: 10px; /* Adiciona um espaçamento interno */
+    transition: background-color 0.3s; /* Adiciona uma transição suave */
   }
-  .twitter-bg{
+  
+  .footer-social-icon i:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Altera a cor de fundo ao passar o mouse */
+  }
+  
+  .facebook-bg {
+    background: #3B5998;
+  }
+  
+  .twitter-bg {
     background: #55ACEE;
   }
-  .google-bg{
+  
+  .google-bg {
     background: #DD4B39;
-  }
-  .footer-widget-heading h3 {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 40px;
-    position: relative;
-  }
-  .footer-widget-heading h3::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -15px;
-    height: 2px;
-    width: 50px;
-    background: #ff5e14;
-  }
-  .footer-widget ul li {
-    display: inline-block;
-    float: left;
-    width: 50%;
-    margin-bottom: 12px;
-  }
-  .footer-widget ul li a:hover{
-    color: #ff5e14;
-  }
-  .footer-widget ul li a {
-    color: #878787;
-    text-transform: capitalize;
-  }
-  .subscribe-form {
-    position: relative;
-    overflow: hidden;
-  }
-  .subscribe-form input {
-    width: 100%;
-    padding: 14px 28px;
-    background: #2E2E2E;
-    border: 1px solid #2E2E2E;
-    color: #fff;
-  }
-  .subscribe-form button {
-      position: absolute;
-      right: 0;
-      background: #ff5e14;
-      padding: 13px 20px;
-      border: 1px solid #ff5e14;
-      top: 0;
-  }
-  .subscribe-form button i {
-    color: #fff;
-    font-size: 22px;
-    transform: rotate(-6deg);
   }
   .copyright-area{
     background: #202020;
@@ -200,3 +156,25 @@
     font-size: 14px;
     color: #878787;
   }
+
+
+  
+@media screen and (max-width: 650px) {
+  .single-cta {
+    flex: 1; /* Faz com que todos os elementos tenham a mesma largura */
+   margin:10px;
+   padding: 10px; /* Adiciona um pequeno espaçamento entre os elementos */
+    width: 300px;
+   
+   
+  }
+
+
+  .single-cta i {
+    font-size: 20px; /* Reduz o tamanho do ícone para economizar espaço */
+  }
+
+  .cta-text {
+    padding-left: 10px; /* Reduz o espaçamento à esquerda para economizar espaço */
+  }
+}
