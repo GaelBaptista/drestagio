@@ -29,10 +29,12 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  width: 100%; /* Largura do painel de informações */
+ /* Largura do painel de informações */
   z-index: 1;
   
 }
+
+
  .liSvg {
   margin-left: 190px;
 
@@ -41,6 +43,9 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  width: 300px;
+  max-height: 500px; /* Set the desired maximum height */
+  overflow-y: auto; /* Enable vertical scrolling if needed */
 }
 
 .image-panel {
@@ -48,10 +53,9 @@
   border-radius: 5px;
   position: absolute;
   top: 10px;
-  right: 40px;
-  width: 28%; /* Largura da imagem */
- 
-  z-index: 1;
+  right: 80px; /* Adjust this value to create space between image and list */
+  width: 28%;
+  z-index: 2; /* Increase the z-index value */
 }
 
 .image-panel img {

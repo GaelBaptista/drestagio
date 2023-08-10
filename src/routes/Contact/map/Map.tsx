@@ -13,30 +13,83 @@ export function Map () {
   const renderCityList = () => {
     if (selectedState === 'Ceará') {
       return (
-       
+            
+  <>
         <ul >
+          <div className="liCity">
+          <li>Acopiara</li>
+          <li>Amontada</li>
+          <li>Aquiraz</li>
+          <li>Aracati</li>
+          <li>Aracoiaba</li>
+          <li>Aratuba</li>
+          <li>Barreira</li>
+          <li>Beberibe</li>
+          <li>Capistrano</li>
+          <li>Cascavel</li>
+          <li>Caucaia</li>
+          <li>CRATEUS</li>
+          <li>EUSEBIO</li>
           <li>Fortaleza</li>
-          <li>Pacajus</li>
+          <li>Guaiúba</li>
+          <li>Guaraciaba do Norte</li>
           <li>Horizonte</li>
-          <li>Chorozinho</li>
-          <div className="image-panel">
-            <img src={IMG} alt="Imagem" />
-          </div>
+          <li>Icapuí</li>
+          <li>Itaitinga</li>
+          <li>Itapipoca</li>
+          <li>Itarema</li>
+          <li>Jaguaruana</li>
+          <li>Limoeiro do Norte</li>
+          <li>Macau</li>
+          <li>Maracanaú</li>
+          <li>Maranguape</li>
+          <li>Morada Nova</li>
+          <li>Ocara</li>
+          <li>Pacajus</li>
+          <li>Pacatuba</li>
+          <li>Pacoti</li>
+          <li>Palhano</li>
+          <li>Paracuru</li>
+          <li>Pindoretama</li>
+          <li>Quixadá</li>
+          <li>Quixeramobim</li>
+          <li>QUIXERÉ</li>
+          <li>Redenção</li>
+          <li>Russas</li>
+          <li>São Gonçalo do Amarante</li>
+          <li>Tauá</li>
+          <li>Tianguá</li>
+  </div>
+
+           
         </ul>
         
-  
+   
+  </>
       );
     } else if (selectedState === 'Rio Grande do Norte') {
       return (
        
         <ul >
-          <li>Natal</li>
-          <li>Mossoró</li>
-          <li>Parnamirim</li>
+          <li>Caicó </li>
           <li>Ceará-Mirim</li>
-          <div className="image-panel">
-            <img src={ImgRN} alt="Imagem" />
-          </div>
+          <li>Currais Novos</li>
+          <li>João Câmara</li>
+          <li>Jucurutu</li>
+          <li>Mossoró</li>
+          <li>Natal</li>
+          <li>Nova Cruz</li>
+          <li>Parelhas</li>
+          <li>Parnamirim</li>
+          <li>Pau dos Ferros</li>
+          <li>Santa Cruz</li>
+          <li>São Gonçalo do Amarante</li>
+          <li>São José de Mipibu</li>
+
+
+         
+
+         
         </ul>
         
       );
@@ -49,12 +102,14 @@ export function Map () {
       <div className="section-head ">
           <h4><span>Nosso Alcance </span>Geográfico</h4>
           <p className='gestaodh'>
-          Exploramos uma ampla paisagem de oportunidades, estendendo nossos serviços para diversas cidades onde 
-          operam nossos conveniados. Com um compromisso de excelência, atendemos a regiões variadas, unindo esforços para 
-          levar nossas soluções aos quatro cantos e servir às necessidades de todos os nossos clientes.
-          No Rio Grande do Norte (RN), colaboramos com duas empresas líderes, incluindo uma rede de 40 lojas, alinhada à 
-          nossa visão de sucesso. Essa parceria fortalece nosso alcance e impacto, impulsionando o desenvolvimento 
-          econômico e social na comunidade do RN.
+          Operante desde 2015 e com marca registrada no INPI, a Dr. Estágio estende sua atuação por todo o território nacional, atualmente 
+          prestando serviços nos estados do Ceará e Rio Grande do Norte. Como especialistas em programas de estágio voltados para o varejo, 
+          desempenhamos um papel fundamental no desenvolvimento de profissionais de destaque no setor supermercadista.
+
+Ao nos tornarmos parceiros de empresas conveniadas, proporcionamos a oportunidade de lapidar jovens talentos por meio do estágio, contribuindo 
+para a formação de futuros profissionais qualificados. Junte-se a nós como parte de nossa rede de conveniados e usufrua de todos os benefícios 
+que nosso programa de estágio tem a oferecer para aprimorar os quadros da sua empresa. Estamos empenhados em fortalecer sua equipe e impulsionar 
+o crescimento por meio de uma parceria que valoriza o desenvolvimento profissional e o sucesso mútuo.
           </p>
         </div>
     <div className="map-container">
@@ -106,7 +161,7 @@ export function Map () {
         </g>
 
       </svg>
-
+      
       {/* Título e lista de cidades */}
       {selectedState && (
     
@@ -120,6 +175,11 @@ export function Map () {
         </div>
        
       )}
+       <div className="image-panel">
+    {selectedState === 'Ceará' && <img src={IMG} alt="Ceará" />}
+    {selectedState === 'Rio Grande do Norte' && <img src={ImgRN} alt="Rio Grande do Norte" />}
+  </div>
+      
     </div>
     </section>
   );
