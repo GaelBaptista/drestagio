@@ -44,15 +44,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 20px; /* Adicione o espaçamento entre os ícones e o texto */
+  margin-right: 20px; /*  espaçamento entre os ícones e o texto */
   height: 80px;
   font-size: 2.3rem;
 }
 
 .social-icon {
-   padding: 5px;/* Defina o tamanho dos ícones de redes sociais */
+   padding: 5px;/*  tamanho dos ícones de redes sociais */
    transition: all 0.25s ease;
-  margin-right: 10px; /* Adicione o espaçamento entre os ícones */
+  margin-right: 10px; /*  espaçamento entre os ícones */
   background:#ffffff ;
   border-radius: 50%; 
 }
@@ -138,14 +138,15 @@
 .menu-icon {
   display: none;
 }
-/* Adicione esta classe para ocultar o drop menu */
+/* classe para ocultar o drop menu */
 .dropdown-menu {
   display: none;
 }
 
-/* Adicione esta regra para exibir o drop menu quando o item "Projetos" é clicado */
+/* exibir o drop menu quando o item "Projetos" é clicado */
 .nav-item:hover .dropdown-menu {
   display: block;
+  
 }
 
 /* Outras regras de estilo para o drop menu */
@@ -154,9 +155,10 @@
   top: 100%;
   left: 0;
   align-items: center;
-  background: var(--laranja); /* Use a mesma cor de fundo do menu principal */
+  background: var(--laranja); /*  cor de fundo do menu principal */
   padding: 10px;
   list-style: none;
+  /* width: 200px;      /*SE QUISER AUMENTAR A LARGURA DO DROPMENU =============================================================================== */
 }
 
 .dropdown-link {
@@ -169,7 +171,7 @@
 
 
 
-/* Adicione esta regra para ajustar a posição do drop menu */
+/*  regra para ajustar a posição do drop menu */
 .nav-item {
   position: relative;
 }
@@ -237,14 +239,14 @@
   }
 }
 @media screen and (max-width: 960px) {
-  /* ... */
+  
 
-  /* Adicione esta classe para ocultar o drop menu no modo responsivo */
+  /*  classe para ocultar o drop menu no modo responsivo */
   .dropdown-menu {
     display: none;
   }
 
-  /* Adicione esta regra para exibir o drop menu no modo responsivo quando o item "Projetos" é clicado */
+  /*  regra para exibir o drop menu no modo responsivo quando o item "Projetos" é clicado */
   .nav-item.active .dropdown-menu {
     display: block;
   }
@@ -252,10 +254,10 @@
   /* Outras regras de estilo para o drop menu no modo responsivo */
   .dropdown-menu {
     position: static;
-    background: var(--laranja); /* Use a mesma cor de fundo do menu principal */
+    background: var(--laranja); /* cor de fundo do menu principal */
     padding: 10px;
     list-style: none;
-    width: 100%; /* Defina a largura completa do drop menu */
+    width: 100%; /* Defir a largura completa do drop menu */
   }
 
   .dropdown-link {
@@ -269,7 +271,7 @@
     background-color: #241178;
   }
 }
-/* ... Seus estilos existentes ... */
+
 
 /* Novos estilos para a responsividade */
 @media screen and (max-width: 768px) {
