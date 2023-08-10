@@ -12,6 +12,7 @@ import { CardSection } from './CardSection/CardSection'
 
 import { ContactHome } from './ContactHome/ContactHome'
 import { ArticleSection } from './ArtigoSection/Article'
+import { Link } from 'react-router-dom'
 
 
 export function Home () {
@@ -111,8 +112,10 @@ export function Home () {
     
     <div className="quadrado-container">
         <div className="quadrado">
+          <Link to='/projects/vagas'>
             <div className="icone"><HiDocumentText/></div>
             <div>Estágio Oportunidade </div>
+            </Link>
         </div>
         <div className="quadrado">
             <div className="icone"><BsBookFill/></div>
