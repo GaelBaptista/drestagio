@@ -22,6 +22,8 @@ import { Projects } from "./routes/Projects/projects";
 import { PrEst } from "./routes/ProgramaDeEstagio/PrEst";
 import { Esg } from "./routes/Projects/Esg/Esg";
 import { NossoMapa } from "./routes/Localizacao/NossoMapa";
+import { Varejo } from "./routes/ProgramaDeEstagio/Varejo/Varejo";
+import { Farmacia } from "./routes/ProgramaDeEstagio/Farmacia/farmacia";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -59,7 +61,16 @@ const router = createBrowserRouter([
       },
       {
         path: "programa-estagio",
-        element: <PrEst />,
+        element: <PrEst />, 
+      },
+      {
+        path: "varejo",
+        element: <Varejo />, 
+      },
+    
+      {
+        path: "farmacia",
+        element: <Farmacia />, 
       },
     
       {

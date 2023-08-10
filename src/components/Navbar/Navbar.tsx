@@ -15,6 +15,12 @@ export function Navbar() {
   const closeMobileMenu = () => setClick(false);
   const toggleDropdown = () => setShowDropdown(!showDropdown);
 
+  const [submenuOpen, setSubmenuOpen] = useState(false);
+
+  const toggleSubmenu = () => {
+    setSubmenuOpen(!submenuOpen);
+  };
+
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }}>
@@ -75,18 +81,6 @@ export function Navbar() {
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/programa-estagio"
-
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
-                Programa de Estágio
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
                   
                   to="/mais"
 
@@ -98,6 +92,36 @@ export function Navbar() {
                   Empresas Conveniadas
                 </NavLink>
               </li>
+
+
+
+              <li className="nav-item">
+          <div className="nav-dropdown">
+            <div className="nav-links projectlink  " onClick={toggleSubmenu}>
+              Projetos <IoIosArrowDown />
+            </div>
+            {submenuOpen && (
+              <ul className="dropdown-menu">
+                <li>
+                  <NavLink to="/varejo" className="nav-links">
+                   Programa de Estágio
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/farmacia" className="nav-links">
+                  Estágio para Varejo
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/programa-estagio" className="nav-links ">
+                    Estágio para Farmácia
+                  </NavLink>
+                </li>
+              </ul>
+            )}
+          </div>
+        </li>
+             
              
               <li className="nav-item">
                 <div className="nav-links projectlink" onClick={toggleDropdown}>
@@ -109,7 +133,7 @@ export function Navbar() {
                       <NavLink
                         to="/projects/contact"
 
-                        className="dropdown-link"
+                        className="nav-links"
                         onClick={closeMobileMenu}
                       >
                        Contatos
@@ -119,16 +143,16 @@ export function Navbar() {
                       <NavLink
                         to="/projects/vagas"
 
-                        className="dropdown-link"
+                        className="nav-links"
                         onClick={closeMobileMenu}
                       >
-                      Vagas
+                     Vagas Estágio
                       </NavLink>
                     </li>
                     <li>
                       <NavLink
                         to="/projects/eventos"
-                        className="dropdown-link"
+                        className="nav-links"
                         onClick={closeMobileMenu}
                       >
                         ESG no Estágio

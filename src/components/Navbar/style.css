@@ -36,7 +36,7 @@
   padding-right: 50px;
   padding-left: 50px;
 }
-/* ... Seus estilos existentes ... */
+
 
 
 
@@ -110,6 +110,8 @@
   height: 100%;
   margin-right: 10px;
 }
+
+
 .nav-links svg {
   vertical-align: middle;
 }
@@ -279,3 +281,5 @@
     display: none; /* Esconde os ícones de redes sociais na responsividade */
   }
 }
+
+
