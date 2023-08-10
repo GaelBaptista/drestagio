@@ -57,7 +57,7 @@ function Contact() {
      <div className="content">
       <h2>Envie Seu currículo   !</h2>
       <span>Entre para nosso Banco de Dados!  </span>
-      <a href="https://drestagio.gupy.io/job/eyJzb3VyY2UiOiJndXB5X3B1YmxpY19wYWdlIiwiam9iSWQiOjUxMzE1MzR9?jobBoardSource=gupy_public_page"  target="_blank" rel="noopener noreferrer">Enviar Currículo</a>
+      <a href="https://drestagio.gupy.io/"  target="_blank" rel="noopener noreferrer">Enviar Currículo</a>
      </div>
     </div>
   </div>
