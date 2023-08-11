@@ -43,7 +43,7 @@ export function Farmacia () {
   
   <section>
     <div className="parallax-three-far">
-      <h2> Fomentando Futuros Farmacêuticos</h2>
+      <h2> Fomentando Futuros Profissionais</h2>
     </div>
   </section>
   
