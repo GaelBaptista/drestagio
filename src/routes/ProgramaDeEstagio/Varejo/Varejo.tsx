@@ -16,7 +16,7 @@ export function Varejo () {
 
 <section>
     <div className="parallax-one">
-      <h2>Construindo Carreiras no Setor Supermercadista</h2>
+      <h2>Construindo uma Carreira no Setor Supermercadista</h2>
     </div>
 </section>
 
