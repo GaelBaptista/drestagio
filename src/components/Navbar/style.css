@@ -115,14 +115,18 @@
 .nav-links svg {
   vertical-align: middle;
 }
-.projectlink {
-  width: 131px;
-  padding: 1rem;
+
+.subDrop-link{
+
   cursor: pointer;
+  padding: 1rem;
 }
-.projectlink:hover svg {
-  transform: translateY(-3px); /* Ajustar o valor conforme necessário */
+.subDrop-link:hover{
+
+  color: #121242;
 }
+
+
 
 
 

@@ -24,6 +24,7 @@ import { Esg } from "./routes/Projects/Esg/Esg";
 import { NossoMapa } from "./routes/Localizacao/NossoMapa";
 import { Varejo } from "./routes/ProgramaDeEstagio/Varejo/Varejo";
 import { Farmacia } from "./routes/ProgramaDeEstagio/Farmacia/farmacia";
+import { Servicos } from "./routes/Projects/Sericos/servicos";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -93,6 +94,10 @@ const router = createBrowserRouter([
           {
             path: "vagas",
             element: <Vagas />,
+          },
+          {
+            path: "servicos",
+            element: <Servicos />,
           },
          
         ],

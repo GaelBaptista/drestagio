@@ -97,23 +97,23 @@ export function Navbar() {
 
               <li className="nav-item">
           <div className="nav-dropdown">
-            <div className="nav-links projectlink  " onClick={toggleSubmenu}>
-              Projetos <IoIosArrowDown />
+            <div className="nav-links subDrop-link  " onClick={toggleSubmenu}>
+              Sobre Estágio <IoIosArrowDown className="aroow-drop" />
             </div>
             {submenuOpen && (
               <ul className="dropdown-menu">
                 <li>
-                  <NavLink to="/varejo" className="nav-links">
+                  <NavLink to="/programa-estagio" className="nav-links">
                    Programa de Estágio
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/farmacia" className="nav-links">
+                  <NavLink to="/varejo" className="nav-links">
                   Estágio para Varejo
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/programa-estagio" className="nav-links ">
+                  <NavLink to="/farmacia" className="nav-links ">
                     Estágio para Farmácia
                   </NavLink>
                 </li>
@@ -124,7 +124,7 @@ export function Navbar() {
              
              
               <li className="nav-item">
-                <div className="nav-links projectlink" onClick={toggleDropdown}>
+                <div className="nav-links subDrop-link" onClick={toggleDropdown}>
                   Mais <IoIosArrowDown />
                 </div>
                 {showDropdown && (
@@ -156,6 +156,15 @@ export function Navbar() {
                         onClick={closeMobileMenu}
                       >
                         ESG no Estágio
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/projects/servicos"
+                        className="nav-links"
+                        onClick={closeMobileMenu}
+                      >
+                       Serviços
                       </NavLink>
                     </li>
                     
