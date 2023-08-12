@@ -455,7 +455,7 @@ qualquer setor e devem ser cada vez mais valorizados pela sociedade.</p>
                     </ul>
 
                     <div className="contact__content">
-                        <a href="https://wa.me/message/SUGMGVU6UMJOD1" target="_blank" rel="noopener noreferrer" style={{color:'#fff'}} className="button">Contacte-nos</a>
+                        <a href="https://wa.me/message/SUGMGVU6UMJOD1" target="_blank" rel="noopener noreferrer" style={{color:'#fff'}} className="buttonESG">Contacte-nos</a>
                     </div>
                 </div>
             </section>
