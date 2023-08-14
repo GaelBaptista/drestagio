@@ -58,7 +58,7 @@ export function Footer() {
               </div>
               <div className="footer-social-icon">
                 <span>Empresa Associada</span>
-                <img src={Abres} width={'200px'} height={'100px'}  alt="" />
+                <img className='Abres' src={Abres} width={'200px'} height={'100px'}  alt="" />
                 
                {/* <a href="#"><FaFacebookF className="facebook-bg" /></a>
                 <a href="#"><FaTwitter className="twitter-bg" /></a>

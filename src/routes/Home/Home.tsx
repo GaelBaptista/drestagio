@@ -1,8 +1,9 @@
-import {BsBookFill} from 'react-icons/bs'
+
 import {HiDocumentText} from 'react-icons/hi'
 import {FaCube} from 'react-icons/fa'
 import {BsPersonBadgeFill} from 'react-icons/bs'
 import {IoLogoWhatsapp} from 'react-icons/io'
+import { MdPermContactCalendar } from 'react-icons/md'
 
 
 
@@ -118,8 +119,10 @@ export function Home () {
             </Link>
         </div>
         <div className="quadrado">
-            <div className="icone"><BsBookFill/></div>
-            <div>Aprendizado Contínuo</div>
+            <Link to='/projects/contact'>
+            <div className="icone"><MdPermContactCalendar/></div>
+            <div>Nossos <br/>Contatos</div>
+            </Link>
         </div>
         <div className="quadrado">
             <div className="icone"><FaCube/></div>
