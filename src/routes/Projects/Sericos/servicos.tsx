@@ -3,8 +3,12 @@ import './servicos.css'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { BsFillHeartPulseFill, BsFillMegaphoneFill } from 'react-icons/bs';
-import {HiDocumentText} from 'react-icons/hi'
+import CarouselComponent from './Cardservico';
+
+
+import {BsFillTelephoneFill} from 'react-icons/bs'
+import {ImLocation2} from 'react-icons/im'
+import {MdEmail} from "react-icons/md"
 
 export function Servicos () {
 
@@ -52,7 +56,7 @@ export function Servicos () {
             <h2 className="title">Nossos Serviços</h2>
             <p>A Dr. Estágio simplifica o processo de contratação de estagiários, permitindo que sua equipe de RH possa focar em outras atividades estratégicas dentro da organização. Nosso programa de estágio visa primordialmente proporcionar aprendizado, assegurando que nossos estagiários alcancem um desempenho profissional notável
                enquanto a empresa contratante colhe os benefícios da legislação de incentivo ao estágio sem lidar com complicações burocráticas.</p>
-            <a className="button" target="_blank" href="https://api.whatsapp.com/send?phone=+5517992143072&text=Vamos agendar um horário!">Fale Conosco</a>
+            <a className="button" target="_blank" href="https://wa.me/message/SUGMGVU6UMJOD1">Fale Conosco</a>
           </div>
         </div>
       </section>
@@ -66,35 +70,10 @@ export function Servicos () {
       <div className="divider-2"></div>
 
       {/* Services */}
-      <section className="section sectionServicos" id="services">
-        <div className="container grid">
-          <header>
-            <h2 className="title">Nossos serviços incluem</h2>
-            <p className="subtitle">Operante desde 2015 e com marca registrada no INPI, a  <strong>Dr. Estágio </strong> estende sua atuação por todo o território nacional, atualmente prestando serviços nos estados do Ceará e Rio Grande do Norte.</p>
-          </header>
-          <div className="cards grid">
-            <div className="card">
-              <i className="icon-woman-hair"><BsFillMegaphoneFill/></i>
-              <h3 className="title">Divulgação de vagas</h3>
-              <p>Auxiliamos na divulgação das vagas ofertadas pelas empresas conveniadas e faz o envio de currículos para o recrutamento e seleção de novos estagiários.</p>
-            </div>
-            <div className="card">
-              <i className="icon-trim"><HiDocumentText/></i>
-              <h3 className="title">Gestão de Contratos</h3>
-              <p>Nós cuidamos de todos os detalhes ao contratar estagiários, incluindo documentos como Termos de Compromisso, Desligamento e Aditivos. Usamos assinaturas eletrônicas para agilizar e garantir precisão, entregando os documentos no prazo.</p>
-            </div>
-            <div className="card">
-              <i className="icon-cosmetic"><BsFillHeartPulseFill/></i>
-              <h3 className="title">Seguro de Vida</h3>
-              <p>O Seguro de vida é uma obrigatoriedade imposta pela lei do Estágio e com a Dr. Estágio seus estagiários estarão devidamente protegidos e assegurados em caso de acidentes ocorridos no ambiente de trabalho.</p>
-            </div>
-            
-          </div>
-        </div>
-      </section>
-
+    <CarouselComponent/>
+   
     
-      {/* Rest of the sections... */}
+    
        {/* Divisor */}
        <div className="divider-1"></div>
 
@@ -134,13 +113,13 @@ export function Servicos () {
     <div className="text">
       <h2 className="title">Entre em contato com a gente!</h2>
       <p>Entre em contato com a Beautysalon, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.</p>
-      <a href="https://api.whatsapp.com/send?phone=+5517992143072&text=Vamos agendar um horário!" target="_blank" className="button"><i className="icon-whatsapp"></i> Entrar em contato</a>
+      <a href="https://wa.me/message/SUGMGVU6UMJOD1" target="_blank" className="button"><i className="icon-whatsapp"></i> Entrar em contato</a>
     </div>
     <div className="links">
       <ul className="grid">
-        <li><i className="icon-phone"></i> 11 99845-6754</li>
-        <li><i className="icon-map-pin"></i> R. Amauri Souza, 346</li>
-        <li><i className="icon-mail"></i> contato@beautysalon.com</li>
+        <li><i className="icon-phone"><BsFillTelephoneFill/></i> 85 99247-7241</li>
+        <li><i className="icon-map-pin"><ImLocation2/></i> R. Amauri Souza, 346</li>
+        <li><i className="icon-mail"><MdEmail/></i>comercial@drestagio.com.br</li>
       </ul>
     </div>
   </div>
@@ -148,7 +127,6 @@ export function Servicos () {
 
 {/* Divisor */}
 <div className="divider-1"></div>
-      
-    </main>
+      </main>
   )
 }

@@ -217,6 +217,54 @@ a.button {
 
 /* Services */
 
+
+.slick-slider {
+  margin: 0 -10px; /* Espaçamento entre os cards */
+}
+
+/* Estilos para cada slide (card) no carrossel */
+.slick-slide {
+  padding: 0 10px; /* Espaçamento entre os cards */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para o conteúdo do card */
+.card {
+  width: 100%; /* Largura igual para cada card */
+  height: 450px; /* Altura igual para cada card */
+  padding: 20px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Estilos para as bolinhas (indicadores) do carrossel */
+.slick-dots li button::before {
+  font-size: 10px;
+  color: #ccc; /* Cor das bolinhas inativas */
+}
+
+.slick-dots li.slick-active button::before {
+  color: #333; /* Cor da bolinha ativa */
+}
+
+
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  .slick-slide {
+    padding: 0 5px; /* Espaçamento menor entre os cards em telas menores */
+  }
+}
+
+
 .cards.grid {
   gap: 1.5rem;
 }

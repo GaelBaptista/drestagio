@@ -19,7 +19,7 @@
   padding: 100px 50px;
 }
 
-.containerContact .card {
+.containerContact .cardCont {
   position: relative;
   display: flex;
   justify-content: center;
@@ -34,11 +34,11 @@
   box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
 }
 
-.containerContact .card:hover {
+.containerContact .cardCont:hover {
   height: 280px;
 }
 
-.containerContact .card .icon {
+.containerContact .cardCont .icon {
   position: absolute;
   top: 20px;
   width: 300px;
@@ -49,13 +49,13 @@
   transition: 0.5s;
 }
 
-.containerContact .card:hover .icon {
+.containerContact .cardCont:hover .icon {
   top: -100px;
   scale: 0.75;
   box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
 }
 
-.containerContact .card .icon svg {
+.containerContact .cardCont .icon svg {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -64,7 +64,7 @@
   height: 80%;
 }
 
-.containerContact .card .content {
+.containerContact .cardCont .content {
   position: absolute;
   top: 252px;
   width: 100%;
@@ -75,22 +75,22 @@
   transition: 0.5s;
 }
 
-.containerContact .card:hover .content {
+.containerContact .cardCont:hover .content {
   top: 130px;
   height: 250px;
 }
 
-.containerContact .card .content h2 {
+.containerContact .cardCont .content h2 {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--laranja);
 }
 
-.containerContact .card .content span {
+.containerContact .cardCont .content span {
   color: #333;
 }
 
-.containerContact .card .content a {
+.containerContact .cardCont .content a {
   position: relative;
   top: 15px;
   display: inline-block;
@@ -103,46 +103,46 @@
 border-radius:5px;
 }
 
-.containerContact .card .content a:hover {
+.containerContact .cardCont .content a:hover {
   opacity: 0.8;
 
 }
 @media (max-width: 480px) {
-  .containerContact .card {
+  .containerContact .cardCont {
     width: 230px;
     border-radius: 15px;
   }
 
-  .containerContact .card .icon {
+  .containerContact .cardCont .icon {
     width: 185px;
     border-radius: 10px;
   }
 
-  .containerContact .card .content p {
+  .containerContact .cardCont .content p {
     font-size: 0.8rem;
   }
 
-  .containerContact .card .content a {
+  .containerContact .cardCont .content a {
     font-size: 0.9rem;
   }
 }
 
 @media (max-width: 480px) {
-  .containerContact .card {
+  .containerContact .cardCont {
     width: 230px;
     border-radius: 15px;
   }
 
-  .containerContact .card .icon {
+  .containerContact .cardCont .icon {
     width: 185px;
     border-radius: 10px;
   }
 
-  .containerContact .card .content p {
+  .containerContact .cardCont .content p {
     font-size: 0.8rem;
   }
 
-  .containerContact .card .content a {
+  .containerContact .cardCont .content a {
     font-size: 0.9rem;
   }
 }

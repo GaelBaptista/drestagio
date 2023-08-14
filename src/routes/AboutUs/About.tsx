@@ -198,7 +198,7 @@ export function About() {
         </div>
         <h2 className="titleAbout" style={{color:'#fff'}}>Alguma dúvida?</h2>
         <p className="textAbout">Fale com nossa equipe:</p>
-        <a  href="https://wa.me/message/SUGMGVU6UMJOD1" target="_blank" rel="noopener noreferrer">
+        <a  href="https://api.whatsapp.com/send?phone=5585991377789" target="_blank" rel="noopener noreferrer">
         <button className="contact-btnAbout-orange">
           <AiOutlineArrowRight  /> Fale Conosco
         </button>

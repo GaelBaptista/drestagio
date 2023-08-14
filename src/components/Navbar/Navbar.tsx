@@ -149,15 +149,7 @@ export function Navbar() {
                      Vagas Estágio
                       </NavLink>
                     </li>
-                    <li>
-                      <NavLink
-                        to="/projects/eventos"
-                        className="nav-links"
-                        onClick={closeMobileMenu}
-                      >
-                        ESG no Estágio
-                      </NavLink>
-                    </li>
+                  
                     <li>
                       <NavLink
                         to="/projects/servicos"
@@ -165,6 +157,15 @@ export function Navbar() {
                         onClick={closeMobileMenu}
                       >
                       Nossos Serviços
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/projects/eventos"
+                        className="nav-links"
+                        onClick={closeMobileMenu}
+                      >
+                        ESG no Estágio
                       </NavLink>
                     </li>
                     

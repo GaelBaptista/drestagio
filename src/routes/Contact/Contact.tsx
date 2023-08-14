@@ -16,7 +16,7 @@ function Contact() {
 <>
     <section className="contact">
     <div className="containerContact">
-      <div className="card" style={ {color: '#ff7417'}}>
+      <div className="cardCont" style={ {color: '#ff7417'}}>
       <div className="icon">
      <BsWhatsapp/>
             </div>
@@ -31,7 +31,7 @@ function Contact() {
 
 
   <div className="containerContact">
-      <div className="card" style={ {color: '#ff7417'}}>
+      <div className="cardCont" style={ {color: '#ff7417'}}>
       <div className="icon">
      <MdEmail/>
             </div>
@@ -49,7 +49,7 @@ function Contact() {
 
 
   <div className="containerContact">
-      <div className="card" style={ {color: '#ff7417'}}>
+      <div className="cardCont" style={ {color: '#ff7417'}}>
       <div className="icon">
      <HiDocumentText/>
             </div>

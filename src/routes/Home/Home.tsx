@@ -14,6 +14,7 @@ import { CardSection } from './CardSection/CardSection'
 import { ContactHome } from './ContactHome/ContactHome'
 import { ArticleSection } from './ArtigoSection/Article'
 import { Link } from 'react-router-dom'
+import { Video } from './Video/video'
 
 
 export function Home () {
@@ -146,6 +147,8 @@ export function Home () {
    
     <ContactHome/>
     <ArticleSection/>
+
+    <Video/>
 
     </>
   );
