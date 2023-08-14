@@ -30,7 +30,7 @@ export function Home () {
           return prevSlide + 1;
         }
       });
-    }, 4000);
+    }, 6000);
 
     return () => clearInterval(interval);
   }, []);
@@ -82,7 +82,7 @@ export function Home () {
     <div className="slide s2">
       <div className="slidearea">
         <div className="banner-title">
-          <h2>
+          <h2 >
           Aumente o potencial da sua empresa&nbsp;
             <span>com nosso</span>
           </h2>
