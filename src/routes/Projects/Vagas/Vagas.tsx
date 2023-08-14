@@ -7,7 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import './vagas.css';
 
 export function Vagas () {
-  const sliderSettings = {
+  const sliderSettingsVagas = {
     dots: true,
     infinite: true,
     speed: 500,
@@ -30,11 +30,11 @@ export function Vagas () {
         empresas em busca de novos talentos, proporcionando oportunidades valiosas para jovens ingressarem no 
         mercado de trabalho ou se recolocarem profissionalmente.
         </p>
-        <a href="https://drestagio.gupy.io/job/eyJzb3VyY2UiOiJndXB5X3B1YmxpY19wYWdlIiwiam9iSWQiOjUxMzE1MzR9?jobBoardSource=gupy_public_page"  target="_blank" rel="noopener noreferrer">Achar Vagas</a>
+        <a href="https://drestagio.gupy.io/"  target="_blank" rel="noopener noreferrer">Achar Vagas</a>
       </div>
 
       <div className="slider-container" style={{ width: '40%', margin: '0 auto' }}>
-        <Slider {...sliderSettings}>
+        <Slider {...sliderSettingsVagas}>
           <div className="swiper-slide swiper-slide--one">
           
           </div>
