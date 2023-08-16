@@ -17,6 +17,7 @@ import { BsFillHexagonFill } from 'react-icons/bs';
 
 import {MdGroups2, MdEmail} from 'react-icons/md'
 import {AiOutlineArrowRight} from 'react-icons/ai'
+import { VidSobreNos } from './DrEstagioVid/VidSobreNos';
 
 
 
@@ -103,9 +104,10 @@ export function About() {
           <div className="infoAbout">
             <h1>Nossa Proposta</h1>
             <p>
-              Somos uma empresa especializada em integração de estágio na modalidade não obrigatória dos 
-              níveis de ensino médio, superior e profissionalizante. Atuando há sete anos atendemos todos
-              os seguimentos do mercado a nível nacional.
+            Contar com estagiários no dia a dia tem muitos benefícios,isso porque eles tem maior flexibilidade e adaptabilidade para aprender
+              e exercitar diversas tarefas nos salões onde as demandas podem variar ao longo do dia. A Dr.Estágio é facilitador contratação de 
+              estágio fazendo todo o processo burocrático do estágio desde a divulgação das vagas, emissão dos termos de estágio, seguro de vida,
+              suporte e acompanhamento. Auxiliamos sua equipe de RH em todo processo, garantindo assim mais produtividade e gestão de tempo.
             </p>
             {/* <button>Fale Conosco</button> */}
           </div>
@@ -132,6 +134,11 @@ export function About() {
         </div>
       </div>
     </div>
+
+
+<VidSobreNos/>
+
+
 
 {/* =======================================================GESTAO DE DH TITULO ================================================================ */}
  

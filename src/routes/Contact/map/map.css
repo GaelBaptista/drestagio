@@ -1,7 +1,13 @@
 
+
 .sectionMapSVG{
-  margin-top: 50px;
+
+  margin-top: 10rem; margin-bottom: 10rem;
+  
 }
+
+
+
 
 .map-container {
   position: relative;

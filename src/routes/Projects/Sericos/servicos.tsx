@@ -81,7 +81,7 @@ export function Servicos () {
    <section className="section" id="testimonials">
         <div className="container">
           <header>
-            <h2 className="title">Depoimentos de quem já passou por aqui</h2>
+            <h2 className="title">Oque nossos Clientes falam</h2>
           </header>
           <div className="testimonials">
             <Slider {...sliderSettings}>
@@ -112,7 +112,8 @@ export function Servicos () {
   <div className="container grid">
     <div className="text">
       <h2 className="title">Entre em contato com a gente!</h2>
-      <p>Entre em contato com a Beautysalon, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.</p>
+      <p>
+A Dr. Estágio pode ajudar sua empresa a reduzir custos e oferecer oportunidades de carreira para os talentos em ascensão.</p>
       <a href="https://wa.me/message/SUGMGVU6UMJOD1" target="_blank" className="button"><i className="icon-whatsapp"></i> Entrar em contato</a>
     </div>
     <div className="links">

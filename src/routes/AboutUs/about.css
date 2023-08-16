@@ -10,6 +10,9 @@
 }
 
 
+.infoImageContainer{
+  width: 100%;
+}
 
 
   
@@ -155,6 +158,11 @@
  
     margin-bottom: 30px;
 }
+.containerAbout {
+  flex-wrap: wrap;
+  margin-top: 50px;
+ 
+ }
 }
 
 

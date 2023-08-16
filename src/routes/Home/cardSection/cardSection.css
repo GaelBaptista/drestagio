@@ -4,6 +4,11 @@ ul {
     padding: 0;
     list-style: none;
 }
+.cardHome{
+  margin-top: 10rem; margin-bottom: 10rem;
+}
+
+
 .cardrow{
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Define 3 colunas com largura igual */

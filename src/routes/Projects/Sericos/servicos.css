@@ -43,7 +43,10 @@ a {
 
 /* Base */
 
-
+main{
+  margin-top: 10rem; 
+  
+  }
 
 .title {
   font: 700 1.875rem var(--title-font);
