@@ -38,7 +38,19 @@ export function Video () {
 
         <div className="container-video">
       <div className="video-container">
-          <YoutubeEmbed  videoId='Qm3hpfwab2A'/>
+      <YoutubeEmbed
+          videoId="Qm3hpfwab2A"
+          title="Barbára - Redenção"
+          videoLink="https://www.youtube.com/watch?v=Qm3hpfwab2A"
+        />
+        <YoutubeEmbed
+          videoId="A2Ze2ZOlv5g"
+          title="Título do Vídeo 2"
+          videoLink="https://www.youtube.com/watch?v=A2Ze2ZOlv5g"
+        />
+          
+
+          
        
        
              {/* <div className="video"><video src={Video1} onClick={() => handleVideoClick(Video1)}></video></div> */}
@@ -48,10 +60,10 @@ export function Video () {
           </div>
 
 
-          <div className={`popup-video ${popupVisible ? 'active' : ''}`}>
+          {/* <div className={`popup-video ${popupVisible ? 'active' : ''}`}>
   <span onClick={handleClosePopup}>&times;</span>
   {clickedVideo && <video ref={videoRef} src={clickedVideo}  autoPlay controls></video>}
-</div>
+</div> */}
         </div>
       
     </section>
