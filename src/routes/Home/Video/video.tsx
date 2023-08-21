@@ -3,12 +3,14 @@ import Video1 from './asstesVideo/video1.mp4'
 import Video2 from './asstesVideo/video2.mp4'
 import Video3 from './asstesVideo/video3.mp4'
 import React, { useState, useRef } from 'react';
+import { YoutubeEmbed } from './iframe';
 
 
 export function Video () {
  
-  const [clickedVideo, setClickedVideo] = useState<string | null>(null); // Definindo o tipo como string
+    const [clickedVideo, setClickedVideo] = useState<string | null>(null); // Definindo o tipo como string
   const [popupVisible, setPopupVisible] = useState(false);
+
   const videoRef = useRef<HTMLVideoElement | null>(null); // Adicionando a referência
   const handleVideoClick = (videoSrc: string) => { // Definindo o tipo como string
     setClickedVideo(videoSrc);
@@ -36,9 +38,14 @@ export function Video () {
 
         <div className="container-video">
       <div className="video-container">
-          <div className="video"><video src={Video1} onClick={() => handleVideoClick(Video1)}></video></div>
-          <div className="video"><video src={Video2} onClick={() => handleVideoClick(Video2)}></video></div>
-          <div className="video"><video src={Video3} onClick={() => handleVideoClick(Video3)} ></video></div>
+          <YoutubeEmbed  videoId='c52vfk60gS8'/>
+       
+          <YoutubeEmbed  videoId='c52vfk60gS8'/>
+          <YoutubeEmbed  videoId='c52vfk60gS8'/>
+          <YoutubeEmbed  videoId='c52vfk60gS8'/>
+             {/* <div className="video"><video src={Video1} onClick={() => handleVideoClick(Video1)}></video></div> */}
+          {/* <div className="video"><video src={Video2} onClick={() => handleVideoClick(Video2)}> </video></div> */}
+          {/* <div className="video"><video src={Video3} onClick={() => handleVideoClick(Video3)} ></video></div> */}
        
           </div>
 
