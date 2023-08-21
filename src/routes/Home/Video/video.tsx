@@ -38,11 +38,9 @@ export function Video () {
 
         <div className="container-video">
       <div className="video-container">
-          <YoutubeEmbed  videoId='c52vfk60gS8'/>
+          <YoutubeEmbed  videoId='Qm3hpfwab2A'/>
        
-          <YoutubeEmbed  videoId='c52vfk60gS8'/>
-          <YoutubeEmbed  videoId='c52vfk60gS8'/>
-          <YoutubeEmbed  videoId='c52vfk60gS8'/>
+       
              {/* <div className="video"><video src={Video1} onClick={() => handleVideoClick(Video1)}></video></div> */}
           {/* <div className="video"><video src={Video2} onClick={() => handleVideoClick(Video2)}> </video></div> */}
           {/* <div className="video"><video src={Video3} onClick={() => handleVideoClick(Video3)} ></video></div> */}
