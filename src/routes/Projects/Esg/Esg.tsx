@@ -1,4 +1,4 @@
-import {Map} from "../../Contact/map/Map"
+
 import './esg.css'
 import homeIlustraction from '../../../assests/imgESG/home-ilustration.svg'
 import aboutIlustraction from '../../../assests/imgESG/about-ilustration.svg'

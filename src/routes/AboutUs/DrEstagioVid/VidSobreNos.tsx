@@ -2,9 +2,8 @@
 
 import './sobrenosvid.css'
 import Video1 from './OqueFazemos.mp4'
-import Video2 from './asstesVideo/video2.mp4'
-import Video3 from './asstesVideo/video3.mp4'
-import React, { useState, useRef } from 'react';
+
+import  { useState, useRef } from 'react';
 
 
 export function VidSobreNos () {

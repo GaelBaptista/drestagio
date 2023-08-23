@@ -1,6 +1,6 @@
 
 
-import { FaClock, FaPhone, FaEnvelopeOpen, FaFacebookF, FaTwitter, FaGooglePlusG, FaTelegramPlane } from 'react-icons/fa';
+import { FaClock, FaPhone, FaEnvelopeOpen,  } from 'react-icons/fa';
 import Abres from '../../assests/Logo ABRES.png'
 
 

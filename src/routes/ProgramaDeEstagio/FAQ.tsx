@@ -1,6 +1,6 @@
 
 import "./PrEst.css";
-import React, { useState } from 'react';
+
 
 // Componente para exibir um item do FAQ
 export interface FAQItem {

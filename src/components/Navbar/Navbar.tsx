@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import  { useState } from "react";
+import {  NavLink } from "react-router-dom";
 import "./style.css";
-import { FaWhatsapp, FaBars, FaTimes } from "react-icons/fa";
+import {  FaBars, FaTimes } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import { IconContext } from "react-icons/lib";
 import { AiFillFacebook, AiFillLinkedin, AiFillInstagram,AiFillYoutube } from 'react-icons/ai';
