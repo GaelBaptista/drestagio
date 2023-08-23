@@ -29,7 +29,7 @@ export function Header () {
           <FaEnvelope className="icon" style={{color: '#FF6609', fontSize: '1.5rem' }} />
           <div className="info-content">
             <p className="info-title">Mande um Email</p>
-            <p className="info-details">contato@drestagio.com</p>
+            <p className="info-details">comercial@drestagio.com</p>
           </div>
         </div>
       </div>

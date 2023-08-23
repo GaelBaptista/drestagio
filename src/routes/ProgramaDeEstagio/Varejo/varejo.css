@@ -57,4 +57,8 @@
 }
 @media screen and (max-width: 479px) {
   #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+ .title h1 {font-size:15px;}
+  #parallax-world-of-ugg h3 {display: none;}
+
+
 }

@@ -1,7 +1,13 @@
 
+
 .sectionMapSVG{
-  margin-top: 50px;
+
+  margin-top: 10rem; margin-bottom: 10rem;
+  
 }
+
+
+
 
 .map-container {
   position: relative;
@@ -63,13 +69,19 @@
    height: auto;
   display: block;
 }
-.estado:hover,
+.estado:hover
+{
+  fill:#0a5c0a;
+  cursor:pointer;
+  transition: 0.5s;
+
+}
 .rioGrandeDoNorte:hover,
 .ceara:hover{
   fill:#121242;
   cursor:pointer;
   transition: 0.5s;
-
+  
 }
 @media (max-width: 1024px) {
   .liSvg {
