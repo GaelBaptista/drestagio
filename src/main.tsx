@@ -1,12 +1,11 @@
 
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
-  Link,
+ 
   Outlet,
 } from "react-router-dom";
 import {Navbar} from "./components/Navbar/Navbar";
