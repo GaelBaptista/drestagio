@@ -43,8 +43,19 @@ export function Video () {
           title="Barbára - Redenção"
           videoLink="https://www.youtube.com/watch?v=Qm3hpfwab2A"
         />
-        <YoutubeEmbed
-          videoId="A2Ze2ZOlv5g"
+      
+         <YoutubeEmbed
+          videoId="zLmcyDmMKmo"
+          title="Título do Vídeo 2"
+          videoLink="https://www.youtube.com/watch?v=A2Ze2ZOlv5g"
+        />
+         <YoutubeEmbed
+          videoId="W7WYhvKXiUg"
+          title="Título do Vídeo 2"
+          videoLink="https://www.youtube.com/watch?v=A2Ze2ZOlv5g"
+        />
+          <YoutubeEmbed
+          videoId="UfcOU-QJAT0"
           title="Título do Vídeo 2"
           videoLink="https://www.youtube.com/watch?v=A2Ze2ZOlv5g"
         />

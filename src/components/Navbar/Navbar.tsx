@@ -4,8 +4,8 @@ import "./style.css";
 import { FaWhatsapp, FaBars, FaTimes } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import { IconContext } from "react-icons/lib";
-import { AiFillFacebook, AiFillLinkedin, AiFillInstagram,  } from 'react-icons/ai';
-
+import { AiFillFacebook, AiFillLinkedin, AiFillInstagram,AiFillYoutube } from 'react-icons/ai';
+import {RiWhatsappFill} from 'react-icons/ri'
 
 export function Navbar() {
   const [click, setClick] = useState(false);
@@ -45,7 +45,10 @@ export function Navbar() {
                 </a>
                
                 <a href="https://wa.me/message/SUGMGVU6UMJOD1" target="_blank" rel="noopener noreferrer">
-                  <FaWhatsapp style={{ color: '#ff7417' }} className="social-icon" />
+                  <RiWhatsappFill style={{ color: '#ff7417' }} className="social-icon" />
+                </a>
+                <a href="https://youtube.com/@drestagio" target="_blank" rel="noopener noreferrer">
+                  <AiFillYoutube style={{ color: '#ff7417' }} className="social-icon" />
                 </a>
               </div>
             </div>

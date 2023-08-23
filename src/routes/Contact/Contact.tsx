@@ -78,7 +78,7 @@ function Contact() {
         <div className="section-map--info-item-img" style={{backgroundColor: '#121242'}}>
           <MdEmail style={{color:'white', fontSize:'24px'}} />
         </div>
-        <h3><a href={mailtoLink}>E-mail: contato@drestagio.com.br</a></h3>
+        <h3><a href={mailtoLink}>E-mail: comercial@drestagio.com.br</a></h3>
       </div>
       <div className="section-map--info-item">
         <div className="section-map--info-item-img" style={{backgroundColor: '#121242'}}>
