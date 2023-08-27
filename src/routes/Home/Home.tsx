@@ -9,7 +9,7 @@ import { MdPermContactCalendar } from 'react-icons/md'
 
 import  { useEffect, useState, ChangeEvent } from 'react';
 import './Home.css';
-import { CardSection } from './CardSection/CardSection'
+import { CardSection } from './cardSection/CardSection'
 
 import { ContactHome } from './ContactHome/ContactHome'
 import { ArticleSection } from './ArtigoSection/Article'
@@ -159,6 +159,3 @@ export function Home () {
     </>
   );
 }
-
-
-
